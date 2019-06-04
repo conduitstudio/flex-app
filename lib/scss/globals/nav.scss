@@ -1,0 +1,111 @@
+// sizes
+.nav-trigger {
+  top:0;
+  left:0;
+  overflow:hidden;
+  padding:px-to-vh( 100px, 2560px );
+  position:absolute;
+  transform:translateX(-100%);
+  z-index:9;
+
+  // Wait till body is in to transition
+  .in & {
+    @include transition( transform 0.75s );
+  }
+
+
+  span {
+    @include icon;
+    background-image:url( '../img/ui/MenuButton.png');
+    height:px-to-vh( 100px, 2560px );
+    width:px-to-vh( 100px, 2560px );
+	
+		.active-nav & {
+	    background-image:url( '../img/ui/CloseButton.png');
+		}
+  }
+	
+}
+
+nav {
+  background:rgba( 246, 246, 246, 0.95 );
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:8;
+
+  opacity:0;
+  pointer-events:none;
+
+  .menu-items {
+		position:absolute;
+		left:0;
+    list-style-type:none;
+    margin:0;
+		margin-top:px-to-vh( -220px, 1000px );
+    padding:0;
+		top:50%;
+
+    li {
+      padding:px-to-vh( 18px ) px-to-vh( 40px );
+    }
+    a {
+			display:inline-block;
+    }
+    img {
+      display:none;
+			
+			// Heighths
+			height:px-to-vh( 133px, 2560px );
+
+      &.inactive,
+      &.in {
+        display:block;
+      }
+    }
+		
+		// Active state
+    li.active {
+      img.inactive { display:none; }
+      img.active { display:block; }
+    }
+  }
+
+  .sleep {
+    left:0;
+    bottom:0;
+    display:inline-block;
+    padding:px-to-vh( 100px, 2560px );
+    position:absolute;
+
+    &:after {
+      @include icon;
+      background-image:url('../img/ui/LightSnoozeButton.png');
+      content:'';
+      display:block;
+    }
+  }
+
+  // Wait till body is in to transition
+  .in & {
+    @include transition( opacity 0.75s );
+  }
+}
+
+
+/* Show the nav on this page */
+.show-nav {
+  .nav-trigger {
+    transform:translateX(0);
+  }
+}
+
+/* Activate the nav (on trigger click) */
+.active-nav {
+  nav {
+    opacity:1;
+    pointer-events:auto;
+  }
+}

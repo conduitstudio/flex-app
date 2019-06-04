@@ -1,0 +1,17 @@
+// Agile Studio specific overrides
+#agile-studio {
+  $image-width: px-to-vh( 2517px, 2560px );
+  .mid {
+//    @include grid-columns( $image-width );
+//		width:px-to-vh( 1194px, 1000px );
+			width:$image-width;
+  }
+  .stage,
+  .stage .holder,
+  .stage img {
+    width: $image-width;
+  }
+	.products .product {
+    top:px-to-vh( 24px );
+	}
+}

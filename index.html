@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+    For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="lib/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/app.css">
+    <title>Flex</title>
+  </head>
+  <body>
+    
+    <section id="screen-saver" class="page">
+      <a href="" data-goto="home" class="content">
+        <img src="lib/img/pages/screen-saver/screen-saver-typography.jpg">
+      </a>
+      <video autoplay="" loop="" muted="">
+        <source src="lib/vids/flex-screensaver.mp4" type="video/mp4">
+      </video>
+    </section>
+    
+    <a href="" class="nav-trigger" data-controller="NavTrigger"><span></span></a>
+        <nav>
+          <ul class="menu-items">
+            <li class="home">
+              <a href="" data-goto="home">
+                <img src="lib/img/menu/menu-home-inactive.png" class="in">
+              </a>
+            </li>
+            <li class="agile-studio">
+              <a href="" data-goto="agile-studio">
+                <img src="lib/img/menu/menu-agile-studio-inactive.png" class="inactive">
+                <img src="lib/img/menu/menu-agile-studio-active.png" class="active">
+              </a>
+            </li>
+            <li class="creative-studio">
+              <a href="" data-goto="creative-studio">
+                <img src="lib/img/menu/menu-creative-studio-inactive.png" class="inactive">
+                <img src="lib/img/menu/menu-creative-studio-active.png" class="active">
+              </a>
+            </li>
+            <li class="the-collection">
+              <a href="" data-goto="the-collection">
+                <img src="lib/img/menu/menu-collection-inactive.png" class="inactive">
+                <img src="lib/img/menu/menu-collection-active.png" class="active">
+              </a>
+            </li>
+          </ul>
+        
+          <a href="" class="sleep" data-goto="0"></a>
+        </nav>
+        
+    <section id="home" class="page">
+              <div class="title"><img src="lib/img/pages/home/SteelcaseFlexCollection.png"></div>
+              <div id="menu-slideshow" class="swiper-container" data-swiper="true">
+                <div class="swiper-wrapper">
+            			<div class="swiper-slide"><a href="" data-goto="agile-studio"><img src="lib/img/pages/home/AgileStudioTile.jpg"></a></div>
+                  <div class="swiper-slide"><a href="" data-goto="creative-studio"><img src="lib/img/pages/home/CreativeStudioTile.jpg"></a></div>
+                  <div class="swiper-slide"><a href="" data-goto="the-collection"><img src="lib/img/pages/home/CollectionTile.jpg"></a></div>
+            		</div>
+            
+                <!-- Add Arrows -->
+                <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+                <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
+            	</div>
+            
+              <a href="" data-goto="0" class="sleep"></a>
+            </section>
+            
+
+    <section id="agile-studio" class="page template-floorplan" data-navitem="agile-studio">
+      <div class="title"><img src="lib/img/pages/agile-studio/agile-studio-title.png"></div>
+    
+      <div class="mid">
+        <div id="stage-agile-studio" class="stage">
+          <div class="stage-reveal in">
+            <a href="" class="holder" data-openmodal="agile-studio__sprint-planning">
+              <div class="point" style="left:73.15%;top:35%;"></div>
+              <img src="lib/img/pages/agile-studio/sprint-planning-floorplan.png">
+            </a>
+          </div>
+          <div class="stage-reveal" style="width: 100%;">
+            <a href="" class="holder" data-openmodal="agile-studio__working-in-pairs">
+              <div class="point" style="left:53.2%;top:69%;"></div>
+              <img src="lib/img/pages/agile-studio/working-in-pairs-floorplan.png">
+            </a>
+          </div>
+          <div class="stage-reveal" style="width: 0%;">
+            <a href="" class="holder" data-openmodal="agile-studio__daily-stand-up">
+              <div class="point" style="left:81%;top:35%;"></div>
+              <img src="lib/img/pages/agile-studio/daily-stand-up-floorplan.png">
+            </a>
+          </div>
+        </div>
+    
+        <div class="products">
+          <div class="product in"><img src="lib/img/pages/agile-studio/sprint-planning-products.png"></div>
+          <div class="product"><img src="lib/img/pages/agile-studio/working-in-pairs-products.png"></div>
+          <div class="product"><img src="lib/img/pages/agile-studio/daily-stand-up-products.png"></div>
+        </div>
+      </div>
+    
+      <div class="slider" style="background-image:url('lib/img/pages/agile-studio/agile-studio-slider.png');">
+        <div class="the-slider" data-slider="true">
+          <div class="handle ui-slider-handle" style="perspective: 1000px; backface-visibility: hidden; transform: translateX(269px);"></div>
+        </div>
+    		<div class="slider-jumps">
+    			<a href="" data-sliderjump="0"></a>
+    			<a href="" data-sliderjump="1"></a>
+    			<a href="" data-sliderjump="2"></a>
+    		</div>
+      </div>
+    
+    </section>
+    
+    <div id="agile-studio__sprint-planning" class="modal">
+    	<div class="container">
+    		<img src="lib/img/pages/agile-studio/sprint-planning-modal.jpg">
+    	</div>
+      <a href="" class="close-modal"><span></span></a>
+    </div>
+    
+    <div id="agile-studio__working-in-pairs" class="modal">
+    	<div class="container">
+    		<img src="lib/img/pages/agile-studio/working-in-pairs-modal.jpg">
+    	</div>
+      <a href="" class="close-modal"><span></span></a>
+    </div>
+    
+    <div id="agile-studio__daily-stand-up" class="modal">
+    	<div class="container">
+    		<img src="lib/img/pages/agile-studio/daily-stand-up-modal.jpg">
+    	</div>
+      <a href="" class="close-modal"><span></span></a>
+    </div>
+    
+    <!-- workshop, brainstorm, pitch & Share, Focus retreat -->
+        <section id="creative-studio" class="page template-floorplan" data-navitem="creative-studio">
+          <div class="title"><img src="lib/img/pages/creative-studio/creative-studio-title.png"></div>
+        
+          <div class="mid">
+            <div id="stage-creative-studio" class="stage">
+              <div class="stage-reveal in">
+                <a href="" class="holder" data-openmodal="creative-studio__workshop">
+                  <div class="point" style="left:40.5%;top:46%;"></div>
+                  <img src="lib/img/pages/creative-studio/workshop-floorplan.png">
+                </a>
+              </div>
+              <div class="stage-reveal" style="width: 100%;">
+                <a href="" class="holder" data-openmodal="creative-studio__brainstorm">
+                  <div class="point" style="left:30%;top:35%;"></div>
+                  <img src="lib/img/pages/creative-studio/brainstorm-floorplan.png">
+                </a>
+              </div>
+              <div class="stage-reveal" style="width: 0%;">
+                <a href="" class="holder" data-openmodal="creative-studio__pitch-share">
+                  <div class="point" style="left:70%;top:62%;"></div>
+                  <img src="lib/img/pages/creative-studio/pitch-share-floorplan.png">
+                </a>
+              </div>
+              <div class="stage-reveal" style="width: 0%;">
+                <a href="" class="holder" data-openmodal="creative-studio__focus-retreat">
+                  <div class="point" style="left:68%;top:30%;"></div>
+                  <img src="lib/img/pages/creative-studio/focus-retreat-floorplan.png">
+                </a>
+              </div>
+            </div>
+        
+            <div class="products">
+              <div class="product in"><img src="lib/img/pages/creative-studio/workshop-products.png"></div>
+              <div class="product"><img src="lib/img/pages/creative-studio/brainstorm-products.png"></div>
+              <div class="product"><img src="lib/img/pages/creative-studio/pitch-share-products.png"></div>
+              <div class="product"><img src="lib/img/pages/creative-studio/focus-retreat-products.png"></div>
+            </div>
+          </div>
+        
+          <div class="slider" style="background-image:url('lib/img/pages/creative-studio/creative-studio-slider.png');">
+            <div class="the-slider" data-slider="true">
+              <div class="handle ui-slider-handle" style="perspective: 1000px; backface-visibility: hidden; transform: translateX(269px);"></div>
+            </div>
+        		<div class="slider-jumps">
+        			<a href="" data-sliderjump="0"></a>
+        			<a href="" data-sliderjump="1"></a>
+        			<a href="" data-sliderjump="2"></a>
+        			<a href="" data-sliderjump="3"></a>
+        		</div>
+          </div>
+        
+        </section>
+        
+        <div id="creative-studio__workshop" class="modal">
+        	<div class="container">
+        		<img src="lib/img/pages/creative-studio/workshop-modal.jpg">
+        	</div>
+          <a href="" class="close-modal"><span></span></a>
+        </div>
+        
+        <div id="creative-studio__brainstorm" class="modal">
+        	<div class="container">
+        		<img src="lib/img/pages/creative-studio/brainstorm-modal.jpg">
+        	</div>
+          <a href="" class="close-modal"><span></span></a>
+        </div>
+        
+        <div id="creative-studio__pitch-share" class="modal">
+        	<div class="container">
+        		<img src="lib/img/pages/creative-studio/pitch-share-modal.jpg">
+        	</div>
+          <a href="" class="close-modal"><span></span></a>
+        </div>
+        
+        <div id="creative-studio__focus-retreat" class="modal">
+        	<div class="container">
+        		<img src="lib/img/pages/creative-studio/focus-retreat-modal.jpg">
+        	</div>
+          <a href="" class="close-modal"><span></span></a>
+        </div>
+        
+    <!-- Height-Adjustable Desk, Tables, Carts, Acoustic Boundary, Screens, Markerboard Solutions, Accessories, Power Hanger -->
+            <section id="the-collection" class="page template-product-slider" data-navitem="the-collection">
+              <div class="title"><img src="lib/img/pages/the-collection/collection-title.png"></div>
+              <div id="product-slideshow" class="swiper-container" data-swiper="true">
+                <div class="swiper-wrapper">
+            			
+            			<!-- Height-Adjustable Desk -->
+            			<div class="swiper-slide">
+            				<a href="" data-openmodal="collection-height-adjustable-desk">
+            					<img src="lib/img/pages/the-collection/collection-heigh-adjustable-desk.jpg" class="product-image">
+            					<img src="lib/img/pages/the-collection/height-adjustable-desk-title.png" class="title">
+            				</a>
+            			</div>
+            			
+            			<!-- Tables -->
+            			<div class="swiper-slide">
+            				<a href="" data-openmodal="collection-tables">
+            					<img src="lib/img/pages/the-collection/collection-table.jpg" class="product-image">
+            					<img src="lib/img/pages/the-collection/tables-title.png" class="title">
+            				</a>
+            			</div>
+            			
+            			<!-- Carts -->
+            			<div class="swiper-slide">
+            				<a href="" data-openmodal="collection-carts">
+            					<img src="lib/img/pages/the-collection/collection-carts.jpg" class="product-image">
+            					<img src="lib/img/pages/the-collection/carts-title.png" class="title">
+            				</a>
+            			</div>
+            			
+            			<!-- Acoustic Boundary -->
+            			<div class="swiper-slide">
+            				<a href="" data-openmodal="collection-acoustic-boundary">
+            					<img src="lib/img/pages/the-collection/collection-acoustic-boundary.jpg" class="product-image">
+            					<img src="lib/img/pages/the-collection/acoustic-boundary-title.png" class="title">
+            				</a>
+            			</div>
+            			
+            			<!-- Screens -->
+            			<div class="swiper-slide">
+            				<a href="" data-openmodal="collection-screens">
+            					<img src="lib/img/pages/the-collection/collection-screens.jpg" class="product-image">
+            					<img src="lib/img/pages/the-collection/screens-title.png" class="title">
+            				</a>
+            			</div>
+            			
+            			<!-- Markerboard Solutions -->
+            			<div class="swiper-slide">
+            				<a href="" data-openmodal="collection-markerboard-solutions">
+            					<img src="lib/img/pages/the-collection/collection-markerboard-solutions.jpg" class="product-image">
+            					<img src="lib/img/pages/the-collection/markerboard-solutions-title.png" class="title">
+            				</a>
+            			</div>
+            			
+            			<!-- Accessories -->
+            			<div class="swiper-slide">
+            				<a href="" data-openmodal="collection-accessories">
+            					<img src="lib/img/pages/the-collection/collection-accessories.jpg" class="product-image">
+            					<img src="lib/img/pages/the-collection/accessories-title.png" class="title">
+            				</a>
+            			</div>
+            			
+            			<!-- Power Hanger -->
+            			<div class="swiper-slide">
+            				<a href="" data-openmodal="collection-power-hanger">
+            					<img src="lib/img/pages/the-collection/collection-power-hanger.jpg" class="product-image">
+            					<img src="lib/img/pages/the-collection/power-hanger-title.png" class="title">
+            				</a>
+            			</div>
+            			
+            		</div>
+            
+                <!-- Add Arrows -->
+                <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+                <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
+            	</div>
+            </section>
+            
+            			
+            <!-- Height-Adjustable Desk -->
+            <div id="collection-height-adjustable-desk" class="modal">
+            	<div class="container">
+            		<img src="lib/img/pages/the-collection/height-adjustable-desk-modal.jpg">
+            		<div class="video" data-video="true">
+            			<a href="" style="background-image:url( lib/img/pages/the-collection/height-adjustable-desk-video-play.png )" class="video-trigger" data-videotrigger="true"></a>
+            			<video loop="" muted="">
+            	  		<source src="lib/img/pages/the-collection/height-adjustable-desk-video.mp4" type="video/mp4">
+            	 	 	</video>
+            	 	</div>
+            	</div> 
+              <a href="" class="close-modal"><span></span></a>
+            </div>
+            
+            			
+            <!-- Tables -->
+            <div id="collection-tables" class="modal">
+            	<div class="container">
+            		<img src="lib/img/pages/the-collection/tables-modal.jpg">
+            		<div class="video">
+            		  <video loop="" muted="">
+            		    <source src="lib/img/pages/the-collection/tables-video.mp4" type="video/mp4">
+            		  </video>
+            	 	</div>
+            	</div> 
+              <a href="" class="close-modal"><span></span></a>
+            </div>
+            
+            
+            <!-- Carts -->
+            <div id="collection-carts" class="modal">
+            	<div class="container">
+            		<img src="lib/img/pages/the-collection/carts-modal.jpg">
+            		<div class="video portrait">
+            		  <video loop="" muted="">
+            		    <source src="lib/img/pages/the-collection/carts-video.mp4" type="video/mp4">
+            		  </video>
+            	 	</div>
+            	</div> 
+              <a href="" class="close-modal"><span></span></a>
+            </div>
+            
+            			
+            <!-- Acoustic Boundary -->
+            <div id="collection-acoustic-boundary" class="modal">
+            	<div class="container">
+            		<img src="lib/img/pages/the-collection/acoustic-boundary-modal.jpg">
+            		<div class="video portrait">
+            		  <video loop="" muted="">
+            		    <source src="lib/img/pages/the-collection/acoustic-boundary-video.mp4" type="video/mp4">
+            		  </video>
+            	 	</div>
+            	</div> 
+              <a href="" class="close-modal"><span></span></a>
+            </div>
+            
+            			
+            <!-- Screens -->
+            <div id="collection-screens" class="modal">
+            	<div class="container">
+            		<img src="lib/img/pages/the-collection/screens-modal.jpg">
+            		<div class="video portrait">
+            		  <video loop="" muted="">
+            		    <source src="lib/img/pages/the-collection/screens-video.mp4" type="video/mp4">
+            		  </video>
+            	 	</div>
+            	</div> 
+              <a href="" class="close-modal"><span></span></a>
+            </div>
+            
+            			
+            <!-- Markerboard Solutions -->
+            <div id="collection-markerboard-solutions" class="modal">
+            	<div class="container">
+            		<img src="lib/img/pages/the-collection/markerboards-modal.jpg">
+            		<div class="video portrait">
+            		  <video loop="" muted="">
+            		    <source src="lib/img/pages/the-collection/markerboards-video.mp4" type="video/mp4">
+            		  </video>
+            	 	</div>
+            	</div> 
+              <a href="" class="close-modal"><span></span></a>
+            </div>
+            
+            			
+            <!-- Accessories -->
+            <div id="collection-accessories" class="modal">
+            	<div class="container">
+            		<img src="lib/img/pages/the-collection/accessories-modal.jpg">
+            		<div class="video portrait">
+            		  <video loop="" muted="">
+            		    <source src="lib/img/pages/the-collection/accessories-video.mp4" type="video/mp4">
+            		  </video>
+            	 	</div>
+            	</div> 
+              <a href="" class="close-modal"><span></span></a>
+            </div>
+            
+            			
+            <!-- Power Hanger -->
+            <div id="collection-power-hanger" class="modal">
+            	<div class="container">
+            		<img src="lib/img/pages/the-collection/power-hanger-modal.jpg">
+            		<div class="video portrait">
+            		  <video loop="" muted="">
+            		    <source src="lib/img/pages/the-collection/power-hanger-video.mp4" type="video/mp4">
+            		  </video>
+            	 	</div>
+            	</div> 
+              <a href="" class="close-modal"><span></span></a>
+            </div>
+            
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="./app.min.js"></script>
+  </body>
+</html>

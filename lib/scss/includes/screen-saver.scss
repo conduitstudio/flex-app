@@ -1,0 +1,40 @@
+#screen-saver {
+
+  .content { // <= dashboard content ('<a>')
+    color:#fff;
+		display:block;
+		left:50%;
+		margin-top: px-to-vh( ( -1450px/2 ), 2560px );
+		margin-left: px-to-vh( ( -2667px/2 ), 2560px );
+		position:absolute;
+    text-align:center;
+		top:50%;
+		z-index:10;
+		
+    img {
+      display:inline-block;
+			height:px-to-vh( 1450px, 2560px );
+	    width:px-to-vh( 2667px, 2560px );
+    }
+  }
+
+  video {
+    left:50%;
+    position:absolute;
+    top:50%;
+    transform:translate( -50%, -50% );
+    z-index:-1;
+
+    .size-by-width & {
+      height:100%;
+    }
+    .size-by-height & {
+      width:100%;
+    }
+  }
+
+  &.in {
+    opacity:1;
+    pointer-events:auto;
+  }
+}

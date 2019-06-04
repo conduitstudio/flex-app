@@ -1,0 +1,109 @@
+@import "compass/css3";
+
+/*
+ * Functions
+ */
+@function px-to-vh( $pixels: 80 , $screen_height: 668px ){
+ 	@return ($pixels / $screen_height * 100) + vh;
+}
+@function px-to-vw( $pixels: 80 , $screen_width: 1000px ){
+ 	@return ($pixels / $screen_width * 100) + vw;
+}
+@function px-to-perc( $pixels: 80px, $max: 1920px ) {
+ 	@return ($pixels / $max ) * 100%;
+}
+
+@function screen_ratio() {
+  @return (3840/2560);
+}
+
+
+/*
+ * Mixins
+ */
+@mixin icon {
+  background-size:100%;
+  background-repeat:no-repeat;
+  content:'';
+  display:block;
+  height:px-to-vh( 100px, 2560px );
+  width:px-to-vh( 100px, 2560px );
+}
+@mixin shadow {
+  @include box-shadow( 0 0 px-to-vh( 8px, 2560px ) px-to-vh( 5px, 2560px ) rgba( 024, 029, 067, 0.15 ));
+}
+@mixin shadow-on-dark {
+//  @include box-shadow( 0 0 px-to-vh( 8px, 2560px ) px-to-vh( 8px, 2560px ) rgba( 024, 029, 067, 0.4 ));
+}
+
+
+/*
+ * Resets
+ */
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  margin:0;
+  padding:0;
+}
+
+html, body {
+  height:100%;
+  position: relative;
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  font-family:helvetica,sans-serif;
+  overflow:hidden;
+	opacity:0;
+	
+	&.in {
+		opacity:1;
+	}
+}
+
+
+
+/*
+ * Pages
+ */
+.page {
+  height:100%;
+  opacity:0;
+  pointer-events:none;
+  position:relative;
+
+  &.out {
+    display:none !important;
+  }
+  &.in {
+    opacity:1;
+    pointer-events:auto;
+  }
+
+  // Only animate after body is in
+  .in & {
+    @include transition( opacity 0.5s );
+  }
+}
+
+
+/*
+ * Globals
+ */
+@import "globals/nav";
+@import "globals/swiper";
+
+
+/*
+ * Includes
+ */
+@import "includes/floorplan";
+@import "includes/floorplan--agile-studio";
+@import "includes/floorplan--creative-studio";
+@import "includes/home";
+@import "includes/modal";
+@import "includes/product-slider";
+@import "includes/screen-saver";
