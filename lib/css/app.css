@@ -42,7 +42,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .swiper-slide img { display: block; width: 100%; }
 
 .swiper-button-prev, .swiper-button-next { background: none; height: 100%; margin: 0; outline: none; top: 0; width: 20vh; }
-.swiper-button-prev:after, .swiper-button-next:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; content: ''; margin-top: -1.95313vh; position: absolute; top: 50%; opacity: 0; }
+.swiper-button-prev:after, .swiper-button-next:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; content: ''; margin-top: -1.95313vh; position: absolute; top: 50%; }
 
 .swiper-button-prev { left: 0; }
 .swiper-button-prev:after { background-image: url("../img/ui/LeftArrowButton.png"); left: 3.90625vh; }
