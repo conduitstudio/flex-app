@@ -34,6 +34,7 @@
 // More styles in globals/swiper.scss
 #menu-slideshow {
   height:px-to-vh( 476px + 40px ); // <= 40px padding on top and bottom
+	margin-top:px-to-vh( 90px, 2560px );
 
   .swiper-slide {
     text-align: center;
