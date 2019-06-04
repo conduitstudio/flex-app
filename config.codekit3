@@ -473,7 +473,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/Agile-Studio.png": {
+	"/lib/img/pages/home/agile-studio.png": {
 		"ft": 32768,
 		"iS": 5494474,
 		"oA": 0,
@@ -495,7 +495,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/HomeBackground.png": {
+	"/lib/img/pages/home/homebackground.png": {
 		"ft": 32768,
 		"iS": 3059541,
 		"oA": 0,
@@ -517,7 +517,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/The-Collection.png": {
+	"/lib/img/pages/home/the-collection.png": {
 		"ft": 32768,
 		"iS": 5494474,
 		"oA": 0,
