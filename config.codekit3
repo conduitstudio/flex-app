@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "29156",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/app.js": {
 		"bF": 0,
 		"ft": 64,
@@ -112,17 +120,6 @@
 		"oAP": "/lib/css/templates/screen-saver-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/lib/img/cordova.png": {
-		"ft": 32768,
-		"iS": 21814,
-		"oA": 0,
-		"oAP": "/lib/img/cordova.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/lib/img/menu/menu-agile-studio-active.png": {
 		"ft": 32768,
@@ -476,64 +473,64 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/AgileStudioTile.jpg": {
-		"ft": 16384,
-		"iS": 1007301,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/home/AgileStudioTile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/home/CollectionTile.jpg": {
-		"ft": 16384,
-		"iS": 444218,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/home/CollectionTile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/home/CreativeStudioTile.jpg": {
-		"ft": 16384,
-		"iS": 1346124,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/home/CreativeStudioTile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/home/HomeBackground.jpg": {
-		"ft": 16384,
-		"iS": 131127,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/home/HomeBackground.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/home/SteelcaseFlexCollection.png": {
+	"/lib/img/pages/home/Agile-Studio.png": {
 		"ft": 32768,
-		"iS": 19744,
+		"iS": 5494474,
 		"oA": 0,
-		"oAP": "/lib/img/pages/Home/SteelcaseFlexCollection.png",
+		"oAP": "/lib/img/pages/home/agile-studio.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/home/creative-studio.png": {
+		"ft": 32768,
+		"iS": 5494474,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/creative-studio.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/home/HomeBackground.png": {
+		"ft": 32768,
+		"iS": 3059541,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/homebackground.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/home/steelcase-flex-collection.png": {
+		"ft": 32768,
+		"iS": 7048,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/steelcase-flex-collection.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/home/The-Collection.png": {
+		"ft": 32768,
+		"iS": 5494474,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/the-collection.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/lib/img/pages/screen-saver/screen-saver-typography.jpg": {
 		"ft": 16384,
-		"iS": 132434,
+		"iS": 129545,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/lib/img/pages/screen-saver/screen-saver-typography.jpg",
@@ -894,7 +891,7 @@
 		},
 	"/lib/img/ui/CloseButton.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 2776,
 		"oA": 0,
 		"oAP": "/lib/img/ui/CloseButton.png",
 		"oF": 0,
@@ -905,7 +902,7 @@
 		},
 	"/lib/img/ui/DarkSnoozeButton.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 4410,
 		"oA": 0,
 		"oAP": "/lib/img/ui/DarkSnoozeButton.png",
 		"oF": 0,
@@ -914,9 +911,42 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/ui/Dots-1.png": {
+		"ft": 32768,
+		"iS": 661,
+		"oA": 0,
+		"oAP": "/lib/img/ui/Dots-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/ui/Dots-2.png": {
+		"ft": 32768,
+		"iS": 669,
+		"oA": 0,
+		"oAP": "/lib/img/ui/Dots-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/ui/Dots-3.png": {
+		"ft": 32768,
+		"iS": 650,
+		"oA": 0,
+		"oAP": "/lib/img/ui/Dots-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/lib/img/ui/FloorplanSliderButton.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 2687,
 		"oA": 0,
 		"oAP": "/lib/img/ui/FloorplanSliderButton.png",
 		"oF": 0,
@@ -927,7 +957,7 @@
 		},
 	"/lib/img/ui/LeftArrowButton.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 3031,
 		"oA": 0,
 		"oAP": "/lib/img/ui/LeftArrowButton.png",
 		"oF": 0,
@@ -938,7 +968,7 @@
 		},
 	"/lib/img/ui/LightSnoozeButton.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 4096,
 		"oA": 0,
 		"oAP": "/lib/img/ui/LightSnoozeButton.png",
 		"oF": 0,
@@ -949,7 +979,7 @@
 		},
 	"/lib/img/ui/MenuButton.png": {
 		"ft": 32768,
-		"iS": 3314,
+		"iS": 2286,
 		"oA": 0,
 		"oAP": "/lib/img/ui/MenuButton.png",
 		"oF": 0,
@@ -960,7 +990,7 @@
 		},
 	"/lib/img/ui/RightArrowButton.png": {
 		"ft": 32768,
-		"iS": 4104,
+		"iS": 3068,
 		"oA": 0,
 		"oAP": "/lib/img/ui/RightArrowButton.png",
 		"oF": 0,

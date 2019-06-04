@@ -87,9 +87,9 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 #creative-studio .stage, #creative-studio .stage .holder, #creative-studio .stage img { width: 74.25781vh; }
 #creative-studio .products .product { top: 4.79042vh; }
 
-#home { background-image: url("../img/pages/home/HomeBackground.jpg"); background-repeat: no-repeat; background-size: cover; }
+#home { background-image: url("../img/pages/home/HomeBackground.png"); background-repeat: no-repeat; background-size: cover; }
 #home .title { padding-top: 5.38922vh; text-align: center; }
-#home .title img { height: 5.89844vh; display: inline-block; }
+#home .title img { height: 2.38281vh; display: inline-block; }
 #home .sleep { left: 0; bottom: 0; display: inline-block; padding: 3.90625vh; position: absolute; }
 #home .sleep:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/DarkSnoozeButton.png"); content: ''; display: block; }
 
