@@ -88,13 +88,13 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 #creative-studio .products .product { top: 4.79042vh; }
 
 #home { background-image: url("../img/pages/home/homebackground.png"); background-repeat: no-repeat; background-size: cover; }
-#home .title { padding-top: 5.68862vh; text-align: center; }
+#home .title { padding-top: 6.03516vh; text-align: center; }
 #home .title img { height: 2.38281vh; display: inline-block; }
 #home .sleep { left: 0; bottom: 0; display: inline-block; padding: 3.90625vh; position: absolute; }
 #home .sleep:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/DarkSnoozeButton.png"); content: ''; display: block; }
 
-#menu-slideshow { height: 77.24551vh; margin-top: 3.51563vh; }
-#menu-slideshow .swiper-slide { text-align: center; font-size: 18px; width: 101.49701vh; /* Center slide text vertically */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
+#menu-slideshow { height: 75.78125vh; margin-top: 4.47266vh; }
+#menu-slideshow .swiper-slide { text-align: center; font-size: 18px; width: 103.24219vh; /* Center slide text vertically */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
 
 .modal { background: rgba(246, 246, 246, 0.95); bottom: 0; left: 0; opacity: 0; pointer-events: none; position: absolute; right: 0; top: 0; z-index: 10; }
 .modal .container { border-radius: 0.78125vh; height: 88.28125vh; left: 5.85938vh; overflow: hidden; position: absolute; top: 5.85938vh; width: 138.28125vh; }
