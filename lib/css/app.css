@@ -111,8 +111,8 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .modal { background: rgba(246, 246, 246, 0.95); bottom: 0; left: 0; opacity: 0; pointer-events: none; position: absolute; right: 0; top: 0; z-index: 10; }
 .modal .container { height: 100%; left: 0; overflow: hidden; position: absolute; top: 0; width: 100%; }
 .modal img { display: block; height: 100%; }
-.modal .video { bottom: 3.125vh; left: 3.125vh; position: absolute; width: 40vh; }
-.modal .video.portrait { bottom: 0; height: 60.15625vh; left: auto; right: 0; width: 46.09375vh; }
+.modal .video { bottom: 8.98438vh; left: 8.98438vh; position: absolute; width: 40vh; }
+.modal .video.portrait { bottom: 5.9375vh; height: 60.15625vh; left: auto; right: 5.78125vh; width: 46.09375vh; }
 .modal .video video { display: block; width: 100%; }
 .modal .video .video-trigger { background-size: 100%; display: block; height: 100%; left: 0; opacity: 1; position: absolute; top: 0; width: 100%; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s; -webkit-transition: opacity 0.5s; transition: opacity 0.5s; z-index: 1; }
 .modal .video .video-trigger.out { opacity: 0; pointer-events: none; }

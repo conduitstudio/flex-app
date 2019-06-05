@@ -511,7 +511,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/homebackground.png": {
+	"/lib/img/pages/home/HomeBackground.png": {
 		"ft": 32768,
 		"iS": 3059541,
 		"oA": 0,
@@ -544,15 +544,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/accessories-modal.jpg": {
-		"ft": 16384,
-		"iS": 365765,
-		"jF": 0,
+	"/lib/img/pages/the-collection/accessories-modal.png": {
+		"ft": 32768,
+		"iS": 8457848,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/accessories-modal.jpg",
+		"oAP": "/lib/img/pages/the-collection/accessories-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/accessories-video.mp4": {
@@ -563,15 +563,15 @@
 		"oAP": "/lib/img/pages/the-collection/accessories-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/acoustic-boundary-modal.jpg": {
-		"ft": 16384,
-		"iS": 450553,
-		"jF": 0,
+	"/lib/img/pages/the-collection/acoustic-boundary-modal.png": {
+		"ft": 32768,
+		"iS": 8457848,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-modal.jpg",
+		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/acoustic-boundary-video.mp4": {
@@ -582,15 +582,15 @@
 		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/carts-modal.jpg": {
-		"ft": 16384,
-		"iS": 347550,
-		"jF": 0,
+	"/lib/img/pages/the-collection/carts-modal.png": {
+		"ft": 32768,
+		"iS": 8457848,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/carts-modal.jpg",
+		"oAP": "/lib/img/pages/the-collection/carts-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/carts-video.mp4": {
@@ -700,15 +700,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/height-adjustable-desk-modal.jpg": {
-		"ft": 16384,
-		"iS": 396976,
-		"jF": 0,
+	"/lib/img/pages/the-collection/height-adjustable-desk-modal.png": {
+		"ft": 32768,
+		"iS": 8457848,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-modal.jpg",
+		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/height-adjustable-desk-video-play.png": {
@@ -730,15 +730,15 @@
 		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/markerboards-modal.jpg": {
-		"ft": 16384,
-		"iS": 299580,
-		"jF": 0,
+	"/lib/img/pages/the-collection/markerboards-modal.png": {
+		"ft": 32768,
+		"iS": 8457848,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/markerboards-modal.jpg",
+		"oAP": "/lib/img/pages/the-collection/markerboards-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/markerboards-video.mp4": {
@@ -749,15 +749,15 @@
 		"oAP": "/lib/img/pages/the-collection/markerboards-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/power-hanger-modal.jpg": {
-		"ft": 16384,
-		"iS": 343356,
-		"jF": 0,
+	"/lib/img/pages/the-collection/power-hanger-modal.png": {
+		"ft": 32768,
+		"iS": 8457848,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/power-hanger-modal.jpg",
+		"oAP": "/lib/img/pages/the-collection/power-hanger-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/power-hanger-video.mp4": {
@@ -768,15 +768,15 @@
 		"oAP": "/lib/img/pages/the-collection/power-hanger-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/screens-modal.jpg": {
-		"ft": 16384,
-		"iS": 391280,
-		"jF": 0,
+	"/lib/img/pages/the-collection/screens-modal.png": {
+		"ft": 32768,
+		"iS": 8457848,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/screens-modal.jpg",
+		"oAP": "/lib/img/pages/the-collection/screens-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/screens-video.mp4": {
@@ -787,15 +787,15 @@
 		"oAP": "/lib/img/pages/the-collection/screens-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/tables-modal.jpg": {
-		"ft": 16384,
-		"iS": 363288,
-		"jF": 0,
+	"/lib/img/pages/the-collection/tables-modal.png": {
+		"ft": 32768,
+		"iS": 8457848,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/tables-modal.jpg",
+		"oAP": "/lib/img/pages/the-collection/tables-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/tables-video.mp4": {

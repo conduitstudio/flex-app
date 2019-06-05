@@ -24,16 +24,16 @@
 	}
 
 	.video {
-		bottom:px-to-vh( 80px, 2560px );
-		left:px-to-vh( 80px, 2560px );
+		bottom:px-to-vh( 230px, 2560px );
+		left:px-to-vh( 230px, 2560px );
 		position:absolute;
 		width:px-to-vh( 400px, 1000px );
 
 		&.portrait {
-			bottom:0;
+			bottom:px-to-vh( 152px, 2560px );
 			height:px-to-vh( 1540px, 2560px );
 			left:auto;
-			right:0;
+			right:px-to-vh( 148px, 2560px );
 			width:px-to-vh( 1180px, 2560px );
 		}
 
