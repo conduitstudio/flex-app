@@ -18,7 +18,9 @@
 
 /* Pagination */
 .swiper-pagination {
-  bottom:px-to-vh( -44px, 1000px ) !important;
+  bottom:px-to-vh( -162px, 2560px ) !important;
+  font-size:0;
+  line-height:0;
 
   .swiper-pagination-bullet {
     background:rgba( 255,255,255,0.4 );

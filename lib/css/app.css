@@ -44,7 +44,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .swiper-slide img { display: block; width: 100%; }
 
 /* Pagination */
-.swiper-pagination { bottom: -4.4vh !important; }
+.swiper-pagination { bottom: -6.32813vh !important; font-size: 0; line-height: 0; }
 .swiper-pagination .swiper-pagination-bullet { background: rgba(255, 255, 255, 0.4); height: 0.9375vh; opacity: 1; margin: 0 0.58594vh !important; width: 0.9375vh; }
 .swiper-pagination .swiper-pagination-bullet-active { background: #fff; }
 
@@ -98,7 +98,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 /* Home */
 #home { background-image: url("../img/pages/home/homebackground.png"); background-repeat: no-repeat; background-size: cover; }
 #home .title { padding-top: 6.03516vh; text-align: center; }
-#home .title img { display: inline-block; height: 2.38281vh; }
+#home .title img { display: block; height: 2.38281vh; margin: 0 auto; }
 #home .sleep { left: 0; bottom: 0; display: inline-block; padding: 3.90625vh; position: absolute; }
 #home .sleep:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/DarkSnoozeButton.png"); content: ''; display: block; }
 
@@ -121,13 +121,11 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 
 /* Product Slider / "The Collection" */
 .template-product-slider { background: #e6faf8; }
-.template-product-slider .title { padding-top: 5.60547vh; padding-bottom: 4.04297vh; text-align: center; }
-.template-product-slider .title img { display: inline-block; height: 3.24219vh; }
-.template-product-slider .swiper-container { height: 75.78125vh; }
-.template-product-slider .swiper-slide { padding-top: 2.99401vh; text-align: center; height: 62.5vh; width: 53.125vh; }
-.template-product-slider .swiper-slide img { display: inline-block; }
+.template-product-slider .title { padding-top: 4.80469vh; padding-bottom: 6.44531vh; text-align: center; }
+.template-product-slider .title img { display: block; height: 3.24219vh; margin: 0 auto; }
+.template-product-slider .swiper-slide { text-align: center; width: 54.96094vh; }
+.template-product-slider .swiper-slide a, .template-product-slider .swiper-slide img { display: block; }
 .template-product-slider .swiper-slide .product-image { width: 100%; }
-.template-product-slider .swiper-slide .title { border-radius: 0; box-shadow: none; height: 1.91406vh; padding-bottom: 0; width: auto; }
 .template-product-slider .swiper-pagination-bullet { background: rgba(168, 168, 168, 0.4); }
 .template-product-slider .swiper-pagination-bullet-active { background: #a8a8a8; }
 .template-product-slider .swiper-button-prev, .template-product-slider .swiper-button-next { width: 44vh; }

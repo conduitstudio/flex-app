@@ -634,15 +634,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/collection-heigh-adjustable-desk.jpg": {
-		"ft": 16384,
-		"iS": 97725,
-		"jF": 0,
+	"/lib/img/pages/the-collection/collection-height-adjustable-desk.png": {
+		"ft": 32768,
+		"iS": 2564854,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-heigh-adjustable-desk.jpg",
+		"oAP": "/lib/img/pages/the-collection/collection-height-adjustable-desk.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/collection-markerboard-solutions.jpg": {

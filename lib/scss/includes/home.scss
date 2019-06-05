@@ -11,8 +11,9 @@ $total_top_space: 370px; // <= 61px title height
     text-align:center;
 
     img {
-      display:inline-block;
+      display:block;
       height:px-to-vh( $title_height, 2560px ); // <= was 151
+			margin:0 auto;
     }
   }
 
