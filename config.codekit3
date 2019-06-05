@@ -48,7 +48,9 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -196,16 +198,13 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/agile-studio-slider.png": {
-		"ft": 32768,
-		"iS": 12107,
+	"/lib/img/pages/agile-studio/agile-studio-slider.gif": {
+		"ft": 4194304,
+		"iS": 949150,
 		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/agile-studio-slider.png",
+		"oAP": "/lib/img/pages/agile-studio/agile-studio-slider.gif",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
 	"/lib/img/pages/agile-studio/agile-studio-title.png": {
 		"ft": 32768,
@@ -311,6 +310,17 @@
 		"iS": 86037,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-products.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/XXXagile-studio-slider.png": {
+		"ft": 32768,
+		"iS": 12107,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/XXXagile-studio-slider.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -471,7 +481,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/agile-studio.png": {
+	"/lib/img/pages/home/Agile-Studio.png": {
 		"ft": 32768,
 		"iS": 5494474,
 		"oA": 0,
@@ -493,7 +503,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/homebackground.png": {
+	"/lib/img/pages/home/HomeBackground.png": {
 		"ft": 32768,
 		"iS": 3059541,
 		"oA": 0,
@@ -515,7 +525,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/the-collection.png": {
+	"/lib/img/pages/home/The-Collection.png": {
 		"ft": 32768,
 		"iS": 5494474,
 		"oA": 0,

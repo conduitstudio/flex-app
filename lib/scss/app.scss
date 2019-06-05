@@ -58,7 +58,7 @@ body {
   font-family:helvetica,sans-serif;
   overflow:hidden;
 	opacity:0;
-	
+
 	&.in {
 		opacity:1;
 	}
@@ -96,14 +96,19 @@ body {
 @import "globals/nav";
 @import "globals/swiper";
 
-
-/*
- * Includes
- */
+/* Floorplans / "Agile Studio" & "Creative Studio" */
 @import "includes/floorplan";
 @import "includes/floorplan--agile-studio";
 @import "includes/floorplan--creative-studio";
+
+/* Home */
 @import "includes/home";
+
+/* Modal */
 @import "includes/modal";
+
+/* Product Slider / "The Collection" */
 @import "includes/product-slider";
+
+/* Screen Saver */
 @import "includes/screen-saver";
