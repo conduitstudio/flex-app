@@ -120,7 +120,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .modal.in { opacity: 1; pointer-events: auto; }
 
 /* Product Slider / "The Collection" */
-.template-product-slider { background: #e6faf8; }
+.template-product-slider { background: #fff; }
 .template-product-slider .title { padding-top: 4.80469vh; padding-bottom: 6.44531vh; text-align: center; }
 .template-product-slider .title img { display: block; height: 3.24219vh; margin: 0 auto; }
 .template-product-slider .swiper-slide { text-align: center; width: 54.96094vh; }
