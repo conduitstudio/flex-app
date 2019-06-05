@@ -90,7 +90,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 /* Home */
 #home { background-image: url("../img/pages/home/homebackground.png"); background-repeat: no-repeat; background-size: cover; }
 #home .title { padding-top: 6.03516vh; text-align: center; }
-#home .title img { height: 2.38281vh; display: inline-block; }
+#home .title img { display: inline-block; height: 2.38281vh; }
 #home .sleep { left: 0; bottom: 0; display: inline-block; padding: 3.90625vh; position: absolute; }
 #home .sleep:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/DarkSnoozeButton.png"); content: ''; display: block; }
 
@@ -113,9 +113,9 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 
 /* Product Slider / "The Collection" */
 .template-product-slider { background: #e6faf8; }
-.template-product-slider .title { padding: 2.99401vh 0 6.25vh; text-align: center; }
-.template-product-slider .title img { height: 9.41406vh; }
-.template-product-slider .swiper-container { height: 64.0625vh; }
+.template-product-slider .title { padding-top: 6.03516vh; padding-bottom: 4.47266vh; text-align: center; }
+.template-product-slider .title img { display: inline-block; height: 2.38281vh; }
+.template-product-slider .swiper-container { height: 75.78125vh; }
 .template-product-slider .swiper-slide { padding-top: 2.99401vh; text-align: center; height: 62.5vh; width: 53.125vh; }
 .template-product-slider .swiper-slide img { display: inline-block; }
 .template-product-slider .swiper-slide .product-image { width: 100%; }

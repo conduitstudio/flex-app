@@ -7,13 +7,12 @@ $total_top_space: 370px; // <= 61px title height
   background-size:cover;
 
   .title {
-//    padding-top:px-to-vh( 156px, 2560px );
     padding-top:px-to-vh( ($total_top_space/2) - ($title_height/2), 2560px );
     text-align:center;
 
     img {
-      height:px-to-vh( $title_height, 2560px ); // <= was 151
       display:inline-block;
+      height:px-to-vh( $title_height, 2560px ); // <= was 151
     }
   }
 
@@ -25,7 +24,7 @@ $total_top_space: 370px; // <= 61px title height
     display:inline-block;
     padding:px-to-vh( 100px, 2560px );
     position:absolute;
-		
+
     &:after {
       @include icon;
       background-image:url('../img/ui/DarkSnoozeButton.png');

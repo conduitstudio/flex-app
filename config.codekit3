@@ -481,7 +481,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/agile-studio.png": {
+	"/lib/img/pages/home/Agile-Studio.png": {
 		"ft": 32768,
 		"iS": 5494474,
 		"oA": 0,
@@ -503,7 +503,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/homebackground.png": {
+	"/lib/img/pages/home/HomeBackground.png": {
 		"ft": 32768,
 		"iS": 3059541,
 		"oA": 0,
@@ -525,7 +525,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/the-collection.png": {
+	"/lib/img/pages/home/The-Collection.png": {
 		"ft": 32768,
 		"iS": 5494474,
 		"oA": 0,
@@ -690,6 +690,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/collection-title.png": {
+		"ft": 32768,
+		"iS": 4194,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/collection-title.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/height-adjustable-desk-modal.jpg": {
