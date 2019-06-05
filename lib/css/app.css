@@ -44,7 +44,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .swiper-slide img { display: block; width: 100%; }
 
 /* Pagination */
-.swiper-pagination { bottom: -6.32813vh !important; font-size: 0; line-height: 0; }
+.swiper-pagination { bottom: -6.32813vh !important; font-size: 0; line-height: 0; pointer-events: none; }
 .swiper-pagination .swiper-pagination-bullet { background: rgba(255, 255, 255, 0.4); height: 0.9375vh; opacity: 1; margin: 0 0.58594vh !important; width: 0.9375vh; }
 .swiper-pagination .swiper-pagination-bullet-active { background: #fff; }
 
@@ -86,6 +86,8 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .template-floorplan .slider .slider-jumps a { display: block; float: left; height: 100%; }
 .template-floorplan .slider.points-3 .slider-jumps a { width: 33.333%; }
 .template-floorplan .slider.points-4 .slider-jumps a { width: 25%; }
+.template-floorplan .home { left: 0; bottom: 0; display: inline-block; padding: 3.90625vh; position: absolute; }
+.template-floorplan .home:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/DarkSnoozeButton.png"); content: ''; display: block; }
 
 #agile-studio .mid { width: 98.32031vh; }
 #agile-studio .stage, #agile-studio .stage .holder, #agile-studio .stage img { width: 98.32031vh; }
@@ -107,7 +109,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 
 /* Modal */
 .modal { background: rgba(246, 246, 246, 0.95); bottom: 0; left: 0; opacity: 0; pointer-events: none; position: absolute; right: 0; top: 0; z-index: 10; }
-.modal .container { border-radius: 0.78125vh; height: 88.28125vh; left: 5.85938vh; overflow: hidden; position: absolute; top: 5.85938vh; width: 138.28125vh; }
+.modal .container { height: 100%; left: 0; overflow: hidden; position: absolute; top: 0; width: 100%; }
 .modal img { display: block; height: 100%; }
 .modal .video { bottom: 3.125vh; left: 3.125vh; position: absolute; width: 40vh; }
 .modal .video.portrait { bottom: 0; height: 60.15625vh; left: auto; right: 0; width: 46.09375vh; }
@@ -129,6 +131,8 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .template-product-slider .swiper-pagination-bullet { background: rgba(168, 168, 168, 0.4); }
 .template-product-slider .swiper-pagination-bullet-active { background: #a8a8a8; }
 .template-product-slider .swiper-button-prev, .template-product-slider .swiper-button-next { width: 44vh; }
+.template-product-slider .home { left: 0; bottom: 0; display: inline-block; padding: 3.90625vh; position: absolute; }
+.template-product-slider .home:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/DarkSnoozeButton.png"); content: ''; display: block; }
 
 /* Screen Saver */
 #screen-saver .content { color: #fff; display: block; left: 50%; margin-top: -28.32031vh; margin-left: -52.08984vh; position: absolute; text-align: center; top: 50%; z-index: 10; }

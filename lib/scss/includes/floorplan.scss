@@ -194,4 +194,8 @@
 		}
   }
 
+  .home {
+    @include home-icon;
+  }
+
 }

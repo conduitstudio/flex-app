@@ -36,4 +36,9 @@
 	.swiper-button-prev, .swiper-button-next {
 		width:px-to-vh( 440px, 1000px );
 	}
+
+
+  .home {
+    @include home-icon;
+  }
 }

@@ -8,28 +8,27 @@
   right:0;
   top:0;
   z-index:10;
-	
+
   .container {
-    border-radius:px-to-vh( 20px, 2560px );
-		height:px-to-vh( 2260px, 2560px );
-    left:px-to-vh( 150px, 2560px );
+    height:100%;
+    left:0;
 		overflow:hidden;
     position:absolute;
-    top:px-to-vh( 150px, 2560px );
-		width:px-to-vh( 3540px, 2560px );
+    top:0;
+    width:100%;
   }
-	
+
 	img {
 		display:block;
 		height:100%;
 	}
-	
+
 	.video {
 		bottom:px-to-vh( 80px, 2560px );
 		left:px-to-vh( 80px, 2560px );
 		position:absolute;
 		width:px-to-vh( 400px, 1000px );
-		
+
 		&.portrait {
 			bottom:0;
 			height:px-to-vh( 1540px, 2560px );
@@ -37,7 +36,7 @@
 			right:0;
 			width:px-to-vh( 1180px, 2560px );
 		}
-		
+
 		video {
 			display:block;
 			width:100%;
@@ -53,15 +52,15 @@
 			width:100%;
 			@include transition( opacity 0.5s );
 			z-index:1;
-			
+
 			&.out {
 				opacity:0;
 				pointer-events:none;
 			}
-			
+
 		}
 	}
-	
+
 
   .close-modal {
     left:0;
@@ -77,12 +76,12 @@
     }
   }
 
-	
+
   // Wait till body is in to transition modals
   .in & {
     @include transition( opacity 0.5s );
   }
-	
+
   &.in {
     opacity:1;
     pointer-events:auto;

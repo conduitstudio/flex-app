@@ -35,6 +35,20 @@
 @mixin shadow-on-dark {
 //  @include box-shadow( 0 0 px-to-vh( 8px, 2560px ) px-to-vh( 8px, 2560px ) rgba( 024, 029, 067, 0.4 ));
 }
+@mixin home-icon {
+  left:0;
+  bottom:0;
+  display:inline-block;
+  padding:px-to-vh( 100px, 2560px );
+  position:absolute;
+
+  &:after {
+    @include icon;
+    background-image:url('../img/ui/DarkSnoozeButton.png');
+    content:'';
+    display:block;
+  }
+}
 
 
 /*
@@ -88,6 +102,8 @@ body {
     @include transition( opacity 0.5s );
   }
 }
+
+
 
 
 /*
