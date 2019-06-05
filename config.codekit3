@@ -1174,32 +1174,6 @@
 		"oS": 2,
 		"uL": 1
 		},
-	"/lib/scss/globals/nav.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/lib/css/nav.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/lib/scss/globals/swiper.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/lib/css/swiper.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/lib/scss/includes/floorplan--agile-studio.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1265,6 +1239,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/lib/scss/includes/nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/css/nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/lib/scss/includes/product-slider.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1287,6 +1274,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/lib/css/screen-saver.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/lib/scss/includes/swiper.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/css/swiper.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -93,8 +93,8 @@ body {
 /*
  * Globals
  */
-@import "globals/nav";
-@import "globals/swiper";
+@import "includes/nav";
+@import "includes/swiper";
 
 /* Floorplans / "Agile Studio" & "Creative Studio" */
 @import "includes/floorplan";
