@@ -121,8 +121,8 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 
 /* Product Slider / "The Collection" */
 .template-product-slider { background: #e6faf8; }
-.template-product-slider .title { padding-top: 6.03516vh; padding-bottom: 4.47266vh; text-align: center; }
-.template-product-slider .title img { display: inline-block; height: 2.38281vh; }
+.template-product-slider .title { padding-top: 5.60547vh; padding-bottom: 4.04297vh; text-align: center; }
+.template-product-slider .title img { display: inline-block; height: 3.24219vh; }
 .template-product-slider .swiper-container { height: 75.78125vh; }
 .template-product-slider .swiper-slide { padding-top: 2.99401vh; text-align: center; height: 62.5vh; width: 53.125vh; }
 .template-product-slider .swiper-slide img { display: inline-block; }

@@ -104,8 +104,12 @@ let Flex = {
 						$screen_saver_video[0].play();
 
 						$('[data-swiper]').each( function() {
-							const swiper = $(this).data('swiper');
+							const $this = $(this),
+								swiper = $this.data('swiper');
 							swiper.slideToLoop( 0, 0, false );
+
+							$this.find('.swiper-pagination > .swiper-pagination-bullet:first-child').addClass('swiper-pagination-bullet-active')
+								.siblings('.swiper-pagination-bullet-active').removeClass('swiper-pagination-bullet-active');
 						});
 					});
 				});
