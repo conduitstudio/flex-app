@@ -60,4 +60,8 @@ $total_top_space: 370px; // <= 61px title height
     -webkit-align-items: center;
     align-items: center;
   }
+
+  .swiper-pagination {
+    bottom:px-to-vh( -143px, 2560px ) !important;
+  }
 }
