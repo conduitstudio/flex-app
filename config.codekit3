@@ -48,9 +48,7 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -511,7 +509,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/HomeBackground.png": {
+	"/lib/img/pages/home/homebackground.png": {
 		"ft": 32768,
 		"iS": 3059541,
 		"oA": 0,
@@ -590,7 +588,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/19-0118901.mp4",
+		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-video.mp4",
 		"oF": 0
 		},
 	"/lib/img/pages/the-collection/carts-modal.png": {
