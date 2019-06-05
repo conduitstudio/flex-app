@@ -38,9 +38,17 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 /* Activate the nav (on trigger click) */
 .active-nav nav { opacity: 1; pointer-events: auto; }
 
+.swiper-container { overflow: visible; }
+
 .swiper-slide { text-align: center; font-size: 18px; height: 100%; }
 .swiper-slide img { display: block; width: 100%; }
 
+/* Pagination */
+.swiper-pagination { bottom: -4.4vh !important; }
+.swiper-pagination .swiper-pagination-bullet { background: rgba(255, 255, 255, 0.3); height: 0.9375vh; opacity: 1; margin: 0 0.58594vh !important; width: 0.9375vh; }
+.swiper-pagination .swiper-pagination-bullet-active { background: #fff; }
+
+/* Arrows */
 .swiper-button-prev, .swiper-button-next { background: none; height: 100%; margin: 0; outline: none; top: 0; width: 20vh; }
 .swiper-button-prev:after, .swiper-button-next:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; content: ''; margin-top: -1.95313vh; position: absolute; top: 50%; }
 

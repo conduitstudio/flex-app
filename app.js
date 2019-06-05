@@ -56,17 +56,17 @@ let Flex = {
 			Flex.reset.timeout = setTimeout( Flex.reset.do_it, Flex.reset.how_long ); // <= 4 minutes
 		},
 		start_over: function() {
-			console.log('reset timeout');
+			// console.log('reset timeout');
 			clearTimeout( Flex.reset.timeout );
 			Flex.reset.start();
 		},
 		do_it: function() {
-			
+
 			// Redefined vars
 			const $last_page = $('.page.in'),
 				$screen_saver = $('#screen-saver'),
 				$screen_saver_video = $screen_saver.find('video').first();
-			
+
 			// Fade out last page to reveal screensaver
 			$last_page.removeClass('in');
 
@@ -78,20 +78,20 @@ let Flex = {
 				const slider = $(this).data('slider');
 				slider.setValue( 0, 0, false );
 			});
-			
+
 			// Reset all videos
 			$('.video.played').removeClass('played');
 			$('.video-trigger.out').removeClass('out');
-			
+
 			// Remove all modals
 			$('.modal.in').removeClass('in');
 
 			// Reset home swiper
 			Flex.after_animation( function() {
-				
+
 				// Display none on last page
 				$last_page.addClass('out');
-					
+
 				// Ready screensaver
 				$screen_saver.removeClass('out');
 				Flex.async( function() {
@@ -102,7 +102,7 @@ let Flex = {
 
 						// Play the screensaver video and show it
 						$screen_saver_video[0].play();
-						
+
 						$('[data-swiper]').each( function() {
 							const swiper = $(this).data('swiper');
 							swiper.slideToLoop( 0, 0, false );
@@ -110,11 +110,11 @@ let Flex = {
 					});
 				});
 			});
-			
+
 		},
 	},
 	setOrientation: function() {
-		
+
 		// Set classes
 		if( Flex.window.width() / Flex.window.height() >= Flex.ratio ) {
 			Flex.body.removeClass('size-by-width').addClass('size-by-height');
@@ -144,7 +144,7 @@ let Flex = {
 
 		Flex.window.on('resize.orientation', Flex.setOrientation);
 		Flex.setOrientation();
-		
+
 		// General <a> clicks should reset timeout
 		$('a').on('click.flex', function() {
 			Flex.reset.start_over();

@@ -1,3 +1,6 @@
+.swiper-container {
+  overflow:visible;
+}
 .swiper-wrapper {
   // transition-duration: 500ms !important;
 }
@@ -13,6 +16,23 @@
   }
 }
 
+/* Pagination */
+.swiper-pagination {
+  bottom:px-to-vh( -44px, 1000px ) !important;
+
+  .swiper-pagination-bullet {
+    background:rgba( 255,255,255,0.3 );
+    height:px-to-vh( 24px, 2560px );
+    opacity:1;
+    margin:0 px-to-vh( 15px, 2560px ) !important;
+    width:px-to-vh( 24px, 2560px );
+  }
+  .swiper-pagination-bullet-active {
+    background:#fff;
+  }
+}
+
+/* Arrows */
 .swiper-button-prev,
 .swiper-button-next {
   background:none;
