@@ -10,10 +10,6 @@
   }
 }
 
-//@mixin grid-columns( $image-width ) {
-//  grid-template-columns: auto $image-width px-to-vh( 5px ) px-to-vh( 511px, 2560px ) auto;
-//}
-
 .template-floorplan {
 
   .title {
@@ -37,10 +33,6 @@
 			display:block;
 		}
 
-
-//    display:grid;
-    // grid-template-columns set in specific stylesheet.  i.e. floorplan--agile-studio
-//    grid-template-areas:". stage .  products .";
   }
 
   // Set the sizes
@@ -119,8 +111,6 @@
   .products {
     position:absolute;
 		right:0;
-		@include transition( transform 0.5s );
-		@include transform( translateX( 100% ));
 		width:px-to-vh( 511px, 2560px );
 
     .product {
