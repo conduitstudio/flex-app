@@ -563,6 +563,17 @@
 		"oAP": "/lib/img/pages/the-collection/accessories-video.mp4",
 		"oF": 0
 		},
+	"/lib/img/pages/the-collection/acoustic-boundary-bg.png": {
+		"ft": 32768,
+		"iS": 85733,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/lib/img/pages/the-collection/acoustic-boundary-modal.png": {
 		"ft": 32768,
 		"iS": 8457848,
@@ -579,7 +590,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-video.mp4",
+		"oAP": "/lib/img/pages/the-collection/19-0118901.mp4",
 		"oF": 0
 		},
 	"/lib/img/pages/the-collection/carts-modal.png": {

@@ -1,5 +1,6 @@
 .modal {
-  background:rgba( 246, 246, 246, 0.95 );
+  // background:rgba( 246, 246, 246, 0.95 );
+  background-size:cover;
   bottom:0;
   left:0;
   opacity:0;
@@ -10,12 +11,13 @@
   z-index:10;
 
   .container {
-    height:100%;
-    left:0;
+		height:px-to-vh( 2320px, 2560px );
+    left:50%;
+    margin:px-to-vh( -2320px/2 + 30px, 2560px ) auto auto px-to-vh( -3592px/2, 2560px ); // <= 30px is half of bottom
 		overflow:hidden;
     position:absolute;
-    top:0;
-    width:100%;
+    top:50%;
+		width:px-to-vh( 3592px, 2560px );
   }
 
 	img {
@@ -24,22 +26,22 @@
 	}
 
 	.video {
-		bottom:px-to-vh( 230px, 2560px );
-		left:px-to-vh( 230px, 2560px );
+		bottom:px-to-vh( 80px, 2560px ); // TODO: Update per drop shadow
+		left:px-to-vh( 80px, 2560px ); // TODO: Update per drop shadow
 		position:absolute;
 		width:px-to-vh( 400px, 1000px );
 
 		&.portrait {
-			bottom:px-to-vh( 152px, 2560px );
+			bottom:px-to-vh( 60px, 2560px );
 			height:px-to-vh( 1540px, 2560px );
 			left:auto;
-			right:px-to-vh( 148px, 2560px );
+			right:px-to-vh( 20px, 2560px );
 			width:px-to-vh( 1180px, 2560px );
 		}
 
 		video {
+      border-radius:0 0 px-to-vh( 12.5px, 2560px ) 0;
 			display:block;
-      border-radius: 0 0 px-to-vh( 12.8px, 2560px ) 0;
 			width:100%;
 		}
 		.video-trigger {
