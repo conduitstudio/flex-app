@@ -2,8 +2,8 @@
 #creative-studio {
   $image-width: px-to-vh( 1901px, 2560px );
   .mid {
-		width:px-to-vh( 952px, 1000px );
-		// width:$image-width;
+		// width:px-to-vh( 952px, 1000px );
+		width:$image-width;
   }
   .stage,
   .stage .holder,
