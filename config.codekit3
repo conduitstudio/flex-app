@@ -511,7 +511,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/HomeBackground.png": {
+	"/lib/img/pages/home/homebackground.png": {
 		"ft": 32768,
 		"iS": 3059541,
 		"oA": 0,
@@ -808,7 +808,7 @@
 		},
 	"/lib/img/ui/CloseButton.png": {
 		"ft": 32768,
-		"iS": 2776,
+		"iS": 2751,
 		"oA": 0,
 		"oAP": "/lib/img/ui/CloseButton.png",
 		"oF": 0,
@@ -866,6 +866,17 @@
 		"iS": 2687,
 		"oA": 0,
 		"oAP": "/lib/img/ui/FloorplanSliderButton.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/ui/HomeButton.png": {
+		"ft": 32768,
+		"iS": 865,
+		"oA": 0,
+		"oAP": "/lib/img/ui/HomeButton.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

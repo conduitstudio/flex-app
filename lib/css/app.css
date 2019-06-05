@@ -87,7 +87,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .template-floorplan .slider.points-3 .slider-jumps a { width: 33.333%; }
 .template-floorplan .slider.points-4 .slider-jumps a { width: 25%; }
 .template-floorplan .home { left: 0; bottom: 0; display: inline-block; padding: 3.90625vh; position: absolute; }
-.template-floorplan .home:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/DarkSnoozeButton.png"); content: ''; display: block; }
+.template-floorplan .home:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/HomeButton.png"); content: ''; display: block; }
 
 #agile-studio .mid { width: 98.32031vh; }
 #agile-studio .stage, #agile-studio .stage .holder, #agile-studio .stage img { width: 98.32031vh; }
@@ -132,7 +132,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .template-product-slider .swiper-pagination-bullet-active { background: #a8a8a8; }
 .template-product-slider .swiper-button-prev, .template-product-slider .swiper-button-next { width: 44vh; }
 .template-product-slider .home { left: 0; bottom: 0; display: inline-block; padding: 3.90625vh; position: absolute; }
-.template-product-slider .home:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/DarkSnoozeButton.png"); content: ''; display: block; }
+.template-product-slider .home:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/HomeButton.png"); content: ''; display: block; }
 
 /* Screen Saver */
 #screen-saver .content { color: #fff; display: block; left: 50%; margin-top: -28.32031vh; margin-left: -52.08984vh; position: absolute; text-align: center; top: 50%; z-index: 10; }
