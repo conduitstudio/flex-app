@@ -39,6 +39,7 @@
 
 		video {
 			display:block;
+      border-radius: 0 0 px-to-vh( 20px, 2560px ) 0;
 			width:100%;
 		}
 		.video-trigger {
