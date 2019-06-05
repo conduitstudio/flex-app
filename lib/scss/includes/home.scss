@@ -1,18 +1,16 @@
-$title_height: 61px;
-$top_of_slider: 40px;
-$total_top_space: 370px; // <= 61px title height
 #home {
   background-image:url( '../img/pages/home/homebackground.png' );
   background-repeat:no-repeat;
   background-size:cover;
 
   .title {
-    padding-top:px-to-vh( ($total_top_space/2) - ($title_height/2), 2560px );
+    // Total height should be 370px
+    padding:px-to-vh( 155px, 2560px ) 0;
     text-align:center;
 
     img {
       display:block;
-      height:px-to-vh( $title_height, 2560px ); // <= was 151
+      height:px-to-vh( 61px, 2560px ); // <= was 151
 			margin:0 auto;
     }
   }
@@ -37,31 +35,19 @@ $total_top_space: 370px; // <= 61px title height
 
 // More styles in globals/swiper.scss
 #menu-slideshow {
-  height:px-to-vh( 1940px, 2560px ); // <= 40px padding on top and bottom
-//	margin-top:px-to-vh( 112px, 2560px );
-	margin-top:px-to-vh( ($total_top_space/2) - ($title_height/2) - $top_of_slider, 2560px );
-
   .swiper-slide {
     text-align: center;
     font-size: 18px;
     width:px-to-vh( 2643px, 2560px );
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+		a,
+		img {
+			display:block;
+			width:100%;
+		}
   }
 
-  .swiper-pagination {
-    bottom:px-to-vh( -143px, 2560px ) !important;
-  }
+  // .swiper-pagination {
+  //   bottom:px-to-vh( -143px, 2560px ) !important;
+  // }
 }

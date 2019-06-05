@@ -601,92 +601,92 @@
 		"oAP": "/lib/img/pages/the-collection/carts-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/collection-accessories.jpg": {
-		"ft": 16384,
-		"iS": 94869,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-accessories.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-acoustic-boundary.jpg": {
-		"ft": 16384,
-		"iS": 218129,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-acoustic-boundary.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-carts.jpg": {
-		"ft": 16384,
-		"iS": 111002,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-carts.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-height-adjustable-desk.png": {
+	"/lib/img/pages/the-collection/collection-accessories.png": {
 		"ft": 32768,
-		"iS": 2564854,
+		"iS": 4275844,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-height-adjustable-desk.png",
+		"oAP": "/lib/img/pages/the-collection/collection-accessories.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/collection-markerboard-solutions.jpg": {
-		"ft": 16384,
-		"iS": 48432,
-		"jF": 0,
+	"/lib/img/pages/the-collection/collection-acoustic-boundary.png": {
+		"ft": 32768,
+		"iS": 4203046,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-markerboard-solutions.jpg",
+		"oAP": "/lib/img/pages/the-collection/collection-acoustic-boundary.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/collection-power-hanger.jpg": {
-		"ft": 16384,
-		"iS": 50205,
-		"jF": 0,
+	"/lib/img/pages/the-collection/collection-carts.png": {
+		"ft": 32768,
+		"iS": 4068607,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-power-hanger.jpg",
+		"oAP": "/lib/img/pages/the-collection/collection-carts.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/collection-screens.jpg": {
-		"ft": 16384,
-		"iS": 211709,
-		"jF": 0,
+	"/lib/img/pages/the-collection/collection-heigh-adjustable-desk.png": {
+		"ft": 32768,
+		"iS": 2564854,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-screens.jpg",
+		"oAP": "/lib/img/pages/the-collection/collection-heigh-adjustable-desk.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/collection-table.jpg": {
-		"ft": 16384,
-		"iS": 105005,
-		"jF": 0,
+	"/lib/img/pages/the-collection/collection-markerboard-solutions.png": {
+		"ft": 32768,
+		"iS": 3940416,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-table.jpg",
+		"oAP": "/lib/img/pages/the-collection/collection-markerboard-solutions.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/collection-power-hanger.png": {
+		"ft": 32768,
+		"iS": 3876266,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/collection-power-hanger.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/collection-screens.png": {
+		"ft": 32768,
+		"iS": 4847854,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/collection-screens.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/collection-tables.png": {
+		"ft": 32768,
+		"iS": 3910947,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/collection-tables.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/collection-title.png": {

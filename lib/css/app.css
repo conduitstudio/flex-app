@@ -97,14 +97,13 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 
 /* Home */
 #home { background-image: url("../img/pages/home/homebackground.png"); background-repeat: no-repeat; background-size: cover; }
-#home .title { padding-top: 6.03516vh; text-align: center; }
+#home .title { padding: 6.05469vh 0; text-align: center; }
 #home .title img { display: block; height: 2.38281vh; margin: 0 auto; }
 #home .sleep { left: 0; bottom: 0; display: inline-block; padding: 3.90625vh; position: absolute; }
 #home .sleep:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/DarkSnoozeButton.png"); content: ''; display: block; }
 
-#menu-slideshow { height: 75.78125vh; margin-top: 4.47266vh; }
-#menu-slideshow .swiper-slide { text-align: center; font-size: 18px; width: 103.24219vh; /* Center slide text vertically */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
-#menu-slideshow .swiper-pagination { bottom: -5.58594vh !important; }
+#menu-slideshow .swiper-slide { text-align: center; font-size: 18px; width: 103.24219vh; }
+#menu-slideshow .swiper-slide a, #menu-slideshow .swiper-slide img { display: block; width: 100%; }
 
 /* Modal */
 .modal { background: rgba(246, 246, 246, 0.95); bottom: 0; left: 0; opacity: 0; pointer-events: none; position: absolute; right: 0; top: 0; z-index: 10; }
