@@ -40,6 +40,12 @@ $total_top_space: 370px; // <= 61px title height
 			width:auto;
 		}
   }
+  .swiper-pagination-bullet {
+    background:rgba( 168,168,168,0.4 );
+	}
+  .swiper-pagination-bullet-active {
+    background:rgba( 168,168,168,1 );
+	}
 
 	.swiper-button-prev, .swiper-button-next {
 		width:px-to-vh( 440px, 1000px );
