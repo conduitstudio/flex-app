@@ -113,7 +113,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .modal img { display: block; height: 100%; }
 .modal .video { bottom: 8.98438vh; left: 8.98438vh; position: absolute; width: 40vh; }
 .modal .video.portrait { bottom: 5.9375vh; height: 60.15625vh; left: auto; right: 5.78125vh; width: 46.09375vh; }
-.modal .video video { display: block; border-radius: 0 0 0.78125vh 0; width: 100%; }
+.modal .video video { display: block; border-radius: 0 0 0.5vh 0; width: 100%; }
 .modal .video .video-trigger { background-size: 100%; display: block; height: 100%; left: 0; opacity: 1; position: absolute; top: 0; width: 100%; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s; -webkit-transition: opacity 0.5s; transition: opacity 0.5s; z-index: 1; }
 .modal .video .video-trigger.out { opacity: 0; pointer-events: none; }
 .modal .close-modal { left: 0; overflow: hidden; padding: 3.90625vh; position: absolute; top: 0; }
