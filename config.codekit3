@@ -217,15 +217,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/daily-stand-up-bg.jpg": {
-		"ft": 16384,
-		"iS": 198540,
-		"jF": 0,
+	"/lib/img/pages/agile-studio/daily-stand-up-bg.png": {
+		"ft": 32768,
+		"iS": 2212378,
 		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-bg.jpg",
+		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-bg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/agile-studio/daily-stand-up-floorplan.png": {
@@ -241,7 +241,7 @@
 		},
 	"/lib/img/pages/agile-studio/daily-stand-up-modal.png": {
 		"ft": 32768,
-		"iS": 13852108,
+		"iS": 12912828,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-modal.png",
 		"oF": 0,
@@ -263,7 +263,7 @@
 		},
 	"/lib/img/pages/agile-studio/sprint-planning-bg.jpg": {
 		"ft": 16384,
-		"iS": 198540,
+		"iS": 208243,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/sprint-planning-bg.jpg",
@@ -307,7 +307,7 @@
 		},
 	"/lib/img/pages/agile-studio/working-in-pairs-bg.jpg": {
 		"ft": 16384,
-		"iS": 198540,
+		"iS": 220305,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-bg.jpg",
@@ -349,17 +349,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/brainstorm-bg.jpg": {
-		"ft": 16384,
-		"iS": 198540,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/brainstorm-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/lib/img/pages/creative-studio/brainstorm-floorplan.png": {
 		"ft": 32768,
 		"iS": 321722,
@@ -373,7 +362,7 @@
 		},
 	"/lib/img/pages/creative-studio/brainstorm-modal.png": {
 		"ft": 32768,
-		"iS": 13852108,
+		"iS": 11813229,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/brainstorm-modal.png",
 		"oF": 0,
@@ -410,17 +399,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/focus-retreat-bg.jpg": {
-		"ft": 16384,
-		"iS": 193508,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/focus-retreat-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/lib/img/pages/creative-studio/focus-retreat-floorplan.png": {
@@ -505,7 +483,7 @@
 		"iS": 209191,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/workshop-bg.jpg",
+		"oAP": "/lib/img/pages/creative-studio/workshiop-BG.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -577,7 +555,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/homebackground.png": {
+	"/lib/img/pages/home/HomeBackground.png": {
 		"ft": 32768,
 		"iS": 3059541,
 		"oA": 0,
