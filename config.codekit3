@@ -20,7 +20,7 @@
 	"/app.js": {
 		"bF": 0,
 		"ft": 64,
-		"ma": 1,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/app.min.js",
@@ -48,7 +48,9 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -327,7 +329,7 @@
 		},
 	"/lib/img/pages/agile-studio/working-in-pairs-modal.png": {
 		"ft": 32768,
-		"iS": 15404830,
+		"iS": 13852108,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-modal.png",
 		"oF": 0,
@@ -478,7 +480,7 @@
 		},
 	"/lib/img/pages/creative-studio/pitch-share-modal.png": {
 		"ft": 32768,
-		"iS": 13852108,
+		"iS": 13775224,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/pitch-share-modal.png",
 		"oF": 0,
@@ -575,7 +577,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/homebackground.png": {
+	"/lib/img/pages/home/HomeBackground.png": {
 		"ft": 32768,
 		"iS": 3059541,
 		"oA": 0,
