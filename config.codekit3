@@ -48,9 +48,7 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -544,6 +542,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/lib/img/pages/the-collection/accessories-BG.jpg": {
+		"ft": 16384,
+		"iS": 203352,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/accessories-BG.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/lib/img/pages/the-collection/accessories-modal.png": {
 		"ft": 32768,
 		"iS": 8457848,
@@ -563,11 +572,11 @@
 		"oAP": "/lib/img/pages/the-collection/accessories-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/acoustic-boundary-bg.png": {
+	"/lib/img/pages/the-collection/acoustic-boundary-BG.png": {
 		"ft": 32768,
-		"iS": 85733,
+		"iS": 190473,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-bg.png",
+		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-BG.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -576,7 +585,7 @@
 		},
 	"/lib/img/pages/the-collection/acoustic-boundary-modal.png": {
 		"ft": 32768,
-		"iS": 8457848,
+		"iS": 6857337,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-modal.png",
 		"oF": 0,
@@ -593,9 +602,20 @@
 		"oAP": "/lib/img/pages/the-collection/19-0118901.mp4",
 		"oF": 0
 		},
+	"/lib/img/pages/the-collection/carts-BG.jpg": {
+		"ft": 16384,
+		"iS": 181301,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/carts-BG.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/lib/img/pages/the-collection/carts-modal.png": {
 		"ft": 32768,
-		"iS": 8457848,
+		"iS": 6358840,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/carts-modal.png",
 		"oF": 0,
@@ -711,22 +731,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/height-adjustable-desk-modal.png": {
+	"/lib/img/pages/the-collection/height-adjustable-desk-BG.png": {
 		"ft": 32768,
-		"iS": 8457848,
+		"iS": 193414,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-modal.png",
+		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-BG.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/height-adjustable-desk-video-play.png": {
+	"/lib/img/pages/the-collection/height-adjustable-desk-modal.png": {
 		"ft": 32768,
-		"iS": 146305,
+		"iS": 6201315,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-video-play.png",
+		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -741,9 +761,20 @@
 		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-video.mp4",
 		"oF": 0
 		},
+	"/lib/img/pages/the-collection/markerboards-BG.jpg": {
+		"ft": 16384,
+		"iS": 191871,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/markerboards-BG.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/lib/img/pages/the-collection/markerboards-modal.png": {
 		"ft": 32768,
-		"iS": 8457848,
+		"iS": 6857293,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/markerboards-modal.png",
 		"oF": 0,
@@ -760,9 +791,20 @@
 		"oAP": "/lib/img/pages/the-collection/markerboards-video.mp4",
 		"oF": 0
 		},
+	"/lib/img/pages/the-collection/power-hanger-BG.jpg": {
+		"ft": 16384,
+		"iS": 214810,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/power-hanger-BG.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/lib/img/pages/the-collection/power-hanger-modal.png": {
 		"ft": 32768,
-		"iS": 8457848,
+		"iS": 5921780,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/power-hanger-modal.png",
 		"oF": 0,
@@ -779,9 +821,20 @@
 		"oAP": "/lib/img/pages/the-collection/power-hanger-video.mp4",
 		"oF": 0
 		},
+	"/lib/img/pages/the-collection/screens-BG.jpg": {
+		"ft": 16384,
+		"iS": 196753,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/screens-BG.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/lib/img/pages/the-collection/screens-modal.png": {
 		"ft": 32768,
-		"iS": 8457848,
+		"iS": 7050000,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/screens-modal.png",
 		"oF": 0,
@@ -798,9 +851,20 @@
 		"oAP": "/lib/img/pages/the-collection/screens-video.mp4",
 		"oF": 0
 		},
+	"/lib/img/pages/the-collection/tables-BG.png": {
+		"ft": 32768,
+		"iS": 179369,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/tables-BG.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/lib/img/pages/the-collection/tables-modal.png": {
 		"ft": 32768,
-		"iS": 8457848,
+		"iS": 6198340,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/tables-modal.png",
 		"oF": 0,

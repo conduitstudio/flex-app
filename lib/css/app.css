@@ -111,11 +111,10 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .modal { background-size: cover; bottom: 0; left: 0; opacity: 0; pointer-events: none; position: absolute; right: 0; top: 0; z-index: 10; }
 .modal .container { height: 90.625vh; left: 50%; margin: -44.14063vh auto auto -70.15625vh; overflow: hidden; position: absolute; top: 50%; width: 140.3125vh; }
 .modal img { display: block; height: 100%; }
-.modal .video { bottom: 3.125vh; left: 3.125vh; position: absolute; width: 40vh; }
-.modal .video.portrait { bottom: 2.30469vh; height: 60.15625vh; left: auto; right: 0.78125vh; width: 46.09375vh; }
-.modal .video video { border-radius: 0 0 0.48828vh 0; display: block; width: 100%; }
-.modal .video .video-trigger { background-size: 100%; display: block; height: 100%; left: 0; opacity: 1; position: absolute; top: 0; width: 100%; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s; -webkit-transition: opacity 0.5s; transition: opacity 0.5s; z-index: 1; }
-.modal .video .video-trigger.out { opacity: 0; pointer-events: none; }
+.modal .video { bottom: 5.46875vh; height: 21.875vh; left: 4.375vh; left: 4.0625vh; position: absolute; }
+.modal .video video { display: block; height: 100%; pointer-events: none; }
+.modal .video.portrait { bottom: 2.30469vh; height: auto; left: auto; right: 0.78125vh; width: 46.09375vh; }
+.modal .video.portrait video { border-radius: 0 0 0.48828vh 0; height: auto; width: 100%; }
 .modal .close-modal { left: 0; overflow: hidden; padding: 3.90625vh; position: absolute; top: 0; }
 .modal .close-modal span { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/CloseButton.png"); display: block; }
 .in .modal { -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s; -webkit-transition: opacity 0.5s; transition: opacity 0.5s; }

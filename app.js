@@ -79,9 +79,10 @@ let Flex = {
 				slider.setValue( 0, 0, false );
 			});
 
-			// Reset all videos
-			$('.video.played').removeClass('played');
-			$('.video-trigger.out').removeClass('out');
+			// Reset all videos to start
+			$('video').each( function() {
+				$(this).get(0).currentTime = 0;
+			});
 
 			// Remove all modals
 			$('.modal.in').removeClass('in');

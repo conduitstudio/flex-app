@@ -26,42 +26,34 @@
 	}
 
 	.video {
-		bottom:px-to-vh( 80px, 2560px ); // TODO: Update per drop shadow
-		left:px-to-vh( 80px, 2560px ); // TODO: Update per drop shadow
+		bottom:px-to-vh( 80px + 60px, 2560px ); // TODO: Update per drop shadow
+    height:px-to-vh( 720px - ( 80px * 2 ), 2560px );
+		left:px-to-vh( 80px + 32px, 2560px ); // TODO: Update per drop shadow
+		left:px-to-vh( 80px + 24px, 2560px ); // TODO: Update per drop shadow
 		position:absolute;
-		width:px-to-vh( 400px, 1000px );
+		// width:px-to-vh( 400px, 1000px );
+
+		video {
+			display:block;
+			height:100%;
+      pointer-events:none;
+		}
 
 		&.portrait {
 			bottom:px-to-vh( 59px, 2560px );
-			height:px-to-vh( 1540px, 2560px );
+			// height:px-to-vh( 1540px, 2560px );
+      height:auto;
 			left:auto;
 			right:px-to-vh( 20px, 2560px );
 			width:px-to-vh( 1180px, 2560px );
+
+      video {
+        border-radius:0 0 px-to-vh( 12.5px, 2560px ) 0;
+  			height:auto;
+        width:100%;
+      }
 		}
 
-		video {
-      border-radius:0 0 px-to-vh( 12.5px, 2560px ) 0;
-			display:block;
-			width:100%;
-		}
-		.video-trigger {
-			background-size:100%;
-			display:block;
-			height:100%;
-			left:0;
-			opacity:1;
-			position:absolute;
-			top:0;
-			width:100%;
-			@include transition( opacity 0.5s );
-			z-index:1;
-
-			&.out {
-				opacity:0;
-				pointer-events:none;
-			}
-
-		}
 	}
 
 
