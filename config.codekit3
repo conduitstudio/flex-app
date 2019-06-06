@@ -285,7 +285,7 @@
 		},
 	"/lib/img/pages/agile-studio/sprint-planning-modal.png": {
 		"ft": 32768,
-		"iS": 13852108,
+		"iS": 4890452,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/sprint-planning-modal.png",
 		"oF": 0,
@@ -349,6 +349,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/creative-studio/brainstorm-bg.jpg": {
+		"ft": 16384,
+		"iS": 198540,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/brainstorm-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/creative-studio/brainstorm-floorplan.png": {
 		"ft": 32768,
 		"iS": 321722,
@@ -401,6 +412,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/creative-studio/focus-retreat-bg.jpg": {
+		"ft": 16384,
+		"iS": 193508,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/focus-retreat-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/creative-studio/focus-retreat-floorplan.png": {
 		"ft": 32768,
 		"iS": 276758,
@@ -428,6 +450,17 @@
 		"iS": 87853,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/focus-retreat-products.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/pitch-shair-modal.png": {
+		"ft": 32768,
+		"iS": 13775224,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/pitch-shair-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -494,17 +527,6 @@
 		"iS": 379502,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/workshop-floorplan.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/workshop-modal.png": {
-		"ft": 32768,
-		"iS": 13852108,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/workshop-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
