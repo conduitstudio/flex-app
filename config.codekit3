@@ -325,6 +325,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/creative-studio/brainstorm-bg.jpg": {
+		"ft": 16384,
+		"iS": 198540,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/brainstorm-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/creative-studio/brainstorm-floorplan.png": {
 		"ft": 32768,
 		"iS": 321722,
@@ -377,6 +388,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/creative-studio/focus-retreat-bg.jpg": {
+		"ft": 16384,
+		"iS": 193508,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/focus-retreat-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/creative-studio/focus-retreat-floorplan.png": {
 		"ft": 32768,
 		"iS": 276758,
@@ -410,6 +432,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/creative-studio/pitch-share-bg.jpg": {
+		"ft": 16384,
+		"iS": 227187,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/pitch-share-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/creative-studio/pitch-share-floorplan.png": {
 		"ft": 32768,
 		"iS": 376821,
@@ -441,6 +474,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/workshop-bg.jpg": {
+		"ft": 16384,
+		"iS": 209191,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/workshop-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/lib/img/pages/creative-studio/workshop-floorplan.png": {

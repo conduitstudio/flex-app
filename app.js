@@ -78,7 +78,7 @@ let Flex = {
 				const slider = $(this).data('slider');
 				slider.setValue( 0, 0, false );
 			});
-
+			
 			// Reset all videos to start
 			$('video').each( function() {
 				$(this).get(0).currentTime = 0;
