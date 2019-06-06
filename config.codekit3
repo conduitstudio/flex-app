@@ -48,9 +48,7 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -217,15 +215,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/daily-stand-up-bg.png": {
-		"ft": 32768,
-		"iS": 2212378,
+	"/lib/img/pages/agile-studio/daily-stand-up-bg.jpg": {
+		"ft": 16384,
+		"iS": 216432,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-bg.png",
+		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/agile-studio/daily-stand-up-floorplan.png": {
@@ -329,7 +327,7 @@
 		},
 	"/lib/img/pages/agile-studio/working-in-pairs-modal.png": {
 		"ft": 32768,
-		"iS": 13852108,
+		"iS": 15404830,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-modal.png",
 		"oF": 0,
@@ -456,17 +454,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/pitch-shair-modal.png": {
-		"ft": 32768,
-		"iS": 13775224,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/pitch-shair-modal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/creative-studio/pitch-share-bg.jpg": {
 		"ft": 16384,
 		"iS": 227187,
@@ -533,6 +520,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/creative-studio/workshop-modal.png": {
+		"ft": 32768,
+		"iS": 15805558,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/workshop-modal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/lib/img/pages/creative-studio/workshop-products.png": {
 		"ft": 32768,
 		"iS": 88888,
@@ -577,7 +575,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/HomeBackground.png": {
+	"/lib/img/pages/home/homebackground.png": {
 		"ft": 32768,
 		"iS": 3059541,
 		"oA": 0,
