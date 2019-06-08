@@ -45,6 +45,14 @@
 		}
   }
 
+
+  /* Arrows */
+  .swiper-left, .swiper-right {
+    // $image_width: px-to-vh( 2643px, 2560px );
+    // width:px-to-vh( 2643px, 2560px ); // <= home main image width
+    width:calc( ( 100vw - (103.24219vh + 60px) ) / 2 ) ;
+  }
+
   // .swiper-pagination {
   //   bottom:px-to-vh( -143px, 2560px ) !important;
   // }

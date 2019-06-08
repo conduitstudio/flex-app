@@ -33,9 +33,14 @@
     background:rgba( 168,168,168,1 );
 	}
 
-	.swiper-button-prev, .swiper-button-next {
-		width:px-to-vh( 440px, 1000px );
-	}
+
+
+  /* Arrows */
+  .swiper-left, .swiper-right {
+    // $image_width: px-to-vh( 2643px, 2560px );
+    width:px-to-vh( 1407px, 2560px ); // <= home main image width
+    width:calc( ( 100vw - (54.96094vh + 60px) ) / 2 ) ; // <= 54.96.. is from $image_width
+  }
 
 
   .home {

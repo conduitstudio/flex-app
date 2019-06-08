@@ -208,7 +208,7 @@
 		},
 	"/lib/img/pages/agile-studio/agile-studio-title.png": {
 		"ft": 32768,
-		"iS": 21499,
+		"iS": 9861,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/agile-studio-title.png",
 		"oF": 0,
@@ -219,7 +219,7 @@
 		},
 	"/lib/img/pages/agile-studio/daily-stand-up-floorplan.png": {
 		"ft": 32768,
-		"iS": 292826,
+		"iS": 87507,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-floorplan.png",
 		"oF": 0,
@@ -230,7 +230,7 @@
 		},
 	"/lib/img/pages/agile-studio/daily-stand-up-modal.png": {
 		"ft": 32768,
-		"iS": 12912828,
+		"iS": 3708649,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-modal.png",
 		"oF": 0,
@@ -239,20 +239,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/daily-stand-up-products.png": {
-		"ft": 32768,
-		"iS": 86288,
-		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-products.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/agile-studio/sprint-planning-floorplan.png": {
 		"ft": 32768,
-		"iS": 324765,
+		"iS": 97713,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/sprint-planning-floorplan.png",
 		"oF": 0,
@@ -272,20 +261,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/sprint-planning-products.png": {
-		"ft": 32768,
-		"iS": 85925,
-		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/sprint-planning-products.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/agile-studio/working-in-pairs-floorplan.png": {
 		"ft": 32768,
-		"iS": 375216,
+		"iS": 110258,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-floorplan.png",
 		"oF": 0,
@@ -296,7 +274,7 @@
 		},
 	"/lib/img/pages/agile-studio/working-in-pairs-modal.png": {
 		"ft": 32768,
-		"iS": 13852108,
+		"iS": 15404830,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-modal.png",
 		"oF": 0,
@@ -305,20 +283,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/working-in-pairs-products.png": {
-		"ft": 32768,
-		"iS": 86037,
-		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-products.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/creative-studio/brainstorm-floorplan.png": {
 		"ft": 32768,
-		"iS": 321722,
+		"iS": 94155,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/brainstorm-floorplan.png",
 		"oF": 0,
@@ -329,20 +296,9 @@
 		},
 	"/lib/img/pages/creative-studio/brainstorm-modal.png": {
 		"ft": 32768,
-		"iS": 11813229,
+		"iS": 3604048,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/brainstorm-modal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/brainstorm-products.png": {
-		"ft": 32768,
-		"iS": 88994,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/brainstorm-products.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -359,7 +315,7 @@
 		},
 	"/lib/img/pages/creative-studio/creative-studio-title.png": {
 		"ft": 32768,
-		"iS": 24362,
+		"iS": 11605,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/creative-studio-title.png",
 		"oF": 0,
@@ -370,7 +326,7 @@
 		},
 	"/lib/img/pages/creative-studio/focus-retreat-floorplan.png": {
 		"ft": 32768,
-		"iS": 276758,
+		"iS": 88472,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/focus-retreat-floorplan.png",
 		"oF": 0,
@@ -381,7 +337,7 @@
 		},
 	"/lib/img/pages/creative-studio/focus-retreat-modal.png": {
 		"ft": 32768,
-		"iS": 13852108,
+		"iS": 3721665,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/focus-retreat-modal.png",
 		"oF": 0,
@@ -390,20 +346,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/focus-retreat-products.png": {
-		"ft": 32768,
-		"iS": 87853,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/focus-retreat-products.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/creative-studio/pitch-share-floorplan.png": {
 		"ft": 32768,
-		"iS": 376821,
+		"iS": 110224,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/pitch-share-floorplan.png",
 		"oF": 0,
@@ -414,7 +359,7 @@
 		},
 	"/lib/img/pages/creative-studio/pitch-share-modal.png": {
 		"ft": 32768,
-		"iS": 13775224,
+		"iS": 13852108,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/pitch-share-modal.png",
 		"oF": 0,
@@ -423,20 +368,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/pitch-share-products.png": {
-		"ft": 32768,
-		"iS": 88633,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/pitch-share-products.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/creative-studio/workshop-floorplan.png": {
 		"ft": 32768,
-		"iS": 379502,
+		"iS": 103859,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/workshop-floorplan.png",
 		"oF": 0,
@@ -447,7 +381,7 @@
 		},
 	"/lib/img/pages/creative-studio/workshop-modal.png": {
 		"ft": 32768,
-		"iS": 15805558,
+		"iS": 4586862,
 		"oA": 0,
 		"oAP": "/lib/img/pages/creative-studio/workshop-modal.png",
 		"oF": 0,
@@ -456,20 +390,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/workshop-products.png": {
-		"ft": 32768,
-		"iS": 88888,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/workshop-products.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/home/AgileStudioTile.png": {
 		"ft": 32768,
-		"iS": 5483996,
+		"iS": 1703376,
 		"oA": 0,
 		"oAP": "/lib/img/pages/home/AgileStudioTile.png",
 		"oF": 0,
@@ -480,7 +403,7 @@
 		},
 	"/lib/img/pages/home/CollectionTile.png": {
 		"ft": 32768,
-		"iS": 8009534,
+		"iS": 1909190,
 		"oA": 0,
 		"oAP": "/lib/img/pages/home/CollectionTile.png",
 		"oF": 0,
@@ -491,7 +414,7 @@
 		},
 	"/lib/img/pages/home/CreativeStudioTile.png": {
 		"ft": 32768,
-		"iS": 7788310,
+		"iS": 1944406,
 		"oA": 0,
 		"oAP": "/lib/img/pages/home/CreativeStudioTile.png",
 		"oF": 0,
@@ -502,7 +425,7 @@
 		},
 	"/lib/img/pages/home/steelcase-flex-collection.png": {
 		"ft": 32768,
-		"iS": 7048,
+		"iS": 3879,
 		"oA": 0,
 		"oAP": "/lib/img/pages/home/steelcase-flex-collection.png",
 		"oF": 0,
@@ -511,31 +434,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/screen-saver/screen-saver-typography.jpg": {
-		"ft": 16384,
-		"iS": 129545,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/screen-saver/screen-saver-typography.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/screen-saver/screen-saver-typography.png": {
-		"ft": 32768,
-		"iS": 129545,
-		"oA": 0,
-		"oAP": "/lib/img/pages/screen-saver/screen-saver-typography.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/the-collection/accessories-modal.png": {
 		"ft": 32768,
-		"iS": 8457848,
+		"iS": 1948586,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/accessories-modal.png",
 		"oF": 0,
@@ -554,7 +455,7 @@
 		},
 	"/lib/img/pages/the-collection/acoustic-boundary-modal.png": {
 		"ft": 32768,
-		"iS": 6857337,
+		"iS": 2064400,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-modal.png",
 		"oF": 0,
@@ -573,7 +474,7 @@
 		},
 	"/lib/img/pages/the-collection/carts-modal.png": {
 		"ft": 32768,
-		"iS": 6358840,
+		"iS": 1858945,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/carts-modal.png",
 		"oF": 0,
@@ -592,7 +493,7 @@
 		},
 	"/lib/img/pages/the-collection/collection-accessories.png": {
 		"ft": 32768,
-		"iS": 4275844,
+		"iS": 1225365,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/collection-accessories.png",
 		"oF": 0,
@@ -603,7 +504,7 @@
 		},
 	"/lib/img/pages/the-collection/collection-acoustic-boundary.png": {
 		"ft": 32768,
-		"iS": 4203046,
+		"iS": 1268713,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/collection-acoustic-boundary.png",
 		"oF": 0,
@@ -614,7 +515,7 @@
 		},
 	"/lib/img/pages/the-collection/collection-carts.png": {
 		"ft": 32768,
-		"iS": 4068607,
+		"iS": 1142164,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/collection-carts.png",
 		"oF": 0,
@@ -625,7 +526,7 @@
 		},
 	"/lib/img/pages/the-collection/collection-heigh-adjustable-desk.png": {
 		"ft": 32768,
-		"iS": 2564854,
+		"iS": 960403,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/collection-heigh-adjustable-desk.png",
 		"oF": 0,
@@ -636,7 +537,7 @@
 		},
 	"/lib/img/pages/the-collection/collection-markerboard-solutions.png": {
 		"ft": 32768,
-		"iS": 3940416,
+		"iS": 1319871,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/collection-markerboard-solutions.png",
 		"oF": 0,
@@ -647,7 +548,7 @@
 		},
 	"/lib/img/pages/the-collection/collection-power-hanger.png": {
 		"ft": 32768,
-		"iS": 3876266,
+		"iS": 1072769,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/collection-power-hanger.png",
 		"oF": 0,
@@ -658,7 +559,7 @@
 		},
 	"/lib/img/pages/the-collection/collection-screens.png": {
 		"ft": 32768,
-		"iS": 4847854,
+		"iS": 1319237,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/collection-screens.png",
 		"oF": 0,
@@ -669,7 +570,7 @@
 		},
 	"/lib/img/pages/the-collection/collection-tables.png": {
 		"ft": 32768,
-		"iS": 3910947,
+		"iS": 1265536,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/collection-tables.png",
 		"oF": 0,
@@ -680,7 +581,7 @@
 		},
 	"/lib/img/pages/the-collection/collection-title.png": {
 		"ft": 32768,
-		"iS": 7121,
+		"iS": 3791,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/collection-title.png",
 		"oF": 0,
@@ -691,7 +592,7 @@
 		},
 	"/lib/img/pages/the-collection/height-adjustable-desk-modal.png": {
 		"ft": 32768,
-		"iS": 6201315,
+		"iS": 1932455,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-modal.png",
 		"oF": 0,
@@ -729,7 +630,7 @@
 		},
 	"/lib/img/pages/the-collection/power-hanger-modal.png": {
 		"ft": 32768,
-		"iS": 5921780,
+		"iS": 1834358,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/power-hanger-modal.png",
 		"oF": 0,
@@ -748,7 +649,7 @@
 		},
 	"/lib/img/pages/the-collection/screens-modal.png": {
 		"ft": 32768,
-		"iS": 7050000,
+		"iS": 1971140,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/screens-modal.png",
 		"oF": 0,
@@ -767,7 +668,7 @@
 		},
 	"/lib/img/pages/the-collection/tables-modal.png": {
 		"ft": 32768,
-		"iS": 6198340,
+		"iS": 2030422,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/tables-modal.png",
 		"oF": 0,
@@ -786,7 +687,7 @@
 		},
 	"/lib/img/ui/background.png": {
 		"ft": 32768,
-		"iS": 3059541,
+		"iS": 2466644,
 		"oA": 0,
 		"oAP": "/lib/img/ui/background.png",
 		"oF": 0,
@@ -797,7 +698,7 @@
 		},
 	"/lib/img/ui/CloseButton.png": {
 		"ft": 32768,
-		"iS": 2751,
+		"iS": 1150,
 		"oA": 0,
 		"oAP": "/lib/img/ui/CloseButton.png",
 		"oF": 0,
@@ -806,53 +707,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/ui/DarkSnoozeButton.png": {
-		"ft": 32768,
-		"iS": 4410,
-		"oA": 0,
-		"oAP": "/lib/img/ui/DarkSnoozeButton.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/ui/Dots-1.png": {
-		"ft": 32768,
-		"iS": 661,
-		"oA": 0,
-		"oAP": "/lib/img/ui/Dots-1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/ui/Dots-2.png": {
-		"ft": 32768,
-		"iS": 669,
-		"oA": 0,
-		"oAP": "/lib/img/ui/Dots-2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/ui/Dots-3.png": {
-		"ft": 32768,
-		"iS": 650,
-		"oA": 0,
-		"oAP": "/lib/img/ui/Dots-3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/ui/FloorplanSliderButton.png": {
 		"ft": 32768,
-		"iS": 2687,
+		"iS": 757,
 		"oA": 0,
 		"oAP": "/lib/img/ui/FloorplanSliderButton.png",
 		"oF": 0,
@@ -863,7 +720,7 @@
 		},
 	"/lib/img/ui/HomeButton.png": {
 		"ft": 32768,
-		"iS": 865,
+		"iS": 519,
 		"oA": 0,
 		"oAP": "/lib/img/ui/HomeButton.png",
 		"oF": 0,
@@ -874,7 +731,7 @@
 		},
 	"/lib/img/ui/LeftArrowButton.png": {
 		"ft": 32768,
-		"iS": 3031,
+		"iS": 520,
 		"oA": 0,
 		"oAP": "/lib/img/ui/LeftArrowButton.png",
 		"oF": 0,
@@ -885,7 +742,7 @@
 		},
 	"/lib/img/ui/LightSnoozeButton.png": {
 		"ft": 32768,
-		"iS": 4096,
+		"iS": 1230,
 		"oA": 0,
 		"oAP": "/lib/img/ui/LightSnoozeButton.png",
 		"oF": 0,
@@ -896,7 +753,7 @@
 		},
 	"/lib/img/ui/MenuButton.png": {
 		"ft": 32768,
-		"iS": 2286,
+		"iS": 211,
 		"oA": 0,
 		"oAP": "/lib/img/ui/MenuButton.png",
 		"oF": 0,
@@ -907,7 +764,7 @@
 		},
 	"/lib/img/ui/RightArrowButton.png": {
 		"ft": 32768,
-		"iS": 3068,
+		"iS": 527,
 		"oA": 0,
 		"oAP": "/lib/img/ui/RightArrowButton.png",
 		"oF": 0,

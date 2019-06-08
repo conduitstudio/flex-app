@@ -36,14 +36,15 @@
 }
 
 /* Arrows */
-.swiper-button-prev,
-.swiper-button-next {
+.swiper-left, .swiper-right {
   background:none;
   height:100%;
   margin:0;
   outline:none;
+  position:absolute;
   top:0;
-  width:px-to-vh( 200px, 1000px );
+  z-index:999;
+  // Width set on individual scss files
 
   &:after {
     @include icon;
@@ -53,7 +54,7 @@
 		top:50%;
   }
 }
-.swiper-button-prev {
+.swiper-left {
   left:0;
   &:after {
     background-image:url('../img/ui/LeftArrowButton.png');
@@ -61,7 +62,7 @@
   }
 }
 
-.swiper-button-next {
+.swiper-right {
   right:0;
   &:after {
     background-image:url('../img/ui/RightArrowButton.png');
