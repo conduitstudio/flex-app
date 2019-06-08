@@ -28,7 +28,7 @@
 
 /* Initialize */
 let Flex = {
-	version: '0.3',
+	version: '1.1',
 	ratio: 3840/2560,
 	fx_speed: 500,
 
@@ -63,57 +63,53 @@ let Flex = {
 		do_it: function() {
 
 			// Redefined vars
-			const $last_page = $('.page.in'),
-				$screen_saver = $('#screen-saver'),
-				$screen_saver_video = $screen_saver.find('video').first();
+			const $home = $('#home'),
+				$last_page = $('.page.in').not($home);
 
-			// Fade out last page to reveal screensaver
-			$last_page.removeClass('in');
+			// Reset swiper witout animation
+			$('[data-swiper]').each( function() {
+				const $this = $(this),
+					swiper = $this.data('swiper');
+				swiper.slideToLoop( 0, 0, false );
 
-			// Hide nav trigger
-			Flex.body.removeClass('show-nav').removeClass('active-nav');
-
-			// Set slider back to beginning
-			$('[data-slider]').each( function() {
-				const slider = $(this).data('slider');
-				slider.setValue( 0, 0, false );
-			});
-			
-			// Reset all videos to start
-			$('video').each( function() {
-				$(this).get(0).currentTime = 0;
+				$this.find('.swiper-pagination > .swiper-pagination-bullet:first-child').addClass('swiper-pagination-bullet-active')
+					.siblings('.swiper-pagination-bullet-active').removeClass('swiper-pagination-bullet-active');
 			});
 
-			// Remove all modals
-			$('.modal.in').removeClass('in');
+			// If we are not already on the #home
+			if( $last_page.length > 0 ) {
+				$last_page.removeClass('in');
+
+				// Hide nav trigger
+				Flex.body.removeClass('show-nav').removeClass('active-nav');
+
+				// Remove all modals
+				$('.modal.in').removeClass('in');
+
+				// Bring home back in
+				$home.removeClass('out').addClass('in');
+
+			}
 
 			// Reset home swiper
 			Flex.after_animation( function() {
 
+				// Reset all videos to start
+				$('video').each( function() {
+					var video = $(this).get(0);
+					video.pause();
+					video.currentTime = 0;
+				});
+
 				// Display none on last page
 				$last_page.addClass('out');
 
-				// Ready screensaver
-				$screen_saver.removeClass('out');
-				Flex.async( function() {
-					$screen_saver.addClass('in');
-
-					// Cleanup after screen saver is in
-					Flex.after_animation( function() {
-
-						// Play the screensaver video and show it
-						$screen_saver_video[0].play();
-
-						$('[data-swiper]').each( function() {
-							const $this = $(this),
-								swiper = $this.data('swiper');
-							swiper.slideToLoop( 0, 0, false );
-
-							$this.find('.swiper-pagination > .swiper-pagination-bullet:first-child').addClass('swiper-pagination-bullet-active')
-								.siblings('.swiper-pagination-bullet-active').removeClass('swiper-pagination-bullet-active');
-						});
-					});
+				// Set slider back to beginning
+				$('[data-slider]').each( function() {
+					const slider = $(this).data('slider');
+					slider.setValue( 0, 0, false );
 				});
+
 			});
 
 		},
@@ -136,7 +132,8 @@ let Flex = {
 		// TODO: Run onload functions...
 		setTimeout( () => {
 			Flex.body.addClass('in');
-			$('#screen-saver').removeClass('out').addClass('in');
+			// $('#screen-saver').removeClass('out').addClass('in');
+			$('#home').removeClass('out').addClass('in');
 		}, 2000 );
 
 		// Preload Images
@@ -161,7 +158,6 @@ let Flex = {
 		$('[data-controller="NavTrigger"]').NavTrigger();
 		$('[data-slider]').Slider();
 		$('[data-swiper]').Swiper();
-		$('[data-videotrigger]').VideoTrigger();
 
 		// Everything has init, so send out
 		$('.page').addClass('out');

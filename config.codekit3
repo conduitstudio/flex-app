@@ -20,7 +20,7 @@
 	"/app.js": {
 		"bF": 0,
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/app.min.js",
@@ -217,17 +217,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/daily-stand-up-bg.jpg": {
-		"ft": 16384,
-		"iS": 216432,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/lib/img/pages/agile-studio/daily-stand-up-floorplan.png": {
 		"ft": 32768,
 		"iS": 292826,
@@ -261,17 +250,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/sprint-planning-bg.jpg": {
-		"ft": 16384,
-		"iS": 208243,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/sprint-planning-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/lib/img/pages/agile-studio/sprint-planning-floorplan.png": {
 		"ft": 32768,
 		"iS": 324765,
@@ -285,7 +263,7 @@
 		},
 	"/lib/img/pages/agile-studio/sprint-planning-modal.png": {
 		"ft": 32768,
-		"iS": 4890452,
+		"iS": 13852108,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/sprint-planning-modal.png",
 		"oF": 0,
@@ -305,17 +283,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/working-in-pairs-bg.jpg": {
-		"ft": 16384,
-		"iS": 220305,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/lib/img/pages/agile-studio/working-in-pairs-floorplan.png": {
 		"ft": 32768,
 		"iS": 375216,
@@ -329,7 +296,7 @@
 		},
 	"/lib/img/pages/agile-studio/working-in-pairs-modal.png": {
 		"ft": 32768,
-		"iS": 13852108,
+		"iS": 15404830,
 		"oA": 0,
 		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-modal.png",
 		"oF": 0,
@@ -347,17 +314,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/brainstorm-bg.jpg": {
-		"ft": 16384,
-		"iS": 198540,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/brainstorm-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/lib/img/pages/creative-studio/brainstorm-floorplan.png": {
@@ -412,17 +368,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/focus-retreat-bg.jpg": {
-		"ft": 16384,
-		"iS": 193508,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/focus-retreat-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/lib/img/pages/creative-studio/focus-retreat-floorplan.png": {
 		"ft": 32768,
 		"iS": 276758,
@@ -456,17 +401,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/pitch-share-bg.jpg": {
-		"ft": 16384,
-		"iS": 227187,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/pitch-share-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/lib/img/pages/creative-studio/pitch-share-floorplan.png": {
 		"ft": 32768,
 		"iS": 376821,
@@ -498,17 +432,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/workshop-bg.jpg": {
-		"ft": 16384,
-		"iS": 209191,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/workshiop-BG.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/lib/img/pages/creative-studio/workshop-floorplan.png": {
@@ -577,17 +500,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/HomeBackground.png": {
-		"ft": 32768,
-		"iS": 3059541,
-		"oA": 0,
-		"oAP": "/lib/img/pages/home/homebackground.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/home/steelcase-flex-collection.png": {
 		"ft": 32768,
 		"iS": 7048,
@@ -610,15 +522,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/accessories-BG.jpg": {
-		"ft": 16384,
-		"iS": 203352,
-		"jF": 0,
+	"/lib/img/pages/screen-saver/screen-saver-typography.png": {
+		"ft": 32768,
+		"iS": 129545,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/accessories-BG.jpg",
+		"oAP": "/lib/img/pages/screen-saver/screen-saver-typography.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/lib/img/pages/the-collection/accessories-modal.png": {
@@ -640,17 +552,6 @@
 		"oAP": "/lib/img/pages/the-collection/accessories-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/acoustic-boundary-BG.png": {
-		"ft": 32768,
-		"iS": 190473,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-BG.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/the-collection/acoustic-boundary-modal.png": {
 		"ft": 32768,
 		"iS": 6857337,
@@ -669,17 +570,6 @@
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/19-0118901.mp4",
 		"oF": 0
-		},
-	"/lib/img/pages/the-collection/carts-BG.jpg": {
-		"ft": 16384,
-		"iS": 181301,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/carts-BG.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
 		},
 	"/lib/img/pages/the-collection/carts-modal.png": {
 		"ft": 32768,
@@ -799,17 +689,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/height-adjustable-desk-BG.png": {
-		"ft": 32768,
-		"iS": 193414,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-BG.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/the-collection/height-adjustable-desk-modal.png": {
 		"ft": 32768,
 		"iS": 6201315,
@@ -829,20 +708,9 @@
 		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/markerboards-BG.jpg": {
-		"ft": 16384,
-		"iS": 191871,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/markerboards-BG.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/lib/img/pages/the-collection/markerboards-modal.png": {
 		"ft": 32768,
-		"iS": 6101989,
+		"iS": 6857293,
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/markerboards-modal.png",
 		"oF": 0,
@@ -858,17 +726,6 @@
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/markerboards-video.mp4",
 		"oF": 0
-		},
-	"/lib/img/pages/the-collection/power-hanger-BG.jpg": {
-		"ft": 16384,
-		"iS": 214810,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/power-hanger-BG.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
 		},
 	"/lib/img/pages/the-collection/power-hanger-modal.png": {
 		"ft": 32768,
@@ -889,17 +746,6 @@
 		"oAP": "/lib/img/pages/the-collection/power-hanger-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/screens-BG.jpg": {
-		"ft": 16384,
-		"iS": 196753,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/screens-BG.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/lib/img/pages/the-collection/screens-modal.png": {
 		"ft": 32768,
 		"iS": 7050000,
@@ -919,17 +765,6 @@
 		"oAP": "/lib/img/pages/the-collection/screens-video.mp4",
 		"oF": 0
 		},
-	"/lib/img/pages/the-collection/tables-BG.png": {
-		"ft": 32768,
-		"iS": 179369,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/tables-BG.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/the-collection/tables-modal.png": {
 		"ft": 32768,
 		"iS": 6198340,
@@ -948,6 +783,17 @@
 		"oA": 0,
 		"oAP": "/lib/img/pages/the-collection/tables-video.mp4",
 		"oF": 0
+		},
+	"/lib/img/ui/background.png": {
+		"ft": 32768,
+		"iS": 3059541,
+		"oA": 0,
+		"oAP": "/lib/img/ui/background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/lib/img/ui/CloseButton.png": {
 		"ft": 32768,
@@ -1147,17 +993,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/lib/js/components/video-trigger.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/lib/js/components/min/video-trigger.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"/lib/js/cordova/platformOverrides.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1328,19 +1163,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/lib/scss/includes/screen-saver.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/lib/css/screen-saver.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/lib/scss/includes/swiper.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1353,14 +1175,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/lib/vids/flex-screensaver.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/lib/vids/flex-screensaver.mp4",
-		"oF": 0
 		},
 	"/partials/agile-studio.kit": {
 		"cB": 0,
@@ -1392,14 +1206,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/partials/nav.html",
-		"oF": 0
-		},
-	"/partials/screen-saver.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/partials/screen-saver.html",
 		"oF": 0
 		},
 	"/partials/the-collection.kit": {

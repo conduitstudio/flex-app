@@ -16,67 +16,56 @@
     <title>Flex</title>
   </head>
   <body>
-    
-    <section id="screen-saver" class="page">
-      <a href="" data-goto="home" class="content">
-        <img src="lib/img/pages/screen-saver/screen-saver-typography.jpg">
-      </a>
-      <video autoplay="" loop="" muted="">
-        <source src="lib/vids/flex-screensaver.mp4" type="video/mp4">
-      </video>
-    </section>
-    
+
     <a href="" class="nav-trigger" data-controller="NavTrigger"><span></span></a>
-        <nav>
-          <ul class="menu-items">
-            <li class="home">
-              <a href="" data-goto="home">
-                <img src="lib/img/menu/menu-home-inactive.png" class="in">
-              </a>
-            </li>
-            <li class="agile-studio">
-              <a href="" data-goto="agile-studio">
-                <img src="lib/img/menu/menu-agile-studio-inactive.png" class="inactive">
-                <img src="lib/img/menu/menu-agile-studio-active.png" class="active">
-              </a>
-            </li>
-            <li class="creative-studio">
-              <a href="" data-goto="creative-studio">
-                <img src="lib/img/menu/menu-creative-studio-inactive.png" class="inactive">
-                <img src="lib/img/menu/menu-creative-studio-active.png" class="active">
-              </a>
-            </li>
-            <li class="the-collection">
-              <a href="" data-goto="the-collection">
-                <img src="lib/img/menu/menu-collection-inactive.png" class="inactive">
-                <img src="lib/img/menu/menu-collection-active.png" class="active">
-              </a>
-            </li>
-          </ul>
-        
-          <a href="" class="sleep" data-goto="0"></a>
-        </nav>
-        
+    <nav>
+      <ul class="menu-items">
+        <li class="home">
+          <a href="" data-goto="home">
+            <img src="lib/img/menu/menu-home-inactive.png" class="in">
+          </a>
+        </li>
+        <li class="agile-studio">
+          <a href="" data-goto="agile-studio">
+            <img src="lib/img/menu/menu-agile-studio-inactive.png" class="inactive">
+            <img src="lib/img/menu/menu-agile-studio-active.png" class="active">
+          </a>
+        </li>
+        <li class="creative-studio">
+          <a href="" data-goto="creative-studio">
+            <img src="lib/img/menu/menu-creative-studio-inactive.png" class="inactive">
+            <img src="lib/img/menu/menu-creative-studio-active.png" class="active">
+          </a>
+        </li>
+        <li class="the-collection">
+          <a href="" data-goto="the-collection">
+            <img src="lib/img/menu/menu-collection-inactive.png" class="inactive">
+            <img src="lib/img/menu/menu-collection-active.png" class="active">
+          </a>
+        </li>
+      </ul>
+    
+      <a href="" class="sleep" data-goto="0"></a>
+    </nav>
+    
     <section id="home" class="page">
-              <div class="title"><img src="lib/img/pages/home/steelcase-flex-collection.png"></div>
-              <div id="menu-slideshow" class="swiper-container" data-swiper="true" data-swiper-reset-everytime="true">
-                <div class="swiper-wrapper">
-            			<div class="swiper-slide"><a href="" data-goto="agile-studio"><img src="lib/img/pages/home/AgileStudioTile.png"></a></div>
-                  <div class="swiper-slide"><a href="" data-goto="creative-studio"><img src="lib/img/pages/home/CreativeStudioTile.png"></a></div>
-                  <div class="swiper-slide"><a href="" data-goto="the-collection"><img src="lib/img/pages/home/CollectionTile.png"></a></div>
-            		</div>
-            
-                <!-- Add Pagination -->
-                <div class="swiper-pagination swiper-pagination-bullets"></div>
-            
-                <!-- Add Arrows -->
-                <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
-                <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
-            	</div>
-            
-              <a href="" data-goto="0" class="sleep"></a>
-            </section>
-            
+          <div class="title"><img src="lib/img/pages/home/steelcase-flex-collection.png"></div>
+          <div id="menu-slideshow" class="swiper-container" data-swiper="true" data-swiper-reset-everytime="true">
+            <div class="swiper-wrapper">
+        			<div class="swiper-slide"><a href="" data-goto="agile-studio"><img src="lib/img/pages/home/AgileStudioTile.png"></a></div>
+              <div class="swiper-slide"><a href="" data-goto="creative-studio"><img src="lib/img/pages/home/CreativeStudioTile.png"></a></div>
+              <div class="swiper-slide"><a href="" data-goto="the-collection"><img src="lib/img/pages/home/CollectionTile.png"></a></div>
+        		</div>
+        
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-bullets"></div>
+        
+            <!-- Add Arrows -->
+            <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
+        	</div>
+        </section>
+        
 
     <section id="agile-studio" class="page template-floorplan" data-navitem="agile-studio">
       <div class="title"><img src="lib/img/pages/agile-studio/agile-studio-title.png"></div>
@@ -125,7 +114,7 @@
     </section>
     
     <!-- Sprint Planning -->
-    <div id="agile-studio__sprint-planning" class="modal" style="background-image:url(lib/img/pages/agile-studio/sprint-planning-bg.jpg)">
+    <div id="agile-studio__sprint-planning" class="modal">
     	<div class="container">
     		<img src="lib/img/pages/agile-studio/sprint-planning-modal.png">
     	</div>
@@ -133,7 +122,7 @@
     </div>
     
     <!-- Working in Pairs -->
-    <div id="agile-studio__working-in-pairs" class="modal" style="background-image:url(lib/img/pages/agile-studio/working-in-pairs-bg.jpg)">
+    <div id="agile-studio__working-in-pairs" class="modal">
     	<div class="container">
     		<img src="lib/img/pages/agile-studio/working-in-pairs-modal.png">
     	</div>
@@ -141,7 +130,7 @@
     </div>
     
     <!-- Daily Stand Up -->
-    <div id="agile-studio__daily-stand-up" class="modal" style="background-image:url(lib/img/pages/agile-studio/daily-stand-up-bg.jpg)">
+    <div id="agile-studio__daily-stand-up" class="modal">
     	<div class="container">
     		<img src="lib/img/pages/agile-studio/daily-stand-up-modal.png">
     	</div>
@@ -204,7 +193,7 @@
         </section>
         
         <!-- Workshop -->
-        <div id="creative-studio__workshop" class="modal" style="background-image:url(lib/img/pages/creative-studio/workshop-bg.jpg)">
+        <div id="creative-studio__workshop" class="modal">
         	<div class="container">
         		<img src="lib/img/pages/creative-studio/workshop-modal.png">
         	</div>
@@ -212,7 +201,7 @@
         </div>
         
         <!-- Brainstorm -->
-        <div id="creative-studio__brainstorm" class="modal" style="background-image:url(lib/img/pages/creative-studio/brainstorm-bg.jpg)">
+        <div id="creative-studio__brainstorm" class="modal">
         	<div class="container">
         		<img src="lib/img/pages/creative-studio/brainstorm-modal.png">
         	</div>
@@ -220,7 +209,7 @@
         </div>
         
         <!-- Pitch Share -->
-        <div id="creative-studio__pitch-share" class="modal" style="background-image:url(lib/img/pages/creative-studio/pitch-share-bg.jpg)">
+        <div id="creative-studio__pitch-share" class="modal">
         	<div class="container">
         		<img src="lib/img/pages/creative-studio/pitch-share-modal.png">
         	</div>
@@ -228,7 +217,7 @@
         </div>
         
         <!-- Focus Retreat -->
-        <div id="creative-studio__focus-retreat" class="modal" style="background-image:url(lib/img/pages/creative-studio/focus-retreat-bg.jpg)">
+        <div id="creative-studio__focus-retreat" class="modal">
         	<div class="container">
         		<img src="lib/img/pages/creative-studio/focus-retreat-modal.png">
         	</div>
@@ -312,7 +301,7 @@
             
             
             <!-- Height-Adjustable Desk -->
-            <div id="collection-height-adjustable-desk" class="modal" style="background-image:url(lib/img/pages/the-collection/height-adjustable-desk-bg.png)">
+            <div id="collection-height-adjustable-desk" class="modal">
             	<div class="container">
             		<img src="lib/img/pages/the-collection/height-adjustable-desk-modal.png">
             		<div class="video">
@@ -326,7 +315,7 @@
             
             
             <!-- Tables -->
-            <div id="collection-tables" class="modal" style="background-image:url(lib/img/pages/the-collection/tables-bg.png)">
+            <div id="collection-tables" class="modal">
             	<div class="container">
             		<img src="lib/img/pages/the-collection/tables-modal.png">
             		<div class="video">
@@ -340,7 +329,7 @@
             
             
             <!-- Carts -->
-            <div id="collection-carts" class="modal" style="background-image:url(lib/img/pages/the-collection/carts-bg.jpg)">
+            <div id="collection-carts" class="modal">
             	<div class="container">
             		<img src="lib/img/pages/the-collection/carts-modal.png">
             		<div class="video portrait">
@@ -354,7 +343,7 @@
             
             
             <!-- Acoustic Boundary -->
-            <div id="collection-acoustic-boundary" class="modal" style="background-image:url(lib/img/pages/the-collection/acoustic-boundary-bg.png)">
+            <div id="collection-acoustic-boundary" class="modal">
             	<div class="container">
             		<img src="lib/img/pages/the-collection/acoustic-boundary-modal.png">
             		<div class="video portrait">
@@ -368,7 +357,7 @@
             
             
             <!-- Screens -->
-            <div id="collection-screens" class="modal" style="background-image:url(lib/img/pages/the-collection/screens-bg.jpg)">
+            <div id="collection-screens" class="modal">
             	<div class="container">
             		<img src="lib/img/pages/the-collection/screens-modal.png">
             		<div class="video portrait">
@@ -382,7 +371,7 @@
             
             
             <!-- Markerboard Solutions -->
-            <div id="collection-markerboard-solutions" class="modal" style="background-image:url(lib/img/pages/the-collection/markerboards-bg.jpg)">
+            <div id="collection-markerboard-solutions" class="modal">
             	<div class="container">
             		<img src="lib/img/pages/the-collection/markerboards-modal.png">
             		<div class="video portrait">
@@ -396,7 +385,7 @@
             
             
             <!-- Accessories -->
-            <div id="collection-accessories" class="modal" style="background-image:url(lib/img/pages/the-collection/accessories-bg.jpg)">
+            <div id="collection-accessories" class="modal">
             	<div class="container">
             		<img src="lib/img/pages/the-collection/accessories-modal.png">
             		<div class="video portrait">
@@ -410,7 +399,7 @@
             
             
             <!-- Power Hanger -->
-            <div id="collection-power-hanger" class="modal" style="background-image:url(lib/img/pages/the-collection/power-hanger-bg.jpg)">
+            <div id="collection-power-hanger" class="modal">
             	<div class="container">
             		<img src="lib/img/pages/the-collection/power-hanger-modal.png">
             		<div class="video portrait">

@@ -49,6 +49,11 @@
     display:block;
   }
 }
+@mixin ui-background-image {
+  background-image:url( '../img/ui/background.png' );
+  background-repeat:no-repeat;
+  background-size:cover;
+}
 
 
 /*
@@ -125,6 +130,3 @@ body {
 
 /* Product Slider / "The Collection" */
 @import "includes/product-slider";
-
-/* Screen Saver */
-@import "includes/screen-saver";
