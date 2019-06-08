@@ -905,13 +905,13 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/lib/js/vendor/swiper.min 2.js": {
+	"/lib/js/vendor/swiper.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/lib/js/vendor/min/swiper.min 2.min.js",
+		"oAP": "/lib/js/vendor/min/swiper.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
