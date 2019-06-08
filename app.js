@@ -37,7 +37,11 @@ let Flex = {
 	body: $('body'),
 
 	pages: [],
-	preload: [],
+	preload: [
+		'lib/img/pages/agile-studio/sprint-planning-floorplan.png',
+		'lib/img/pages/agile-studio/working-in-pairs-floorplan.png',
+		'lib/img/pages/agile-studio/daily-stand-up-floorplan.png',
+	],
 
 	// Functions
 	async: function( fx ) {
