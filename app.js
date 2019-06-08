@@ -28,7 +28,7 @@
 
 /* Initialize */
 let Flex = {
-	version: '1.1.1',
+	version: '1.1.2',
 	ratio: 3840/2560,
 	fx_speed: 500,
 
