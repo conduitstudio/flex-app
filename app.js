@@ -32,6 +32,9 @@ let Flex = {
 	ratio: 3840/2560,
 	fx_speed: 500,
 
+	click_event: 'pointerup',
+	cancel_click: false,
+
 	document: $(document),
 	window: $(window),
 	body: $('body'),
@@ -145,6 +148,9 @@ let Flex = {
 			$('<img/>')[0].src = this;
 		});
 
+		// Run all preloaders
+		$('[data-controller="Preload"]').Preload();
+
 	},
 	run: function() { // <= on ready
 
@@ -152,13 +158,15 @@ let Flex = {
 		Flex.setOrientation();
 
 		// General <a> clicks should reset timeout
-		$('a').on('click.flex', function() {
+		$('a').on( Flex.click_event + '.flex', function() {
 			Flex.reset.start_over();
+		}).on('click.disable', function(e) {
+			e.preventDefault();
 		});
 
 		// "Components"
-		Flex.document.on( 'click.flex', '[data-goto]', Flex.on_goto);
-		Flex.document.on( 'click.flex', '[data-openmodal]', Flex.on_openmodal);
+		Flex.document.on( Flex.click_event + '.flex', '[data-goto]', Flex.on_goto).on('click.flex', '[data-goto]', function(e) {e.preventDefault();});
+		Flex.document.on( Flex.click_event + '.flex', '[data-openmodal]', Flex.on_openmodal).on('click.flex', '[data-openmodal]', function(e) {e.preventDefault();});
 		$('[data-controller="NavTrigger"]').NavTrigger();
 		$('[data-slider]').Slider();
 		$('[data-swiper]').Swiper();

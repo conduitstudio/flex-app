@@ -48,9 +48,7 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -546,6 +544,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/the-collection/collection-mobile-power-cart.png": {
+		"ft": 32768,
+		"iS": 4615887,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/collection-mobile-power-cart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/lib/img/pages/the-collection/collection-power-hanger.png": {
 		"ft": 32768,
 		"iS": 1072769,
@@ -696,6 +705,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/ui/blank.gif": {
+		"ft": 4194304,
+		"iS": 1101,
+		"oA": 0,
+		"oAP": "/lib/img/ui/blank.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/lib/img/ui/CloseButton.png": {
 		"ft": 32768,
 		"iS": 1150,
@@ -813,6 +830,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/lib/js/components/min/open-modal.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/lib/js/components/preload.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/lib/js/components/min/preload.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
