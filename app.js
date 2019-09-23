@@ -122,14 +122,16 @@ let Flex = {
 		},
 	},
 	setOrientation: function() {
+		setTimeout( () => { // <= async for edge fullscreen detection / or other animation
 
-		// Set classes
-		if( Flex.window.width() / Flex.window.height() >= Flex.ratio ) {
-			Flex.body.removeClass('size-by-width').addClass('size-by-height');
-		} else {
-			Flex.body.removeClass('size-by-height').addClass('size-by-width');
-		}
+			// Set classes
+			if( Flex.window.width() / Flex.window.height() >= Flex.ratio ) {
+				Flex.body.removeClass('size-by-width').addClass('size-by-height');
+			} else {
+				Flex.body.removeClass('size-by-height').addClass('size-by-width');
+			}
 
+		}, 100 );
 	},
 
 	on_load: function() {
