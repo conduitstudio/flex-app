@@ -70,7 +70,7 @@
   }
 
   // Wait till body is in to transition modals
-  .in & {
+  .in & { // <= .in here is body, so "body.in .modal {}"
     @include transition( opacity 0.5s );
   }
 
