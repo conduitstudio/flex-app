@@ -50,6 +50,7 @@
   .swiper-left, .swiper-right {
     // $image_width: px-to-vh( 2643px, 2560px );
     // width:px-to-vh( 2643px, 2560px ); // <= home main image width
+    min-width:12vh;
     width:calc( ( 100vw - (103.24219vh + 60px) ) / 2 ) ;
   }
 
