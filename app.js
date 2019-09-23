@@ -132,20 +132,29 @@ let Flex = {
 
 	},
 
-
-
 	on_load: function() {
 
 		// TODO: Run onload functions...
 		setTimeout( () => {
 			Flex.body.addClass('in');
 			// $('#screen-saver').removeClass('out').addClass('in');
-			$('#home').removeClass('out').addClass('in');
+			// $('#home').removeClass('out').addClass('in');
 		}, 2000 );
 
 		// Preload Images
 		$(Flex.preload).each(function(){
 			$('<img/>')[0].src = this;
+		});
+
+		// First setup window listener for all images loaded_all_images
+		Flex.window.on('loaded_all_images', function() {
+
+			// Hide loading graphic
+			setTimeout( () => {
+				$('#loader').addClass('out').removeClass('in');
+				$('#home').removeClass('out').addClass('in');
+			}, 4000 );
+
 		});
 
 		// Run all preloaders
@@ -172,7 +181,7 @@ let Flex = {
 		$('[data-swiper]').Swiper();
 
 		// Everything has init, so send out
-		$('.page').addClass('out');
+		$('.page').not('#loader').addClass('out');
 
 
 		// Run on_load()

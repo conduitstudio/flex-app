@@ -48,7 +48,9 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -96,6 +98,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/lib/css/includes/floorplan--creative-studio-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/lib/css/includes/loaders-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/lib/css/includes/loaders-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/lib/css/includes/loaders.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/lib/css/includes/loaders-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -1020,6 +1042,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/lib/scss/includes/loader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/lib/css/loader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/lib/scss/includes/modal.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1094,6 +1129,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/partials/home.html",
+		"oF": 0
+		},
+	"/partials/loader.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/partials/loader.html",
 		"oF": 0
 		},
 	"/partials/nav.kit": {
