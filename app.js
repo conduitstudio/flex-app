@@ -81,9 +81,6 @@ let Flex = {
 				// Go to first slide
 				swiper.slideToLoop( 0, 0, false );
 
-				// Reset center (if changing size with modal open)
-				swiper.update();
-
 				// Update pagination to first slide
 				$this.find('.swiper-pagination > .swiper-pagination-bullet:first-child').addClass('swiper-pagination-bullet-active')
 					.siblings('.swiper-pagination-bullet-active').removeClass('swiper-pagination-bullet-active');
@@ -101,6 +98,10 @@ let Flex = {
 
 				// Bring home back in
 				$home.removeClass('out').addClass('in');
+
+				// Update Home slider to be centeredSlide
+				let home_swiper = $('#menu-slideshow').data('swiper');
+				home_swiper.update();
 
 			}
 
