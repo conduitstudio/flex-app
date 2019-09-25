@@ -56,8 +56,8 @@ let Flex = {
 
 	// Timeout
 	reset: {
-		how_long: 4 * 60 * 1000, // <= 60 * 100 = minute
-		// how_long: 10 * 1000, // <= seconds (for testing)
+		// how_long: 4 * 60 * 1000, // <= 60 * 100 = minute
+		how_long: 10 * 1000, // <= seconds (for testing)
 		timeout: 0,
 		start: function() {
 			Flex.reset.timeout = setTimeout( Flex.reset.do_it, Flex.reset.how_long ); // <= 4 minutes
@@ -77,8 +77,14 @@ let Flex = {
 			$('[data-swiper]').each( function() {
 				const $this = $(this),
 					swiper = $this.data('swiper');
+
+				// Go to first slide
 				swiper.slideToLoop( 0, 0, false );
 
+				// Reset center (if changing size with modal open)
+				swiper.update();
+
+				// Update pagination to first slide
 				$this.find('.swiper-pagination > .swiper-pagination-bullet:first-child').addClass('swiper-pagination-bullet-active')
 					.siblings('.swiper-pagination-bullet-active').removeClass('swiper-pagination-bullet-active');
 			});
