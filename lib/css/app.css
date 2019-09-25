@@ -136,6 +136,6 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .template-product-slider .swiper-slide .product-image { width: 100%; }
 .template-product-slider .swiper-pagination-bullet { background: rgba(168, 168, 168, 0.4); }
 .template-product-slider .swiper-pagination-bullet-active { background: #a8a8a8; }
-.template-product-slider .swiper-left, .template-product-slider .swiper-right { width: 54.96094vh; width: calc( ( 100vw - (54.96094vh + 60px) ) / 2 ); }
+.template-product-slider .swiper-left, .template-product-slider .swiper-right { width: 54.96094vh; width: calc( ( 100vw - (54.96094vh + 60px) ) / 2 ); min-width: 12vh; }
 .template-product-slider .home { left: 0; bottom: 0; display: inline-block; padding: 3.90625vh; position: absolute; }
 .template-product-slider .home:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; background-image: url("../img/ui/HomeButton.png"); content: ''; display: block; }
