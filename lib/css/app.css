@@ -57,7 +57,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .swiper-pagination .swiper-pagination-bullet-active { background: #fff; }
 
 /* Arrows */
-.swiper-left, .swiper-right { background: none; height: 100%; margin: 0; outline: none; position: absolute; top: 0; z-index: 999; }
+.swiper-left, .swiper-right { background: none; height: 100%; margin: 0; outline: none; position: absolute; top: 0; z-index: 9999; }
 .swiper-left:after, .swiper-right:after { background-size: 100%; background-repeat: no-repeat; content: ''; display: block; height: 3.90625vh; width: 3.90625vh; content: ''; margin-top: -1.95313vh; position: absolute; top: 50%; }
 
 .swiper-left { left: 0; }
