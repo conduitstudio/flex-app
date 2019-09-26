@@ -16,7 +16,6 @@
 /* ---------------------------------- */
 
 /* Includes */
-// @codekit-prepend "./lib/js/cordova/platformOverrides.js"
 // @codekit-prepend "./lib/js/vendor/jquery.min.js"
 // @codekit-prepend "./lib/js/vendor/dragdealer.min.js" quiet
 // @codekit-prepend "./lib/js/vendor/mustache.min.js" quiet
@@ -28,9 +27,11 @@
 
 /* Initialize */
 let Flex = {
-	version: '2.0.1',
+	version: '2.1',
 	ratio: 3840/2560,
 	fx_speed: 500,
+	is_app: false,
+	is_web: false,
 
 	click_event: 'pointerup',
 	cancel_click: false,
@@ -172,6 +173,13 @@ let Flex = {
 	},
 	run: function() { // <= on ready
 
+		//
+		if( Flex.is_app ) {
+			alert('Is App');
+		} else if( Flex.is_web ) {
+			alert('Is Web');
+		}
+
 		Flex.window.on('resize.orientation', Flex.setOrientation);
 		Flex.setOrientation();
 
@@ -202,6 +210,11 @@ let Flex = {
 
 	}
 };
+jQuery(function ($) {
+	Flex.run($);
+});
+
+
 console.log( 'Version: ', Flex.version );
 
 
@@ -213,7 +226,3 @@ console.log( 'Version: ', Flex.version );
 
 /* Components */
 // @codekit-append "./lib/js/components/_components.js" quiet
-
-
-// Trigger web if no app
-// @codekit-append "./lib/js/cordova/trigger.js"
