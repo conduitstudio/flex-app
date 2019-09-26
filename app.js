@@ -26,9 +26,9 @@
 /* ---------------------------------- */
 
 /* Initialize */
-alert('agent: "' + navigator.userAgent + '"');
+
 let Flex = {
-	version: '2.1',
+	version: '2.1.1',
 	ratio: 3840/2560,
 	fx_speed: 500,
 	is_app: false,
@@ -181,7 +181,7 @@ let Flex = {
 
 		// Update version
 		setTimeout( () => {
-			$('#version span').html( Flex.version );
+			$('#version span').html( Flex.version + ' - ' + navigator.userAgent );
 		}, 500 );
 
 		Flex.window.on('resize.orientation', Flex.setOrientation);
