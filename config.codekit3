@@ -48,7 +48,9 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -408,6 +410,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/home/AgileStudioTile-web.jpg": {
+		"ft": 16384,
+		"iS": 154317,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/AgileStudioTile-web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/home/AgileStudioTile.jpg": {
+		"ft": 16384,
+		"iS": 660548,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/AgileStudioTile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/home/AgileStudioTile.png": {
 		"ft": 32768,
 		"iS": 1703376,
@@ -419,6 +443,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/home/CollectionTile-web.jpg": {
+		"ft": 16384,
+		"iS": 278287,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/CollectionTile-web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/home/CollectionTile.jpg": {
+		"ft": 16384,
+		"iS": 962600,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/CollectionTile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/home/CollectionTile.png": {
 		"ft": 32768,
 		"iS": 1909190,
@@ -428,6 +474,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/home/CreativeStudioTile-web.jpg": {
+		"ft": 16384,
+		"iS": 261729,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/CreativeStudioTile-web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/home/CreativeStudioTile.jpg": {
+		"ft": 16384,
+		"iS": 911174,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/CreativeStudioTile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/lib/img/pages/home/CreativeStudioTile.png": {

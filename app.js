@@ -147,8 +147,6 @@ let Flex = {
 		// TODO: Run onload functions...
 		setTimeout( () => {
 			Flex.body.addClass('in');
-			// $('#screen-saver').removeClass('out').addClass('in');
-			// $('#home').removeClass('out').addClass('in');
 		}, 2000 );
 
 		// Preload Images
@@ -173,12 +171,17 @@ let Flex = {
 	},
 	run: function() { // <= on ready
 
-		//
+		// alert(navigator.userAgent);
 		if( Flex.is_app ) {
 			alert('Is App');
 		} else if( Flex.is_web ) {
 			alert('Is Web');
 		}
+
+		// Update version
+		setTimeout( () => {
+			$('#version span').html( Flex.version );
+		}, 500 );
 
 		Flex.window.on('resize.orientation', Flex.setOrientation);
 		Flex.setOrientation();
@@ -191,8 +194,8 @@ let Flex = {
 		});
 
 		// "Components"
-		Flex.document.on( Flex.click_event + '.flex', '[data-goto]', Flex.on_goto).on('click.flex', '[data-goto]', function(e) {e.preventDefault();e.stopPropagation();});
-		Flex.document.on( Flex.click_event + '.flex', '[data-openmodal]', Flex.on_openmodal).on('click.flex', '[data-openmodal]', function(e) {e.preventDefault();e.stopPropagation();});
+		$(document).on( Flex.click_event + '.flex-goto', '[data-goto]', Flex.on_goto).on('click.flex', '[data-goto]', function(e) {e.preventDefault();e.stopPropagation();});
+		// $(document).on( Flex.click_event + '.flex-modal', '[data-openmodal]', Flex.on_openmodal).on('click.flex', '[data-openmodal]', function(e) {e.preventDefault();e.stopPropagation();});
 		$('[data-controller="NavTrigger"]').NavTrigger();
 		$('[data-slider]').Slider();
 		$('[data-swiper]').Swiper();
@@ -210,9 +213,10 @@ let Flex = {
 
 	}
 };
-jQuery(function ($) {
-	Flex.run($);
+$(function() {
+	Flex.run();
 });
+
 
 
 console.log( 'Version: ', Flex.version );
