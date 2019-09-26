@@ -34,16 +34,20 @@
     width:px-to-vh( 2643px, 2560px );
 
 		img {
+      @include border-radius( px-to-vh( 10px, 2560px ) );
 			display:block;
+      -webkit-box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.32);
+      -moz-box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.32);
+      box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.32);
 			width:100%;
 		}
     .title {
-      bottom:px-to-vh( 54px );
+      bottom:px-to-vh( 40px );
       // color:#fff;
       color:pink;
       font-size:px-to-vh( 27px );
       left:0;
-      letter-spacing:0.04em;
+      letter-spacing:0.055em;
       position:absolute;
       text-align:center;
       width:100%;
@@ -51,7 +55,7 @@
     .button {
       background:rgba( 0, 0, 0, 0.2 );
       border:1px solid #fff;
-      bottom:px-to-vh( 46.5px );
+      bottom:px-to-vh( 32.5px );
       color:pink;
       left:50%;
       font-size:px-to-vh( 9px );

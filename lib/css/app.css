@@ -113,9 +113,9 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 
 #menu-slideshow { /* Arrows */ }
 #menu-slideshow .swiper-slide { width: 103.24219vh; }
-#menu-slideshow .swiper-slide img { display: block; width: 100%; }
-#menu-slideshow .swiper-slide .title { bottom: 8.08383vh; color: pink; font-size: 4.04192vh; left: 0; letter-spacing: 0.04em; position: absolute; text-align: center; width: 100%; }
-#menu-slideshow .swiper-slide .button { background: rgba(0, 0, 0, 0.2); border: 1px solid #fff; bottom: 6.96108vh; color: pink; left: 50%; font-size: 1.34731vh; font-weight: bold; line-height: 4.64072vh; height: 4.64072vh; margin-left: -7.18563vh; position: absolute; text-align: center; text-decoration: none; text-transform: uppercase; width: 14.37126vh; }
+#menu-slideshow .swiper-slide img { -moz-border-radius: 0.39063vh; -webkit-border-radius: 0.39063vh; border-radius: 0.39063vh; display: block; -webkit-box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.32); -moz-box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.32); box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.32); width: 100%; }
+#menu-slideshow .swiper-slide .title { bottom: 5.98802vh; color: pink; font-size: 4.04192vh; left: 0; letter-spacing: 0.055em; position: absolute; text-align: center; width: 100%; }
+#menu-slideshow .swiper-slide .button { background: rgba(0, 0, 0, 0.2); border: 1px solid #fff; bottom: 4.86527vh; color: pink; left: 50%; font-size: 1.34731vh; font-weight: bold; line-height: 4.64072vh; height: 4.64072vh; margin-left: -7.18563vh; position: absolute; text-align: center; text-decoration: none; text-transform: uppercase; width: 14.37126vh; }
 #menu-slideshow .swiper-left, #menu-slideshow .swiper-right { min-width: 12vh; width: calc( ( 100vw - (103.24219vh + 60px) ) / 2 ); }
 
 /* Modal */

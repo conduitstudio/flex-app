@@ -147,8 +147,6 @@ let Flex = {
 		// TODO: Run onload functions...
 		setTimeout( () => {
 			Flex.body.addClass('in');
-			// $('#screen-saver').removeClass('out').addClass('in');
-			// $('#home').removeClass('out').addClass('in');
 		}, 2000 );
 
 		// Preload Images
@@ -173,7 +171,7 @@ let Flex = {
 	},
 	run: function() { // <= on ready
 
-		//
+		// alert(navigator.userAgent);
 		if( Flex.is_app ) {
 			alert('Is App');
 		} else if( Flex.is_web ) {
