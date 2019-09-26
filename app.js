@@ -183,8 +183,8 @@ let Flex = {
 		});
 
 		// "Components"
-		Flex.document.on( Flex.click_event + '.flex', '[data-goto]', Flex.on_goto).on('click.flex', '[data-goto]', function(e) {e.preventDefault();e.stopPropagation();alert('on_click 1')});
-		Flex.document.on( Flex.click_event + '.flex', '[data-openmodal]', Flex.on_openmodal).on('click.flex', '[data-openmodal]', function(e) {e.preventDefault();e.stopPropagation();alert('on_click 1')});
+		Flex.document.on( Flex.click_event + '.flex', '[data-goto]', Flex.on_goto).on('click.flex', '[data-goto]', function(e) {e.preventDefault();e.stopPropagation();});
+		Flex.document.on( Flex.click_event + '.flex', '[data-openmodal]', Flex.on_openmodal).on('click.flex', '[data-openmodal]', function(e) {e.preventDefault();e.stopPropagation();});
 		$('[data-controller="NavTrigger"]').NavTrigger();
 		$('[data-slider]').Slider();
 		$('[data-swiper]').Swiper();
