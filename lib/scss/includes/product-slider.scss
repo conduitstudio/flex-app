@@ -17,7 +17,6 @@
 		text-align:center;
     width:px-to-vh( 1407px, 2560px );
 
-		a,
 		img {
 			display:block;
 		}
@@ -25,6 +24,27 @@
 		.product-image {
 			width:100%;
 		}
+
+    .a-holder {
+      bottom:px-to-vh( 46.5px );
+      position:absolute;
+      text-align:center;
+      width:100%;
+
+			a {
+	      background:rgba( 0, 0, 0, 0.2 );
+	      border:1px solid #fff;
+	      color:pink;
+				display:inline-block;
+	      font-size:px-to-vh( 9px );
+	      font-weight:bold;
+	      line-height:px-to-vh( 31px );
+	      height:px-to-vh( 31px );
+				padding:0 px-to-vh( 28px );
+	      text-decoration:none;
+	      text-transform:uppercase;;
+			}
+    }
   }
   .swiper-pagination-bullet {
     background:rgba( 168,168,168,0.4 );

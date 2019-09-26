@@ -135,8 +135,10 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .template-product-slider .title { padding-top: 4.80469vh; padding-bottom: 6.44531vh; text-align: center; }
 .template-product-slider .title img { display: block; height: 3.24219vh; margin: 0 auto; }
 .template-product-slider .swiper-slide { text-align: center; width: 54.96094vh; }
-.template-product-slider .swiper-slide a, .template-product-slider .swiper-slide img { display: block; }
+.template-product-slider .swiper-slide img { display: block; }
 .template-product-slider .swiper-slide .product-image { width: 100%; }
+.template-product-slider .swiper-slide .a-holder { bottom: 6.96108vh; position: absolute; text-align: center; width: 100%; }
+.template-product-slider .swiper-slide .a-holder a { background: rgba(0, 0, 0, 0.2); border: 1px solid #fff; color: pink; display: inline-block; font-size: 1.34731vh; font-weight: bold; line-height: 4.64072vh; height: 4.64072vh; padding: 0 4.19162vh; text-decoration: none; text-transform: uppercase; }
 .template-product-slider .swiper-pagination-bullet { background: rgba(168, 168, 168, 0.4); }
 .template-product-slider .swiper-pagination-bullet-active { background: #a8a8a8; }
 .template-product-slider .swiper-left, .template-product-slider .swiper-right { width: 54.96094vh; width: calc( ( 100vw - (54.96094vh + 60px) ) / 2 ); min-width: 12vh; }
