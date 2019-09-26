@@ -26,6 +26,7 @@
 /* ---------------------------------- */
 
 /* Initialize */
+alert('agent: "' + navigator.userAgent + '"');
 let Flex = {
 	version: '2.1',
 	ratio: 3840/2560,
