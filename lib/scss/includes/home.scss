@@ -4,57 +4,73 @@
   .title {
     // Total height should be 370px
     padding:px-to-vh( 155px, 2560px ) 0;
+    position:relative;
     text-align:center;
 
+
+    .title-text {
+      // color:#171e42;
+      color:pink;
+      font-size:px-to-vh( 21px );
+      letter-spacing:0.01em;
+      position:relative;
+      z-index:1;
+    }
+
+
     img {
-      display:block;
       height:px-to-vh( 61px, 2560px ); // <= was 151
-			margin:0 auto;
+      left:50%;
+      position:absolute;
+      top:50%;
+      transform:translateX(-50%) translateY(-50%);
     }
   }
-
-  // #menu-slideshow <= below
-
-  // .sleep {
-  //   left:0;
-  //   bottom:0;
-  //   display:inline-block;
-  //   padding:px-to-vh( 100px, 2560px );
-  //   position:absolute;
-  //
-  //   &:after {
-  //     @include icon;
-  //     background-image:url('../img/ui/DarkSnoozeButton.png');
-  //     content:'';
-  //     display:block;
-  //   }
-  // }
 }
 
 // More styles in globals/swiper.scss
 #menu-slideshow {
   .swiper-slide {
-    text-align: center;
-    font-size: 18px;
     width:px-to-vh( 2643px, 2560px );
 
-		a,
 		img {
 			display:block;
 			width:100%;
 		}
+    .title {
+      bottom:px-to-vh( 54px );
+      // color:#fff;
+      color:pink;
+      font-size:px-to-vh( 27px );
+      left:0;
+      letter-spacing:0.04em;
+      position:absolute;
+      text-align:center;
+      width:100%;
+    }
+    .button {
+      background:rgba( 0, 0, 0, 0.2 );
+      border:1px solid #fff;
+      bottom:px-to-vh( 46.5px );
+      color:pink;
+      left:50%;
+      font-size:px-to-vh( 9px );
+      font-weight:bold;
+      line-height:px-to-vh( 31px );
+      height:px-to-vh( 31px );
+      margin-left:px-to-vh(-96px/2);
+      position:absolute;
+      text-align:center;
+      text-decoration:none;
+      text-transform:uppercase;
+      width:px-to-vh( 96px );
+    }
   }
 
 
   /* Arrows */
   .swiper-left, .swiper-right {
-    // $image_width: px-to-vh( 2643px, 2560px );
-    // width:px-to-vh( 2643px, 2560px ); // <= home main image width
     min-width:12vh;
     width:calc( ( 100vw - (103.24219vh + 60px) ) / 2 ) ;
   }
-
-  // .swiper-pagination {
-  //   bottom:px-to-vh( -143px, 2560px ) !important;
-  // }
 }
