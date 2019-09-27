@@ -123,8 +123,16 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 
 /* Modal */
 .modal { background-image: url("../img/ui/background.png"); background-repeat: no-repeat; background-size: cover; bottom: 0; left: 0; opacity: 0; pointer-events: none; position: absolute; right: 0; top: 0; z-index: 10; }
-.modal .container { height: 90.625vh; left: 50%; margin: -44.14063vh auto auto -70.15625vh; overflow: hidden; position: absolute; top: 50%; width: 140.3125vh; }
-.modal img { display: block; height: 100%; }
+.modal .container { height: 90.625vh; left: 50%; transform: translate3d(-50%, -50%, 0); position: absolute; top: 50%; width: auto; }
+.modal .content { bottom: 3.29341vh; box-sizing: border-box; color: pink; height: 25.7485vh; padding: 2.69461vh 2.99401vh 0; position: absolute; right: 3.29341vh; width: 43.86228vh; }
+.modal .content .title, .modal .content .description { position: relative; }
+.modal .content .title { font-size: 3.36826vh; margin-bottom: 1.79641vh; }
+.modal .content .description { font-size: 1.94611vh; font-weight: lighter; line-height: 1.25em; }
+.modal .content .description li { list-style-type: none; margin-bottom: 2.39521vh; position: relative; }
+.modal .content .description li:before { content: "\2219"; font-size: 2.0em; line-height: 0; position: absolute; top: 0.3em; left: -0.3em; }
+.modal .content .description li:last-child { margin-bottom: 0; }
+.modal .content .blur { background-position: bottom right; background-position: right -3.29341vh bottom -3.29341vh; background-repeat: no-repeat; background-size: auto 90.625vh; content: ''; position: absolute; bottom: 0; right: 0; top: 0; left: 0; }
+.modal img { -moz-border-radius: 0.39063vh; -webkit-border-radius: 0.39063vh; border-radius: 0.39063vh; display: block; -moz-box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.32); -webkit-box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.32); box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.32); height: 100%; }
 .modal .video { position: absolute; bottom: 2.30469vh; height: auto; left: auto; right: 0.78125vh; width: 46.09375vh; }
 .modal .video video { display: block; pointer-events: none; }
 .modal .video video { border-radius: 0 0 0.48828vh 0; height: auto; width: 100%; }

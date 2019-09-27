@@ -257,6 +257,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/agile-studio/daily-stand-up-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 1227855,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/daily-stand-up-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 443277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/agile-studio/sprint-planning-floorplan.png": {
 		"ft": 32768,
 		"iS": 97713,
@@ -277,6 +299,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/sprint-planning-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 947840,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/sprint-planning-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/sprint-planning-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 403897,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/sprint-planning-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/lib/img/pages/agile-studio/working-in-pairs-floorplan.png": {
@@ -301,6 +345,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/agile-studio/working-in-pairs-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 1625909,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/working-in-pairs-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 508064,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/creative-studio/brainstorm-floorplan.png": {
 		"ft": 32768,
 		"iS": 94155,
@@ -321,6 +387,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/brainstorm-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 1310913,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/brainstorm-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/brainstorm-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 506181,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/brainstorm-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/lib/img/pages/creative-studio/creative-studio-slider.gif": {
@@ -364,6 +452,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/creative-studio/focus-retreat-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 1352007,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/focus-retreat-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/focus-retreat-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 461687,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/focus-retreat-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/creative-studio/pitch-share-floorplan.png": {
 		"ft": 32768,
 		"iS": 110224,
@@ -386,6 +496,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/lib/img/pages/creative-studio/pitch-share-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 1237046,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/pitch-share-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/pitch-share-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 432114,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/pitch-share-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/lib/img/pages/creative-studio/workshop-floorplan.png": {
 		"ft": 32768,
 		"iS": 103859,
@@ -406,6 +538,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/workshop-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 1795860,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/workshop-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/workshop-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 630276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/workshop-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/lib/img/pages/home/AgileStudioTile.png": {
