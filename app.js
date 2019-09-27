@@ -31,7 +31,7 @@ let Flex = {
 	version: '2.1.1',
 	ratio: 3840/2560,
 	fx_speed: 500,
-	is_app: false,
+	is_app: true,
 	is_web: false,
 
 	click_event: 'pointerup',
@@ -55,6 +55,19 @@ let Flex = {
 	after_animation: function( fx ) {
 		setTimeout( fx, Flex.fx_speed );
 	},
+	get_query_var: function( variable ) {
+     var query = window.location.search.substring(1);
+     var vars = query.split("&");
+     for (var i=0;i<vars.length;i++) {
+       var pair = vars[i].split("=");
+       if(pair[0] == variable){return pair[1];}
+     }
+     return(false);
+	},
+	get_page: function() {
+		return Flex.get_query_var( 'page' );
+	},
+	
 
 	// Timeout
 	reset: {
@@ -161,8 +174,14 @@ let Flex = {
 			// Hide loading graphic
 			setTimeout( () => {
 				$('#loader').addClass('out').removeClass('in');
-				$('#home').removeClass('out').addClass('in');
-			}, 4000 );
+
+				// If we have a page, load that page in... else load home page
+				if( Flex.get_page() ) {
+					Flex.goto( Flex.get_page() );
+				} else {
+					$('#home').removeClass('out').addClass('in');
+				}
+			}, 3000 );
 
 		});
 
@@ -173,11 +192,11 @@ let Flex = {
 	run: function() { // <= on ready
 
 		// alert(navigator.userAgent);
-		if( Flex.is_app ) {
-			alert('Is App');
-		} else if( Flex.is_web ) {
-			alert('Is Web');
-		}
+		// if( Flex.is_app ) {
+		// 	alert('Is App');
+		// } else if( Flex.is_web ) {
+		// 	alert('Is Web');
+		// }
 
 		// Update version
 		setTimeout( () => {
@@ -195,8 +214,8 @@ let Flex = {
 		});
 
 		// "Components"
-		$(document).on( Flex.click_event + '.flex-goto', '[data-goto]', Flex.on_goto).on('click.flex', '[data-goto]', function(e) {e.preventDefault();e.stopPropagation();});
-		// $(document).on( Flex.click_event + '.flex-modal', '[data-openmodal]', Flex.on_openmodal).on('click.flex', '[data-openmodal]', function(e) {e.preventDefault();e.stopPropagation();});
+		Flex.document.on( Flex.click_event + '.flex-goto', '[data-goto]', Flex.on_goto).on('click.flex', '[data-goto]', function(e) {e.preventDefault();e.stopPropagation();});
+		Flex.document.on( Flex.click_event + '.flex-modal', '[data-openmodal]', Flex.on_openmodal).on('click.flex', '[data-openmodal]', function(e) {e.preventDefault();e.stopPropagation();});
 		$('[data-controller="NavTrigger"]').NavTrigger();
 		$('[data-slider]').Slider();
 		$('[data-swiper]').Swiper();
@@ -204,12 +223,20 @@ let Flex = {
 		// Everything has init, so send out
 		$('.page').not('#loader').addClass('out');
 
+		// Listen for popstate
+		Flex.window.on('popstate', function(e) {
+			var page = "";
+			if(e.state) {
+				page = e.state.page;
+			}
+			Flex.goto( Flex.get_page() );
+		});
 
 		// Run on_load()
 	  if (document.readyState === 'complete') {
 	    Flex.on_load();
 	  } else {
-	    window.addEventListener("load", Flex.on_load);
+			Flex.window.on('load', Flex.on_load);
 	  }
 
 	}
@@ -217,6 +244,7 @@ let Flex = {
 $(function() {
 	Flex.run();
 });
+
 
 
 
