@@ -173,6 +173,8 @@ let Flex = {
 
 			// Hide loading graphic
 			setTimeout( () => {
+
+				// Loaders
 				$('#loader').addClass('out').removeClass('in');
 
 				// If we have a page, load that page in... else load home page
@@ -181,6 +183,13 @@ let Flex = {
 				} else {
 					$('#home').removeClass('out').addClass('in');
 				}
+
+				// Update after potential resize
+				$('[data-swiper]').each( function() {
+					const swiper = $(this).data('swiper');
+					swiper.update();
+				});
+
 			}, 300 );
 
 		});
