@@ -28,7 +28,7 @@
 /* Initialize */
 
 let Flex = {
-	version: '2.1.1',
+	version: '2.1.2',
 	ratio: 3840/2560,
 	fx_speed: 500,
 	is_app: true,
@@ -67,7 +67,7 @@ let Flex = {
 	get_page: function() {
 		return Flex.get_query_var( 'page' );
 	},
-	
+
 
 	// Timeout
 	reset: {
