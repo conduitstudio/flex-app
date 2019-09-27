@@ -28,10 +28,10 @@
 /* Initialize */
 
 let Flex = {
-	version: '2.1.2',
+	version: '2.1.3',
 	ratio: 3840/2560,
 	fx_speed: 500,
-	is_app: true,
+	is_app: false,
 	is_web: false,
 
 	click_event: 'pointerup',
@@ -181,7 +181,7 @@ let Flex = {
 				} else {
 					$('#home').removeClass('out').addClass('in');
 				}
-			}, 3000 );
+			}, 300 );
 
 		});
 
@@ -191,16 +191,16 @@ let Flex = {
 	},
 	run: function() { // <= on ready
 
-		// alert(navigator.userAgent);
-		// if( Flex.is_app ) {
-		// 	alert('Is App');
-		// } else if( Flex.is_web ) {
-		// 	alert('Is Web');
-		// }
+		// Detect if web or app
+		if ( navigator.userAgent.match( /MSAppHost/i ) ) {
+			Flex.is_app = true;
+		} else {
+			Flex.is_web = true;
+		}
 
 		// Update version
 		setTimeout( () => {
-			$('#version span').html( Flex.version + ' - ' + navigator.userAgent );
+			$('#version span').html( Flex.version );
 		}, 500 );
 
 		Flex.window.on('resize.orientation', Flex.setOrientation);

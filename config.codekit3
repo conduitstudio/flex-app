@@ -408,28 +408,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/AgileStudioTile-web.jpg": {
-		"ft": 16384,
-		"iS": 154317,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/home/AgileStudioTile-web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/home/AgileStudioTile.jpg": {
-		"ft": 16384,
-		"iS": 660548,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/home/AgileStudioTile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/lib/img/pages/home/AgileStudioTile.png": {
 		"ft": 32768,
 		"iS": 1703376,
@@ -441,23 +419,23 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/CollectionTile-web.jpg": {
+	"/lib/img/pages/home/AgileStudioTile@app.jpg": {
 		"ft": 16384,
-		"iS": 278287,
+		"iS": 660548,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/home/CollectionTile-web.jpg",
+		"oAP": "/lib/img/pages/home/AgileStudioTile@app.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/lib/img/pages/home/CollectionTile.jpg": {
+	"/lib/img/pages/home/AgileStudioTile@web.jpg": {
 		"ft": 16384,
-		"iS": 962600,
+		"iS": 154317,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/home/CollectionTile.jpg",
+		"oAP": "/lib/img/pages/home/AgileStudioTile@web.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -474,23 +452,23 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/home/CreativeStudioTile-web.jpg": {
+	"/lib/img/pages/home/CollectionTile@app.jpg": {
 		"ft": 16384,
-		"iS": 261729,
+		"iS": 962600,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/home/CreativeStudioTile-web.jpg",
+		"oAP": "/lib/img/pages/home/CollectionTile@app.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/lib/img/pages/home/CreativeStudioTile.jpg": {
+	"/lib/img/pages/home/CollectionTile@web.jpg": {
 		"ft": 16384,
-		"iS": 911174,
+		"iS": 278287,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/home/CreativeStudioTile.jpg",
+		"oAP": "/lib/img/pages/home/CollectionTile@web.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -505,6 +483,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/home/CreativeStudioTile@app.jpg": {
+		"ft": 16384,
+		"iS": 911174,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/CreativeStudioTile@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/home/CreativeStudioTile@web.jpg": {
+		"ft": 16384,
+		"iS": 261729,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/home/CreativeStudioTile@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/lib/img/pages/home/steelcase-flex-collection.png": {
@@ -1024,9 +1024,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "/lib/js/vendor/min/swiper.min.js",
-		"oF": 0,
+		"oA": 0,
+		"oAP": "/lib/js/vendor/swiper.min.js",
+		"oF": 3,
 		"sC": 0,
 		"tS": 0
 		},
