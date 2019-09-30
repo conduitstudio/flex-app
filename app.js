@@ -28,7 +28,7 @@
 /* Initialize */
 
 let Flex = {
-	version: '2.1.5',
+	version: '2.1.6',
 	ratio: 3840/2560,
 	fx_speed: 500,
 	is_app: false,
@@ -43,6 +43,7 @@ let Flex = {
 
 	pages: [],
 	preload: [
+		'lib/img/ui/background.jpg',
 		'lib/img/pages/agile-studio/sprint-planning-floorplan.png',
 		'lib/img/pages/agile-studio/working-in-pairs-floorplan.png',
 		'lib/img/pages/agile-studio/daily-stand-up-floorplan.png',

@@ -246,34 +246,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/daily-stand-up-modal.png": {
-		"ft": 32768,
-		"iS": 3708649,
-		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-modal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/agile-studio/daily-stand-up-modal@app.jpg": {
+	"/lib/img/pages/agile-studio/Daily-Stand-Up.jpg": {
 		"ft": 16384,
-		"iS": 1227855,
+		"iS": 1047745,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-modal@app.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/agile-studio/daily-stand-up-modal@web.jpg": {
-		"ft": 16384,
-		"iS": 443277,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/daily-stand-up-modal@web.jpg",
+		"oAP": "/lib/img/pages/agile-studio/Daily-Stand-Up.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -290,34 +268,111 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/sprint-planning-modal.png": {
-		"ft": 32768,
-		"iS": 13852108,
+	"/lib/img/pages/agile-studio/Sprint-Planning.jpg": {
+		"ft": 16384,
+		"iS": 638792,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/sprint-planning-modal.png",
+		"oAP": "/lib/img/pages/agile-studio/Sprint-Planning.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/v1/daily-stand-up-modal.png": {
+		"ft": 32768,
+		"iS": 3708649,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/v1/daily-stand-up-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/sprint-planning-modal@app.jpg": {
+	"/lib/img/pages/agile-studio/v1/daily-stand-up-modal@app.jpg": {
 		"ft": 16384,
-		"iS": 947840,
+		"iS": 1227855,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/sprint-planning-modal@app.jpg",
+		"oAP": "/lib/img/pages/agile-studio/v1/daily-stand-up-modal@app.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/sprint-planning-modal@web.jpg": {
+	"/lib/img/pages/agile-studio/v1/daily-stand-up-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 443277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/v1/daily-stand-up-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/v1/sprint-planning-modal.png": {
+		"ft": 32768,
+		"iS": 13852108,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/v1/sprint-planning-modal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/v1/sprint-planning-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 947840,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/v1/sprint-planning-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/v1/sprint-planning-modal@web.jpg": {
 		"ft": 16384,
 		"iS": 403897,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/sprint-planning-modal@web.jpg",
+		"oAP": "/lib/img/pages/agile-studio/v1/sprint-planning-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/v1/working-in-pairs-modal.png": {
+		"ft": 32768,
+		"iS": 15404830,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/v1/working-in-pairs-modal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/v1/working-in-pairs-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 1625909,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/v1/working-in-pairs-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/agile-studio/v1/working-in-pairs-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 508064,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/agile-studio/v1/working-in-pairs-modal@web.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -334,34 +389,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/agile-studio/working-in-pairs-modal.png": {
-		"ft": 32768,
-		"iS": 15404830,
-		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-modal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/agile-studio/working-in-pairs-modal@app.jpg": {
+	"/lib/img/pages/agile-studio/Working-in-Pairs.jpg": {
 		"ft": 16384,
-		"iS": 1625909,
+		"iS": 1542754,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-modal@app.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/agile-studio/working-in-pairs-modal@web.jpg": {
-		"ft": 16384,
-		"iS": 508064,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/agile-studio/working-in-pairs-modal@web.jpg",
+		"oAP": "/lib/img/pages/agile-studio/Working-in-Pairs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -378,34 +411,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/brainstorm-modal.png": {
-		"ft": 32768,
-		"iS": 3604048,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/brainstorm-modal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/brainstorm-modal@app.jpg": {
+	"/lib/img/pages/creative-studio/Brainstorm.jpg": {
 		"ft": 16384,
-		"iS": 1310913,
+		"iS": 1172067,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/brainstorm-modal@app.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/brainstorm-modal@web.jpg": {
-		"ft": 16384,
-		"iS": 506181,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/brainstorm-modal@web.jpg",
+		"oAP": "/lib/img/pages/creative-studio/Brainstorm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -441,34 +452,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/focus-retreat-modal.png": {
-		"ft": 32768,
-		"iS": 3721665,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/focus-retreat-modal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/focus-retreat-modal@app.jpg": {
+	"/lib/img/pages/creative-studio/Focus-Retreat.jpg": {
 		"ft": 16384,
-		"iS": 1352007,
+		"iS": 1243878,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/focus-retreat-modal@app.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/focus-retreat-modal@web.jpg": {
-		"ft": 16384,
-		"iS": 461687,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/focus-retreat-modal@web.jpg",
+		"oAP": "/lib/img/pages/creative-studio/Focus-Retreat.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -485,34 +474,144 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/pitch-share-modal.png": {
-		"ft": 32768,
-		"iS": 13852108,
+	"/lib/img/pages/creative-studio/Pitch-Share.jpg": {
+		"ft": 16384,
+		"iS": 1074481,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/pitch-share-modal.png",
+		"oAP": "/lib/img/pages/creative-studio/Pitch-Share.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/v1/brainstorm-modal.png": {
+		"ft": 32768,
+		"iS": 3604048,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/v1/brainstorm-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/pitch-share-modal@app.jpg": {
+	"/lib/img/pages/creative-studio/v1/brainstorm-modal@app.jpg": {
 		"ft": 16384,
-		"iS": 1237046,
+		"iS": 1310913,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/pitch-share-modal@app.jpg",
+		"oAP": "/lib/img/pages/creative-studio/v1/brainstorm-modal@app.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/pitch-share-modal@web.jpg": {
+	"/lib/img/pages/creative-studio/v1/brainstorm-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 506181,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/v1/brainstorm-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/v1/focus-retreat-modal.png": {
+		"ft": 32768,
+		"iS": 3721665,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/v1/focus-retreat-modal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/v1/focus-retreat-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 1352007,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/v1/focus-retreat-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/v1/focus-retreat-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 461687,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/v1/focus-retreat-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/v1/pitch-share-modal.png": {
+		"ft": 32768,
+		"iS": 13852108,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/v1/pitch-share-modal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/v1/pitch-share-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 1237046,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/v1/pitch-share-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/v1/pitch-share-modal@web.jpg": {
 		"ft": 16384,
 		"iS": 432114,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/pitch-share-modal@web.jpg",
+		"oAP": "/lib/img/pages/creative-studio/v1/pitch-share-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/v1/workshop-modal.png": {
+		"ft": 32768,
+		"iS": 4586862,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/v1/workshop-modal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/v1/workshop-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 1795860,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/v1/workshop-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/creative-studio/v1/workshop-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 630276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/creative-studio/v1/workshop-modal@web.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -529,34 +628,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/workshop-modal.png": {
-		"ft": 32768,
-		"iS": 4586862,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/workshop-modal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/workshop-modal@app.jpg": {
+	"/lib/img/pages/creative-studio/Workshop.jpg": {
 		"ft": 16384,
-		"iS": 1795860,
+		"iS": 1715228,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/workshop-modal@app.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/lib/img/pages/creative-studio/workshop-modal@web.jpg": {
-		"ft": 16384,
-		"iS": 630276,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/workshop-modal@web.jpg",
+		"oAP": "/lib/img/pages/creative-studio/Workshop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -672,162 +749,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/accessories-modal.png": {
-		"ft": 32768,
-		"iS": 1948586,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/accessories-modal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/accessories-video.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/accessories-video.mp4",
-		"oF": 0
-		},
-	"/lib/img/pages/the-collection/acoustic-boundary-modal.png": {
-		"ft": 32768,
-		"iS": 2064400,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/acoustic-boundary-modal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/acoustic-boundary-video.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/19-0118901.mp4",
-		"oF": 0
-		},
-	"/lib/img/pages/the-collection/carts-modal.png": {
-		"ft": 32768,
-		"iS": 1858945,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/carts-modal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/carts-video.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/carts-video.mp4",
-		"oF": 0
-		},
-	"/lib/img/pages/the-collection/collection-accessories.png": {
-		"ft": 32768,
-		"iS": 1225365,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-accessories.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-acoustic-boundary.png": {
-		"ft": 32768,
-		"iS": 1268713,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-acoustic-boundary.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-carts.png": {
-		"ft": 32768,
-		"iS": 1142164,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-carts.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-heigh-adjustable-desk.png": {
-		"ft": 32768,
-		"iS": 960403,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-heigh-adjustable-desk.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-markerboard-solutions.png": {
-		"ft": 32768,
-		"iS": 1319871,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-markerboard-solutions.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-mobile-power-cart.png": {
-		"ft": 32768,
-		"iS": 4615887,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-mobile-power-cart.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-power-hanger.png": {
-		"ft": 32768,
-		"iS": 1072769,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-power-hanger.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-screens.png": {
-		"ft": 32768,
-		"iS": 1319237,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-screens.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lib/img/pages/the-collection/collection-tables.png": {
-		"ft": 32768,
-		"iS": 1265536,
-		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/collection-tables.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/lib/img/pages/the-collection/collection-title.png": {
 		"ft": 32768,
 		"iS": 3791,
@@ -839,110 +760,659 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/height-adjustable-desk-modal.png": {
+	"/lib/img/pages/the-collection/modals/top-left/Accessories.jpg": {
+		"ft": 16384,
+		"iS": 482803,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/top-left/Accessories.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/modals/top-left/Acoustic-Boundary.jpg": {
+		"ft": 16384,
+		"iS": 545800,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/top-left/Acoustic-Boundary.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/modals/top-left/Carts.jpg": {
+		"ft": 16384,
+		"iS": 449301,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/top-left/Carts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/modals/top-left/Height-Adjustable-Desk.jpg": {
+		"ft": 16384,
+		"iS": 411747,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/top-left/Height-Adjustable-Desk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/modals/top-left/Markerboards.jpg": {
+		"ft": 16384,
+		"iS": 353854,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/top-left/Markerboards.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/modals/top-left/Mobile-Power.jpg": {
+		"ft": 16384,
+		"iS": 505810,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/top-left/Mobile-Power.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/modals/top-left/Power-Hanger.jpg": {
+		"ft": 16384,
+		"iS": 356234,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/top-left/Power-Hanger.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/modals/top-left/Screens.jpg": {
+		"ft": 16384,
+		"iS": 553825,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/top-left/Screens.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/modals/top-left/Tables.jpg": {
+		"ft": 16384,
+		"iS": 439771,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/top-left/Tables.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/modals/videos/accessories-video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/videos/accessories-video.mp4",
+		"oF": 0
+		},
+	"/lib/img/pages/the-collection/modals/videos/acoustic-boundary-video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/videos/acoustic-boundary-video.mp4",
+		"oF": 0
+		},
+	"/lib/img/pages/the-collection/modals/videos/carts-video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/videos/carts-video.mp4",
+		"oF": 0
+		},
+	"/lib/img/pages/the-collection/modals/videos/height-adjustable-desk-video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/videos/height-adjustable-desk-video.mp4",
+		"oF": 0
+		},
+	"/lib/img/pages/the-collection/modals/videos/markerboards-video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/videos/markerboards-video.mp4",
+		"oF": 0
+		},
+	"/lib/img/pages/the-collection/modals/videos/power-hanger-video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/videos/power-hanger-video.mp4",
+		"oF": 0
+		},
+	"/lib/img/pages/the-collection/modals/videos/screens-video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/videos/screens-video.mp4",
+		"oF": 0
+		},
+	"/lib/img/pages/the-collection/modals/videos/tables-video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/modals/videos/tables-video.mp4",
+		"oF": 0
+		},
+	"/lib/img/pages/the-collection/ratio-holder.gif": {
+		"ft": 4194304,
+		"iS": 2304,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/ratio-holder.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/lib/img/pages/the-collection/sliders/Card-Accessories.jpg": {
+		"ft": 16384,
+		"iS": 353612,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/sliders/Card-Accessories.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/sliders/Card-Acoustic-Boundary.jpg": {
+		"ft": 16384,
+		"iS": 369180,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/sliders/Card-Acoustic-Boundary.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/sliders/Card-Carts.jpg": {
+		"ft": 16384,
+		"iS": 297080,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/sliders/Card-Carts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/sliders/Card-Height-Adjustable-Desk.jpg": {
+		"ft": 16384,
+		"iS": 297861,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/sliders/Card-Height-Adjustable-Desk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/sliders/Card-Markerboards.jpg": {
+		"ft": 16384,
+		"iS": 246061,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/sliders/Card-Markerboards.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/sliders/Card-Mobile-Power.jpg": {
+		"ft": 16384,
+		"iS": 375117,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/sliders/Card-Mobile-Power.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/sliders/Card-Power-Hanger.jpg": {
+		"ft": 16384,
+		"iS": 251175,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/sliders/Card-Power-Hanger.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/sliders/Card-Screens.jpg": {
+		"ft": 16384,
+		"iS": 496772,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/sliders/Card-Screens.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/sliders/Card-Tables.jpg": {
+		"ft": 16384,
+		"iS": 276965,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/sliders/Card-Tables.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/accessories-modal.png": {
+		"ft": 32768,
+		"iS": 1948586,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/accessories-modal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/accessories-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 607772,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/accessories-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/accessories-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 218346,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/accessories-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/acoustic-boundary-modal.png": {
+		"ft": 32768,
+		"iS": 2064400,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/acoustic-boundary-modal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/acoustic-boundary-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 696778,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/acoustic-boundary-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/acoustic-boundary-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 236900,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/acoustic-boundary-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/carts-modal.png": {
+		"ft": 32768,
+		"iS": 1858945,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/carts-modal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/carts-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 602559,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/carts-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/carts-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 218155,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/carts-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/collection-accessories.png": {
+		"ft": 32768,
+		"iS": 1225365,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/collection-accessories.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/collection-acoustic-boundary.png": {
+		"ft": 32768,
+		"iS": 1268713,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/collection-acoustic-boundary.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/collection-carts.png": {
+		"ft": 32768,
+		"iS": 1142164,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/collection-carts.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/collection-heigh-adjustable-desk.png": {
+		"ft": 32768,
+		"iS": 960403,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/collection-heigh-adjustable-desk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/collection-markerboard-solutions.png": {
+		"ft": 32768,
+		"iS": 1319871,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/collection-markerboard-solutions.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/collection-mobile-power-cart.png": {
+		"ft": 32768,
+		"iS": 4615887,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/collection-mobile-power-cart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/collection-power-hanger.png": {
+		"ft": 32768,
+		"iS": 1072769,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/collection-power-hanger.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/collection-screens.png": {
+		"ft": 32768,
+		"iS": 1319237,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/collection-screens.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/collection-tables.png": {
+		"ft": 32768,
+		"iS": 1265536,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/collection-tables.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/height-adjustable-desk-modal.png": {
 		"ft": 32768,
 		"iS": 1932455,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-modal.png",
+		"oAP": "/lib/img/pages/the-collection/v1/height-adjustable-desk-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/height-adjustable-desk-video.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/lib/img/pages/the-collection/v1/height-adjustable-desk-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 557342,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/height-adjustable-desk-video.mp4",
-		"oF": 0
+		"oAP": "/lib/img/pages/the-collection/v1/height-adjustable-desk-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"/lib/img/pages/the-collection/markerboards-modal.png": {
+	"/lib/img/pages/the-collection/v1/height-adjustable-desk-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 203733,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/height-adjustable-desk-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/markerboards-modal.png": {
 		"ft": 32768,
 		"iS": 6101989,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/markerboards-modal.png",
+		"oAP": "/lib/img/pages/the-collection/v1/markerboards-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/markerboards-video.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/lib/img/pages/the-collection/v1/markerboards-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 499792,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/markerboards-video.mp4",
-		"oF": 0
+		"oAP": "/lib/img/pages/the-collection/v1/markerboards-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"/lib/img/pages/the-collection/power-hanger-modal.png": {
+	"/lib/img/pages/the-collection/v1/markerboards-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 180707,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/markerboards-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/power-hanger-modal.png": {
 		"ft": 32768,
 		"iS": 1834358,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/power-hanger-modal.png",
+		"oAP": "/lib/img/pages/the-collection/v1/power-hanger-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/power-hanger-video.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/lib/img/pages/the-collection/v1/power-hanger-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 505519,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/power-hanger-video.mp4",
-		"oF": 0
+		"oAP": "/lib/img/pages/the-collection/v1/power-hanger-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"/lib/img/pages/the-collection/screens-modal.png": {
+	"/lib/img/pages/the-collection/v1/power-hanger-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 198424,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/power-hanger-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/power-hanger-top-left.jpg": {
+		"ft": 16384,
+		"iS": 358305,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/power-hanger-top-left.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/screens-modal.png": {
 		"ft": 32768,
 		"iS": 1971140,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/screens-modal.png",
+		"oAP": "/lib/img/pages/the-collection/v1/screens-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/screens-video.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/lib/img/pages/the-collection/v1/screens-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 694175,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/screens-video.mp4",
-		"oF": 0
+		"oAP": "/lib/img/pages/the-collection/v1/screens-modal@app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"/lib/img/pages/the-collection/tables-modal.png": {
+	"/lib/img/pages/the-collection/v1/screens-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 225422,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/screens-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/tables-modal.png": {
 		"ft": 32768,
 		"iS": 2030422,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/tables-modal.png",
+		"oAP": "/lib/img/pages/the-collection/v1/tables-modal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/the-collection/tables-video.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/lib/img/pages/the-collection/v1/tables-modal@app.jpg": {
+		"ft": 16384,
+		"iS": 578341,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/the-collection/tables-video.mp4",
-		"oF": 0
-		},
-	"/lib/img/ui/background.png": {
-		"ft": 32768,
-		"iS": 2466644,
-		"oA": 0,
-		"oAP": "/lib/img/ui/background.png",
+		"oAP": "/lib/img/pages/the-collection/v1/tables-modal@app.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
+		"q": 100
+		},
+	"/lib/img/pages/the-collection/v1/tables-modal@web.jpg": {
+		"ft": 16384,
+		"iS": 213106,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/pages/the-collection/v1/tables-modal@web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/lib/img/ui/Background.jpg": {
+		"ft": 16384,
+		"iS": 155718,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/lib/img/ui/Background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/lib/img/ui/blank.gif": {

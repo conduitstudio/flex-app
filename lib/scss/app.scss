@@ -29,7 +29,12 @@
   height:px-to-vh( 100px, 2560px );
   width:px-to-vh( 100px, 2560px );
 }
-@mixin shadow {
+@mixin shadow-and-radius() { // <= all boxes with drop shadow and radius
+  overflow:hidden;
+  @include border-radius( px-to-vh( 10px, 2560px ) );
+  @include box-shadow( 0px 18px 15px -10px rgba(24,29,67,0.45) );
+}
+@mixin shadow { // <= used for drag slider
   @include box-shadow( 0 0 px-to-vh( 8px, 2560px ) px-to-vh( 5px, 2560px ) rgba( 024, 029, 067, 0.15 ));
 }
 @mixin shadow-on-dark {
@@ -50,7 +55,7 @@
   }
 }
 @mixin ui-background-image {
-  background-image:url( '../img/ui/background.png' );
+  background-image:url( '../img/ui/background.jpg' );
   background-repeat:no-repeat;
   background-size:cover;
 }
@@ -71,9 +76,9 @@ html, body {
 }
 
 body {
-  -webkit-touch-callout: none;
+  // -webkit-touch-callout: none;
   -webkit-text-size-adjust: none;
-  -webkit-user-select: none;
+  // -webkit-user-select: none;
   font-family:helvetica,sans-serif;
   overflow:hidden;
 	// opacity:0;
