@@ -5,7 +5,7 @@
 
 html, body { height: 100%; position: relative; }
 
-body { -webkit-touch-callout: none; -webkit-text-size-adjust: none; font-family: helvetica,sans-serif; overflow: hidden; }
+body { -webkit-text-size-adjust: none; font-family: helvetica,sans-serif; overflow: hidden; }
 
 #version { background: rgba(0, 0, 0, 0.2); font-size: 10px; padding: 10px; position: absolute; left: 0; top: 0; z-index: 1; }
 
@@ -111,7 +111,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 /* Home */
 #home { background-image: url("../img/ui/background.jpg"); background-repeat: no-repeat; background-size: cover; }
 #home .title { padding: 6.05469vh 0; position: relative; text-align: center; }
-#home .title .title-text { color: pink; font-size: 3.14371vh; letter-spacing: 0.01em; position: relative; z-index: 1; }
+#home .title .title-text { color: #171e42; font-size: 3.14371vh; letter-spacing: 0.01em; position: relative; z-index: 1; }
 #home .title img { height: 2.38281vh; left: 50%; position: absolute; top: 50%; transform: translateX(-50%) translateY(-50%); }
 
 #menu-slideshow { /* Arrows */ }
@@ -149,7 +149,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .modal.collection .top-right h3 { font-size: 3vh; font-weight: normal; letter-spacing: 0.06em; margin-bottom: 14px; }
 .modal.collection .top-right .content { font-size: 20px; font-weight: lighter; letter-spacing: -0.01em; line-height: 1.25em; }
 .modal.collection ul li { margin-bottom: 1.8vh; }
-.modal.collection .bottom-left { bottom: 0; box-sizing: border-box; font-weight: lighter; left: 0; letter-spacing: -0.01em; height: 28.9vh; padding-left: 72vh; padding-right: 2vh; padding-top: 2.8vh; width: 94.6vh; }
+.modal.collection .bottom-left { bottom: 0; box-sizing: border-box; color: #666666; font-weight: lighter; left: 0; letter-spacing: -0.01em; height: 28.9vh; padding-left: 72vh; padding-right: 2vh; padding-top: 2.8vh; width: 94.6vh; }
 .modal.collection .bottom-right { bottom: 0; height: auto; left: auto; right: 0; width: 47.4vh; }
 .modal.collection .bottom-right video { display: block; pointer-events: none; height: auto; width: 100%; }
 
