@@ -7,7 +7,7 @@ html, body { height: 100%; position: relative; }
 
 body { -webkit-text-size-adjust: none; font-family: helvetica,sans-serif; overflow: hidden; }
 
-#version { background: rgba(0, 0, 0, 0.2); font-size: 10px; padding: 10px; position: absolute; left: 0; top: 0; z-index: 1; }
+#version { background: rgba(0, 0, 0, 0.2); font-size: 10px; padding: 10px; position: absolute; left: 0; top: 0; z-index: 99999; }
 
 /* Pages */
 .page { height: 100%; opacity: 0; pointer-events: none; position: relative; }
@@ -147,9 +147,9 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .modal.collection .top-left { height: auto; left: 0; top: 0; width: 94.6vh; }
 .modal.collection .top-right { box-sizing: border-box; padding: 2.6vh 3.4vh; right: 0; top: 0; width: 47.4vh; }
 .modal.collection .top-right h3 { font-size: 3vh; font-weight: normal; letter-spacing: 0.06em; margin-bottom: 14px; }
-.modal.collection .top-right .content { font-size: 20px; font-weight: lighter; letter-spacing: -0.01em; line-height: 1.25em; }
+.modal.collection .top-right .content { font-size: 2vh; font-weight: lighter; letter-spacing: -0.01em; line-height: 1.25em; }
 .modal.collection ul li { margin-bottom: 1.8vh; }
-.modal.collection .bottom-left { bottom: 0; box-sizing: border-box; color: #666666; font-weight: lighter; left: 0; letter-spacing: -0.01em; height: 28.9vh; padding-left: 72vh; padding-right: 2vh; padding-top: 2.8vh; width: 94.6vh; }
+.modal.collection .bottom-left { bottom: 0; box-sizing: border-box; color: #666666; font-size: 1.6vh; font-weight: lighter; left: 0; letter-spacing: -0.01em; height: 28.9vh; padding-left: 72vh; padding-right: 2vh; padding-top: 2.8vh; width: 94.6vh; }
 .modal.collection .bottom-right { bottom: 0; height: auto; left: auto; right: 0; width: 47.4vh; }
 .modal.collection .bottom-right video { display: block; pointer-events: none; height: auto; width: 100%; }
 

@@ -169,7 +169,7 @@ $modal-height: px-to-vh( 2320px, 2560px );
       margin-bottom:14px;
     }
     .content {
-      font-size:20px;
+      font-size:px-to-vh( 20px, 1000px );
       font-weight:lighter;
       letter-spacing:-0.01em;
       line-height:1.25em;
@@ -187,6 +187,7 @@ $modal-height: px-to-vh( 2320px, 2560px );
     box-sizing:border-box;
     // color:pink;
     color:#666666;
+    font-size:px-to-vh( 16px, 1000px );
     font-weight:lighter;
     left:0;
     letter-spacing:-0.01em;
