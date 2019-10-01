@@ -165,13 +165,13 @@ $modal-height: px-to-vh( 2320px, 2560px );
     h3 {
       font-size:px-to-vh( 30px, 1000px );
       font-weight:normal;
-      letter-spacing:0.06em;
+      // letter-spacing:0.06em;
       margin-bottom:14px;
     }
     .content {
       font-size:px-to-vh( 20px, 1000px );
       font-weight:lighter;
-      letter-spacing:-0.01em;
+      // letter-spacing:-0.01em;
       line-height:1.25em;
     }
   }
@@ -179,6 +179,11 @@ $modal-height: px-to-vh( 2320px, 2560px );
   ul {
     li {
       margin-bottom:px-to-vh( 18px, 1000px );
+
+      &:before {
+        left: -0.38em;
+        top: 0.35em;
+      }
     }
   }
 
@@ -190,7 +195,7 @@ $modal-height: px-to-vh( 2320px, 2560px );
     font-size:px-to-vh( 16px, 1000px );
     font-weight:lighter;
     left:0;
-    letter-spacing:-0.01em;
+    // letter-spacing:-0.01em;
     height:px-to-vh( 289px, 1000px );
     padding-left:px-to-vh( 720px, 1000px );
     padding-right:px-to-vh( 20px, 1000px );
