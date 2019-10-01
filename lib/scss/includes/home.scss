@@ -43,8 +43,7 @@
 		}
     .title {
       bottom:px-to-vh( 40px );
-      // color:#fff;
-      color:pink;
+      color:#fff;
       font-size:px-to-vh( 27px );
       left:0;
       letter-spacing:0.055em;
@@ -53,10 +52,10 @@
       width:100%;
     }
     .button {
-      background:rgba( 0, 0, 0, 0.2 );
-      border:1px solid #fff;
+      // background:rgba( 0, 0, 0, 0.2 );
+      // border:1px solid #fff;
       bottom:px-to-vh( 32.5px );
-      color:pink;
+      color:#fff;
       left:50%;
       font-size:px-to-vh( 9px );
       font-weight:bold;
