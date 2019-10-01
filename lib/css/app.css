@@ -145,11 +145,11 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .modal.collection .top-left, .modal.collection .top-right, .modal.collection .bottom-left, .modal.collection .bottom-right { position: absolute; }
 .modal.collection .bg-holder { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
 .modal.collection .top-left { height: auto; left: 0; top: 0; width: 94.6vh; }
-.modal.collection .top-right { box-sizing: border-box; padding: 2.6vh 3.4vh; right: 0; top: 0; width: 47.4vh; }
-.modal.collection .top-right h3 { font-size: 3vh; font-weight: bold; letter-spacing: 0.06em; margin-bottom: 14px; }
+.modal.collection .top-right { box-sizing: border-box; color: pink; padding: 2.6vh 3.4vh; right: 0; top: 0; width: 47.4vh; }
+.modal.collection .top-right h3 { font-size: 3vh; font-weight: normal; letter-spacing: 0.06em; margin-bottom: 14px; }
 .modal.collection .top-right .content { font-size: 2vh; font-weight: lighter; letter-spacing: -0.01em; line-height: 1.25em; }
 .modal.collection ul li { margin-bottom: 1.8vh; }
-.modal.collection .bottom-left { bottom: 0; box-sizing: border-box; color: #666666; font-size: 1.6vh; font-weight: lighter; left: 0; letter-spacing: -0.01em; height: 28.9vh; padding-left: 72vh; padding-right: 2vh; padding-top: 2.8vh; width: 94.6vh; }
+.modal.collection .bottom-left { bottom: 0; box-sizing: border-box; color: pink; font-size: 1.6vh; font-weight: lighter; left: 0; letter-spacing: -0.01em; height: 28.9vh; padding-left: 72vh; padding-right: 2vh; padding-top: 2.8vh; width: 94.6vh; }
 .modal.collection .bottom-right { bottom: 0; height: auto; left: auto; right: 0; width: 47.4vh; }
 .modal.collection .bottom-right video { display: block; pointer-events: none; height: auto; width: 100%; }
 
