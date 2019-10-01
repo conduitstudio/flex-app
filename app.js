@@ -226,6 +226,7 @@ let Flex = {
 		// "Components"
 		Flex.document.on( Flex.click_event + '.flex-goto', '[data-goto]', Flex.on_goto).on('click.flex', '[data-goto]', function(e) {e.preventDefault();e.stopPropagation();});
 		Flex.document.on( Flex.click_event + '.flex-modal', '[data-openmodal]', Flex.on_openmodal).on('click.flex', '[data-openmodal]', function(e) {e.preventDefault();e.stopPropagation();});
+		$('[data-controller="DynamicSize"]').DynamicSize();
 		$('[data-controller="NavTrigger"]').NavTrigger();
 		$('[data-slider]').Slider();
 		$('[data-swiper]').Swiper();
