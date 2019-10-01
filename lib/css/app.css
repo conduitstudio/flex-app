@@ -16,6 +16,7 @@ body { -webkit-touch-callout: none; -webkit-text-size-adjust: none; font-family:
 .in .page { -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s; -webkit-transition: opacity 0.5s; transition: opacity 0.5s; }
 
 /* Globals */
+#loader { position: fixed; left: 0; top: 0; right: 0; bottom: 0; }
 #loader .loader-holder { display: inline-block; left: 50%; position: relative; top: 50%; transform: translate3d(-50%, -50%, 0); width: 64px; height: 64px; }
 #loader .loader-holder div { box-sizing: border-box; display: block; position: absolute; width: 51px; height: 51px; margin: 6px; border: 6px solid #000; border-radius: 50%; animation: loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite; border-color: #000 transparent transparent transparent; }
 #loader .loader-holder div:nth-child(1) { animation-delay: -0.45s; }
@@ -145,12 +146,12 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .modal.collection .top-left, .modal.collection .top-right, .modal.collection .bottom-left, .modal.collection .bottom-right { position: absolute; }
 .modal.collection .bg-holder { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
 .modal.collection .top-left { height: auto; left: 0; top: 0; width: 94.6vh; }
-.modal.collection .top-right { box-sizing: border-box; color: pink; padding: 2.6vh 3.4vh; right: 0; top: 0; width: 47.4vh; }
+.modal.collection .top-right { box-sizing: border-box; padding: 2.6vh 3.4vh; right: 0; top: 0; width: 47.4vh; }
 .modal.collection .top-right h3 { font-size: 3vh; font-weight: normal; margin-bottom: 14px; }
 .modal.collection .top-right .content { font-size: 2vh; font-weight: lighter; line-height: 1.25em; }
 .modal.collection ul li { margin-bottom: 1.8vh; }
 .modal.collection ul li:before { left: -0.38em; top: 0.35em; }
-.modal.collection .bottom-left { bottom: 0; box-sizing: border-box; color: pink; font-size: 1.6vh; font-weight: lighter; left: 0; height: 28.9vh; padding-left: 72vh; padding-right: 2vh; padding-top: 2.8vh; width: 94.6vh; }
+.modal.collection .bottom-left { bottom: 0; box-sizing: border-box; font-size: 1.6vh; font-weight: lighter; left: 0; height: 28.9vh; padding-left: 72vh; padding-right: 2vh; padding-top: 2.8vh; width: 94.6vh; }
 .modal.collection .bottom-right { bottom: 0; height: auto; left: auto; right: 0; width: 47.4vh; }
 .modal.collection .bottom-right video { display: block; pointer-events: none; height: auto; width: 100%; }
 
