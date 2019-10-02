@@ -72,8 +72,8 @@ let Flex = {
 
 	// Timeout
 	reset: {
-		how_long: 4 * 60 * 1000, // <= 60 * 100 = minute
-		// how_long: 10 * 1000, // <= seconds (for testing)
+		// how_long: 4 * 60 * 1000, // <= 60 * 100 = minute
+		how_long: 10 * 1000, // <= seconds (for testing)
 		timeout: 0,
 		start: function() {
 			Flex.reset.timeout = setTimeout( Flex.reset.do_it, Flex.reset.how_long ); // <= 4 minutes
@@ -89,7 +89,7 @@ let Flex = {
 			const $home = $('#home'),
 				$last_page = $('.page.in').not($home);
 
-			// Reset swiper witout animation
+			// Reset swiper without animation
 			$('[data-swiper]').each( function() {
 				const $this = $(this),
 					swiper = $this.data('swiper');
@@ -119,8 +119,8 @@ let Flex = {
 				history.pushState( { page: page_slug }, "", "?page=home" );
 
 				// Update Home slider to be centeredSlide
-				let home_swiper = $('#home-slideshow').data('swiper');
-				home_swiper.update();
+				// let home_swiper = $('#home-slideshow').data('swiper');
+				// home_swiper.update();
 
 			}
 
@@ -137,10 +137,11 @@ let Flex = {
 				// Display none on last page
 				$last_page.addClass('out');
 
-				// Set slider back to beginning
+				// Set all sliders back to beginning
 				$('[data-slider]').each( function() {
 					const slider = $(this).data('slider');
 					slider.setValue( 0, 0, false );
+					slider.update();
 				});
 
 			});
