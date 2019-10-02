@@ -73,7 +73,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
   52% { box-shadow: 0 0 0 15px rgba(105, 239, 225, 0); }
   75% { box-shadow: 0 0 0 0 rgba(105, 239, 225, 0); } }
 .template-floorplan .title { padding: 4.0625vh 0 0.54688vh; text-align: center; }
-.template-floorplan .title h1 { color: pink; margin: 0 0 2.54491vh; font-size: 4.19162vh; font-weight: normal; position: relative; z-index: 1; }
+.template-floorplan .title h1 { color: pink; margin: 0 0 2.43263vh; font-size: 4.30389vh; font-weight: normal; position: relative; z-index: 1; }
 .template-floorplan .title .description { color: pink; font-size: 1.94611vh; line-height: 1.25em; position: relative; z-index: 1; }
 .template-floorplan .title img { position: absolute; left: 50%; transform: translateX(-50%); top: 4.84375vh; height: 11.17188vh; z-index: 0; }
 .template-floorplan .mid { margin: 0 auto; overflow: hidden; position: relative; }
