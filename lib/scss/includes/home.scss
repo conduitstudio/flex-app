@@ -4,26 +4,12 @@
   .title {
     // Total height should be 370px
     padding:px-to-vh( 155px, 2560px ) 0;
-    position:relative;
     text-align:center;
 
-
-    .title-text {
-      color:#171e42;
-      // color:pink;
-      font-size:px-to-vh( 21px );
-      // letter-spacing:0.01em;
-      position:relative;
-      z-index:1;
-    }
-
-
     img {
-      height:px-to-vh( 61px, 2560px ); // <= was 151
-      left:50%;
-      position:absolute;
-      top:50%;
-      transform:translateX(-50%) translateY(-50%);
+      display:block;
+      height:px-to-vh( 61px, 2560px );
+			margin:0 auto;
     }
   }
 }

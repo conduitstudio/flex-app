@@ -9,6 +9,9 @@ body { -webkit-touch-callout: none; -webkit-text-size-adjust: none; font-family:
 
 #version { background: rgba(0, 0, 0, 0.2); font-size: 10px; padding: 10px; position: absolute; left: 0; top: 0; z-index: 99999; }
 
+/* Screen Reader Class Note: Taken from Wordpress Screen Reader Class: https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/ */
+.ir { border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; word-wrap: normal !important; }
+
 /* Pages */
 .page { height: 100%; opacity: 0; pointer-events: none; position: relative; touch-action: none; }
 .page.out { display: none !important; }
@@ -72,10 +75,8 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(105, 239, 225, 0.6); }
   52% { box-shadow: 0 0 0 15px rgba(105, 239, 225, 0); }
   75% { box-shadow: 0 0 0 0 rgba(105, 239, 225, 0); } }
-.template-floorplan .title { padding: 4.0625vh 0 0.54688vh; text-align: center; }
-.template-floorplan .title h1 { color: pink; margin: 0 0 2.43263vh; font-size: 4.30389vh; font-weight: normal; position: relative; z-index: 1; }
-.template-floorplan .title .description { color: pink; font-size: 1.94611vh; line-height: 1.25em; position: relative; z-index: 1; }
-.template-floorplan .title img { position: absolute; left: 50%; transform: translateX(-50%); top: 4.84375vh; height: 11.17188vh; z-index: 0; }
+.template-floorplan .title { padding: 4.84375vh 0 0.23438vh; text-align: center; }
+.template-floorplan .title img { display: block; height: 11.17188vh; margin: 0 auto; }
 .template-floorplan .mid { margin: 0 auto; overflow: hidden; position: relative; }
 .template-floorplan .mid:after { content: ''; clear: both; display: block; }
 .template-floorplan .stage { float: left; margin-right: 0.7485vh; width: 983px; position: relative; overflow: hidden; }
@@ -111,9 +112,8 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 
 /* Home */
 #home { background-image: url("../img/ui/background.jpg"); background-repeat: no-repeat; background-size: cover; }
-#home .title { padding: 6.05469vh 0; position: relative; text-align: center; }
-#home .title .title-text { color: #171e42; font-size: 3.14371vh; position: relative; z-index: 1; }
-#home .title img { height: 2.38281vh; left: 50%; position: absolute; top: 50%; transform: translateX(-50%) translateY(-50%); }
+#home .title { padding: 6.05469vh 0; text-align: center; }
+#home .title img { display: block; height: 2.38281vh; margin: 0 auto; }
 
 #home-slideshow { /* Arrows */ }
 #home-slideshow .swiper-slide { width: 103.24219vh; }
@@ -176,9 +176,8 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 
 /* Product Slider / "The Collection" */
 .template-product-slider { background: #fff; /* Arrows */ }
-.template-product-slider .title { padding: 4.0625vh 0 0.54688vh; text-align: center; }
-.template-product-slider .title h1 { margin: 0 0 2.54491vh; font-size: 4.19162vh; font-weight: normal; position: relative; z-index: 1; }
-.template-product-slider .title img { position: absolute; left: 50%; transform: translateX(-50%); top: 4.84375vh; height: 3.24219vh; z-index: 0; }
+.template-product-slider .title { padding: 4.84375vh 0 6.40625vh; text-align: center; }
+.template-product-slider .title img { display: block; height: 3.24219vh; margin: 0 auto; }
 .template-product-slider .swiper-slide { overflow: hidden; -moz-border-radius: 0.39063vh; -webkit-border-radius: 0.39063vh; border-radius: 0.39063vh; -moz-box-shadow: 0px 18px 15px -10px rgba(24, 29, 67, 0.45); -webkit-box-shadow: 0px 18px 15px -10px rgba(24, 29, 67, 0.45); box-shadow: 0px 18px 15px -10px rgba(24, 29, 67, 0.45); text-align: center; width: 54.96094vh; }
 .template-product-slider .swiper-slide img { display: block; }
 .template-product-slider .swiper-slide .product-image { width: 100%; }
