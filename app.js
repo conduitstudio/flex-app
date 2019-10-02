@@ -40,8 +40,12 @@ let Flex = {
 	document: $(document),
 	window: $(window),
 	body: $('body'),
+	home_slideshow: $('#home-slideshow'),
+	product_slideshow: $('#product-slideshow'),
 
-	pages: [],
+	pages: {
+		home: $('#home'),
+	},
 	preload: [
 		'lib/img/ui/background.jpg',
 		'lib/img/pages/agile-studio/sprint-planning-floorplan.png',
@@ -51,7 +55,7 @@ let Flex = {
 
 	// Functions
 	async: function( fx ) {
-		setTimeout( fx, 100 );
+		setTimeout( fx, 10 );
 	},
 	after_animation: function( fx ) {
 		setTimeout( fx, Flex.fx_speed );
@@ -76,7 +80,7 @@ let Flex = {
 		how_long: 10 * 1000, // <= seconds (for testing)
 		timeout: 0,
 		start: function() {
-			Flex.reset.timeout = setTimeout( Flex.reset.do_it, Flex.reset.how_long ); // <= 4 minutes
+			if( Flex.is_app ) Flex.reset.timeout = setTimeout( Flex.reset.do_it, Flex.reset.how_long ); // <= 4 minutes
 		},
 		start_over: function() {
 			// console.log('reset timeout');
@@ -86,46 +90,50 @@ let Flex = {
 		do_it: function() {
 
 			// Redefined vars
-			const $home = $('#home'),
-				$last_page = $('.page.in').not($home);
+			const $last_page = $('.page.in').not( Flex.pages.home );
 
-			// Reset swiper without animation
-			$('[data-swiper]').each( function() {
-				const $this = $(this),
-					swiper = $this.data('swiper');
+			// If we are already on #home
+			if( $last_page.length === 0 ) return false;
 
-				// Go to first slide
-				swiper.slideToLoop( 0, 0, false );
+			// Hide nav trigger
+			Flex.body.removeClass('show-nav').removeClass('active-nav');
 
-				// Update pagination to first slide
-				$this.find('.swiper-pagination > .swiper-pagination-bullet:first-child').addClass('swiper-pagination-bullet-active')
-					.siblings('.swiper-pagination-bullet-active').removeClass('swiper-pagination-bullet-active');
-			});
+			// Remove all modals
+			$('.modal.in').removeClass('in');
 
-			// If we are not already on the #home
-			if( $last_page.length > 0 ) {
-				$last_page.removeClass('in');
+			// Bring home back in
+			$last_page.removeClass('in');
+			Flex.pages.home.removeClass('out').addClass('in');
 
-				// Hide nav trigger
-				Flex.body.removeClass('show-nav').removeClass('active-nav');
+			// Update Home swiper to be back at the beginning
+			let home_swiper = Flex.home_slideshow.data('swiper');
+			home_swiper.slideToLoop( 0, 0, false );
+			home_swiper.update();
 
-				// Remove all modals
-				$('.modal.in').removeClass('in');
+			// Update swiper nav
+			Flex.home_slideshow
+				.find('.swiper-pagination > .swiper-pagination-bullet:first-child')
+					.addClass('swiper-pagination-bullet-active')
+				.siblings('.swiper-pagination-bullet-active')
+					.removeClass('swiper-pagination-bullet-active');
 
-				// Bring home back in
-				$home.removeClass('out').addClass('in');
+			// Update history so back button will work
+			history.pushState( { page: page_slug }, "", "?page=home" );
 
-				// Update history so back button will work
-				history.pushState( { page: page_slug }, "", "?page=home" );
-
-				// Update Home slider to be centeredSlide
-				// let home_swiper = $('#home-slideshow').data('swiper');
-				// home_swiper.update();
-
-			}
-
-			// Reset home swiper
+			// Reset $last_page elements
 			Flex.after_animation( function() {
+
+				// If lastpage had a Swiper
+				if( $last_page[0].id === 'the-collection' ) {
+					const last_swiper = Flex.product_slideshow.data('swiper');
+					last_swiper.slideToLoop( 0, 0, false );
+
+					$last_page
+						.find('.swiper-pagination > .swiper-pagination-bullet:first-child')
+							.addClass('swiper-pagination-bullet-active')
+						.siblings('.swiper-pagination-bullet-active')
+							.removeClass('swiper-pagination-bullet-active');
+				}
 
 				// Reset all videos to start
 				$('video').each( function() {
@@ -134,15 +142,14 @@ let Flex = {
 					video.currentTime = 0;
 				});
 
-				// Display none on last page
-				$last_page.addClass('out');
-
 				// Set all sliders back to beginning
 				$('[data-slider]').each( function() {
 					const slider = $(this).data('slider');
 					slider.setValue( 0, 0, false );
-					slider.update();
 				});
+
+				// Display none on last page (removing .in fades it out)
+				$last_page.addClass('out');
 
 			});
 
@@ -229,7 +236,7 @@ let Flex = {
 			e.preventDefault();
 		});
 
-		// "Components"
+		// Load "Components"
 		Flex.document.on( Flex.click_event + '.flex-goto', '[data-goto]', Flex.on_goto).on('click.flex', '[data-goto]', function(e) {e.preventDefault();e.stopPropagation();});
 		Flex.document.on( Flex.click_event + '.flex-modal', '[data-openmodal]', Flex.on_openmodal).on('click.flex', '[data-openmodal]', function(e) {e.preventDefault();e.stopPropagation();});
 		$('[data-controller="DynamicSize"]').DynamicSize();
