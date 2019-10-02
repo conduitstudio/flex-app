@@ -115,8 +115,11 @@ let Flex = {
 				// Bring home back in
 				$home.removeClass('out').addClass('in');
 
+				// Update history so back button will work
+				history.pushState( { page: page_slug }, "", "?page=home" );
+
 				// Update Home slider to be centeredSlide
-				let home_swiper = $('#menu-slideshow').data('swiper');
+				let home_swiper = $('#home-slideshow').data('swiper');
 				home_swiper.update();
 
 			}
@@ -146,14 +149,16 @@ let Flex = {
 	},
 	setOrientation: function() {
 		setTimeout( () => { // <= async for edge fullscreen detection / or other animation
-
 			// Set classes
 			if( Flex.window.width() / Flex.window.height() >= Flex.ratio ) {
+				$('#version .size-by').html('size-by-height');
 				Flex.body.removeClass('size-by-width').addClass('size-by-height');
 			} else {
+				$('#version .size-by').html('size-by-width');
 				Flex.body.removeClass('size-by-height').addClass('size-by-width');
 			}
 
+			Flex.window.trigger('orientation-set');
 		}, 100 );
 	},
 
@@ -210,7 +215,7 @@ let Flex = {
 
 		// Update version
 		setTimeout( () => {
-			$('#version span').html( Flex.version );
+			$('#version .version-number').html( Flex.version );
 		}, 500 );
 
 		Flex.window.on('resize.orientation', Flex.setOrientation);
