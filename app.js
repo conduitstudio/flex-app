@@ -46,12 +46,6 @@ let Flex = {
 	pages: {
 		home: $('#home'),
 	},
-	preload: [
-		'lib/img/ui/background.jpg',
-		'lib/img/pages/agile-studio/sprint-planning-floorplan.png',
-		'lib/img/pages/agile-studio/working-in-pairs-floorplan.png',
-		'lib/img/pages/agile-studio/daily-stand-up-floorplan.png',
-	],
 
 	// Functions
 	async: function( fx ) {
@@ -176,11 +170,6 @@ let Flex = {
 		setTimeout( () => {
 			Flex.body.addClass('in');
 		}, 2000 );
-
-		// Preload Images
-		$(Flex.preload).each(function(){
-			$('<img/>')[0].src = this;
-		});
 
 		// First setup window listener for all images loaded_all_images
 		Flex.window.on('loaded_all_images', function() {
