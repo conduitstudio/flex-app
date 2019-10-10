@@ -48,7 +48,9 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -474,12 +476,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/lib/img/pages/creative-studio/Pitch-Share.jpg": {
+	"/lib/img/pages/creative-studio/Pitch-Share-v2.jpg": {
 		"ft": 16384,
 		"iS": 1074481,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/lib/img/pages/creative-studio/Pitch-Share.jpg",
+		"oAP": "/lib/img/pages/creative-studio/Pitch-Share-v2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
