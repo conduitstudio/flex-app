@@ -70,11 +70,12 @@ let Flex = {
 
 	// Timeout
 	reset: {
-		// how_long: 4 * 60 * 1000, // <= 60 * 100 = minute
-		how_long: 10 * 1000, // <= seconds (for testing)
+		how_long: 4 * 60 * 1000, // <= 60 * 100 = minute
+		// how_long: 10 * 1000, // <= seconds (for testing)
 		timeout: 0,
 		start: function() {
-			if( Flex.is_app ) Flex.reset.timeout = setTimeout( Flex.reset.do_it, Flex.reset.how_long ); // <= 4 minutes
+			// Flex.reset.timeout = setTimeout( Flex.reset.do_it, Flex.reset.how_long ); // <= for testing
+			if( Flex.is_app ) Flex.reset.timeout = setTimeout( Flex.reset.do_it, Flex.reset.how_long );
 		},
 		start_over: function() {
 			// console.log('reset timeout');
@@ -83,11 +84,14 @@ let Flex = {
 		},
 		do_it: function() {
 
-			// Redefined vars
-			const $last_page = $('.page.in').not( Flex.pages.home );
+			// Vars
+			const $last_page = $('.page.in');
 
-			// If we are already on #home
-			if( $last_page.length === 0 ) return false;
+			// Reset homepage swiper if still on homepage
+			if( $last_page[0].id == 'home' ) {
+				Flex.home_slideshow.trigger('reset-swiper', { animate: true });
+				return;
+			}
 
 			// Hide nav trigger
 			Flex.body.removeClass('show-nav').removeClass('active-nav');
@@ -97,36 +101,16 @@ let Flex = {
 
 			// Bring home back in
 			$last_page.removeClass('in');
-			Flex.pages.home.removeClass('out').addClass('in');
-
-			// Update Home swiper to be back at the beginning
-			let home_swiper = Flex.home_slideshow.data('swiper');
-			home_swiper.slideToLoop( 0, 0, false );
-			home_swiper.update();
-
-			// Update swiper nav
-			Flex.home_slideshow
-				.find('.swiper-pagination > .swiper-pagination-bullet:first-child')
-					.addClass('swiper-pagination-bullet-active')
-				.siblings('.swiper-pagination-bullet-active')
-					.removeClass('swiper-pagination-bullet-active');
 
 			// Update history so back button will work
-			history.pushState( { page: page_slug }, "", "?page=home" );
+			history.pushState( { page: 'home' }, "", "?page=home" );
 
 			// Reset $last_page elements
 			Flex.after_animation( function() {
 
 				// If lastpage had a Swiper
 				if( $last_page[0].id === 'the-collection' ) {
-					const last_swiper = Flex.product_slideshow.data('swiper');
-					last_swiper.slideToLoop( 0, 0, false );
-
-					$last_page
-						.find('.swiper-pagination > .swiper-pagination-bullet:first-child')
-							.addClass('swiper-pagination-bullet-active')
-						.siblings('.swiper-pagination-bullet-active')
-							.removeClass('swiper-pagination-bullet-active');
+					Flex.product_slideshow.trigger('reset-swiper');
 				}
 
 				// Reset all videos to start
@@ -137,13 +121,21 @@ let Flex = {
 				});
 
 				// Set all sliders back to beginning
-				$('[data-slider]').each( function() {
-					const slider = $(this).data('slider');
-					slider.setValue( 0, 0, false );
-				});
+				$('[data-slider]').trigger('reset-slider');
 
 				// Display none on last page (removing .in fades it out)
 				$last_page.addClass('out');
+				Flex.pages.home.removeClass('out');
+
+				// Update Home swiper to be back at the beginning
+				Flex.home_slideshow.trigger('reset-swiper');
+
+				// Otherwise there is a jump (too much at once)
+				Flex.async( function() {
+					setTimeout( () => {
+						Flex.pages.home.addClass('in');
+					}, 400 );
+				});
 
 			});
 
