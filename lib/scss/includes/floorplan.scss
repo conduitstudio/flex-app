@@ -108,6 +108,9 @@
       }
     }
   }
+  .stage.animate .stage-reveal {
+    @include transition( width, 0.5s );
+  }
 
   .products {
     display:none;
