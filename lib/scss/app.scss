@@ -75,6 +75,10 @@ html, body {
   position: relative;
 }
 
+a {
+  cursor:pointer;
+}
+
 body {
   -webkit-touch-callout: none;
   -webkit-text-size-adjust: none;
