@@ -157,7 +157,7 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .size-by-height .modal.collection .bg-holder, .size-by-height .modal.collection .ratio-holder { height: 100%; }
 .size-by-width .modal.collection .bg-holder, .size-by-width .modal.collection .ratio-holder { width: 100%; }
 .modal.collection .top-left, .modal.collection .top-right, .modal.collection .bottom-left, .modal.collection .bottom-right { position: absolute; }
-.modal.collection .bg-holder { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+.modal.collection .bg-holder { opacity: 0.5; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
 .modal.collection .top-left { height: auto; left: 0; top: 0; width: 66.66667%; }
 .modal.collection .top-right { box-sizing: border-box; right: 0; top: 0; width: 33.33333%; }
 .size-by-height .modal.collection .top-right { padding: 2.54491vh 3.44311vh; }
@@ -166,11 +166,12 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .size-by-height .modal.collection .top-right h3 { font-size: 2.99401vh; margin-bottom: 1.49701vh; }
 .size-by-width .modal.collection .top-right h3 { font-size: 2vw; margin-bottom: 1vw; }
 .modal.collection .top-right .content { font-weight: lighter; line-height: 1.25em; }
-.size-by-height .modal.collection .top-right .content { font-size: 1.94611vh; }
-.size-by-width .modal.collection .top-right .content { font-size: 1.3vw; }
-.modal.collection .bottom-left { bottom: 0; box-sizing: border-box; color: #666666; font-weight: lighter; left: 0; width: 66.66667%; }
-.size-by-height .modal.collection .bottom-left { font-size: 1.64671vh; height: 27.99401vh; padding: 2.39521vh 2.24551vh 0 70.05988vh; }
-.size-by-width .modal.collection .bottom-left { font-size: 1.1vw; height: 18.7vw; padding: 1.6vw 1.5vw 0 46.8vw; }
+.size-by-height .modal.collection .top-right .content { font-size: 1.87126vh; }
+.size-by-width .modal.collection .top-right .content { font-size: 1.25vw; }
+.modal.collection .bottom-left { bottom: 0; box-sizing: border-box; color: #666666; font-weight: lighter; left: 0; line-height: 1.4em; width: 66.66667%; }
+.size-by-height .modal.collection .bottom-left { font-size: 1.49701vh; height: 27.99401vh; padding: 2.39521vh 3.29341vh 0 70.05988vh; }
+.size-by-width .modal.collection .bottom-left { font-size: 1vw; height: 18.7vw; padding: 1.6vw 2.2vw 0 46.8vw; }
+.modal.collection ul { line-height: 1.3em; }
 .size-by-height .modal.collection ul li { margin-bottom: 1.79641vh; }
 .size-by-width .modal.collection ul li { margin-bottom: 1.2vw; }
 .modal.collection ul li:before { left: -0.38em; top: 0.35em; }

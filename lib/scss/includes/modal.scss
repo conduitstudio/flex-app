@@ -177,6 +177,7 @@ $bottom_height: 100% - $top_height;
   }
 
   .bg-holder {
+    opacity:0.5;
     position:absolute;
     left:0;
     top:0;
@@ -222,12 +223,13 @@ $bottom_height: 100% - $top_height;
     .content {
       font-weight:lighter;
       line-height:1.25em;
+      // color:pink;
 
       .size-by-height & {
-        font-size:px-to-vh( 13px );
+        font-size:px-to-vh( 12.5px );
       }
       .size-by-width & {
-        font-size:px-to-vw( 13px );
+        font-size:px-to-vw( 12.5px );
       }
     }
   }
@@ -236,24 +238,28 @@ $bottom_height: 100% - $top_height;
     bottom:0;
     box-sizing:border-box;
     color:#666666;
+    // color:pink;
     font-weight:lighter;
     left:0;
+    line-height:1.4em;
     width:$left_width;
 
     .size-by-height & {
-      font-size:px-to-vh( 11px );
+      font-size:px-to-vh( 10px );
       height:px-to-vh( 187px );
-      padding:px-to-vh( 16px ) px-to-vh( 15px ) 0 px-to-vh( 468px );
+      padding:px-to-vh( 16px ) px-to-vh( 22px ) 0 px-to-vh( 468px );
     }
     .size-by-width & {
-      font-size:px-to-vw( 11px );
+      font-size:px-to-vw( 10px );
       height:px-to-vw( 187px );
-      padding:px-to-vw( 16px ) px-to-vw( 15px ) 0 px-to-vw( 468px );
+      padding:px-to-vw( 16px ) px-to-vw( 22px ) 0 px-to-vw( 468px );
     }
 
   }
 
   ul {
+    line-height:1.3em; // <= different from floorplan modals
+
     li {
       .size-by-height & {
         margin-bottom:px-to-vh( 12px );
