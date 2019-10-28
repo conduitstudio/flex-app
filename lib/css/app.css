@@ -9,7 +9,7 @@ a { cursor: pointer; }
 
 body { -webkit-touch-callout: none; -webkit-text-size-adjust: none; font-family: helvetica,sans-serif; overflow: hidden; touch-action: none; }
 
-#version { background: rgba(0, 0, 0, 0.2); font-size: 10px; padding: 10px; position: absolute; left: 0; top: 0; z-index: 99999; }
+#version { opacity: 0; background: rgba(0, 0, 0, 0.2); font-size: 10px; padding: 10px; position: absolute; left: 0; top: 0; z-index: 99999; }
 
 /* Screen Reader Class Note: Taken from Wordpress Screen Reader Class: https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/ */
 .ir { border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; word-wrap: normal !important; }
