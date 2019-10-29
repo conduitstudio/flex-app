@@ -160,8 +160,8 @@ nav .sleep:after { background-size: 100%; background-repeat: no-repeat; content:
 .modal.collection .bg-holder { opacity: 0.5; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
 .modal.collection .top-left { height: auto; left: 0; top: 0; width: 66.66667%; }
 .modal.collection .top-right { box-sizing: border-box; right: 0; top: 0; width: 33.33333%; }
-.size-by-height .modal.collection .top-right { padding: 2.54491vh 3.44311vh; }
-.size-by-width .modal.collection .top-right { padding: 1.7vw 2.3vw; }
+.size-by-height .modal.collection .top-right { padding: 2.54491vh 11.97605vh 2.54491vh 3.44311vh; }
+.size-by-width .modal.collection .top-right { padding: 1.7vw 8vw 1.7vw 2.3vw; }
 .modal.collection .top-right h3 { font-weight: normal; }
 .size-by-height .modal.collection .top-right h3 { font-size: 2.99401vh; margin-bottom: 1.49701vh; }
 .size-by-width .modal.collection .top-right h3 { font-size: 2vw; margin-bottom: 1vw; }
