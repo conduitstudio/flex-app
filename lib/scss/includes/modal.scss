@@ -202,10 +202,10 @@ $bottom_height: 100% - $top_height;
     width:$right_width;
 
     .size-by-height & {
-      padding:px-to-vh( 17px ) px-to-vh( 80px ) px-to-vh( 17px ) px-to-vh( 23px );
+      padding:px-to-vh( 17px ) px-to-vh( 70px ) px-to-vh( 17px ) px-to-vh( 23px );
     }
     .size-by-width & {
-      padding:px-to-vw( 17px ) px-to-vw( 80px ) px-to-vw( 17px ) px-to-vw( 23px );
+      padding:px-to-vw( 17px ) px-to-vw( 70px ) px-to-vw( 17px ) px-to-vw( 23px );
     }
 
     h3 {
