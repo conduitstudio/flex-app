@@ -17,19 +17,22 @@
     <title>Flex</title>
 
     <style>
-    .outdated-browsers {display:none;}
+    /* .outdated-browsers {display:none;} */
 
     <!--[if IE]>
-       .outdated-browsers {display:block;}   /* IE 9 and lower*/
+       .outdated-browsers {display:block !important;}   /* IE 9 and lower*/
     <![endif]-->
 
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-      .outdated-browsers {display:block;}       /* IE10+ CSS */
+      .outdated-browsers {display:block !important;}       /* IE10+ CSS */
+    }
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      .outdated-browsers {display:block !important;}       /* IE10+ CSS */
     }
     </style>
   </head>
   <body>
-    <p class="outdated-browsers" style="padding:10px;text-align:center;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <p class="outdated-browsers" style="padding:10px;text-align:center;z-index:9999;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 
     <div id="version">Version:
       <span class="version-number">[loaded by JS]</span> -
