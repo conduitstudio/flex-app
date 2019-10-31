@@ -7,7 +7,7 @@
     -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
 
-    <!-- $version = 2.2.12 -->
+    <!-- $version = 2.2.12.1 -->
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
@@ -17,15 +17,13 @@
     <title>Flex</title>
 
     <style>
-    .outdated-browsers {display:none;}
+    .outdated-browsers,
+    .mobile-browsers {display:none;}
 
     <!--[if IE]>
        .outdated-browsers {display:block;}   /* IE 9 and lower*/
     <![endif]-->
 
-    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-      .outdated-browsers {display:block !important;}       /* IE10+ CSS */
-    }
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
       .outdated-browsers {display:block !important;}       /* IE10+ CSS */
     }
@@ -33,6 +31,7 @@
   </head>
   <body>
     <p class="outdated-browsers" style="padding:10px;text-align:center;z-index:9999;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <p class="mobile-browsers" style="padding:10px;text-align:center;z-index:9999;">This site is not accessible on mobile devices.</p>
 
     <div id="version">Version:
       <span class="version-number">[loaded by JS]</span> -

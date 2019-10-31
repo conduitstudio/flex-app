@@ -247,6 +247,12 @@ let Flex = {
 	}
 };
 $(function() {
+	if( $(window).width() < 700 ) {
+		$('#loader').addClass('out').removeClass('in');
+		$('.mobile-browsers').show();
+		return;
+	}
+
 	Flex.run();
 });
 
