@@ -7,7 +7,7 @@
     -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
 
-    <!-- $version = 2.2.11.2 -->
+    <!-- $version = 2.2.11.1 -->
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
@@ -17,13 +17,16 @@
     <title>Flex</title>
 
     <style>
-    /* .outdated-browsers {display:none;} */
+    .outdated-browsers {display:none;}
 
     <!--[if IE]>
-       .outdated-browsers {display:block !important;}   /* IE 9 and lower*/
+       .outdated-browsers {display:block;}   /* IE 9 and lower*/
     <![endif]-->
 
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .outdated-browsers {display:block !important;}       /* IE10+ CSS */
+    }
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
       .outdated-browsers {display:block !important;}       /* IE10+ CSS */
     }
     </style>
